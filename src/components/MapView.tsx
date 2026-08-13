@@ -206,7 +206,17 @@ export function MapView({ shops, selected, onSelect }: MapViewProps) {
 
   return (
     <div className={`map-shell${tilesReady ? " is-tiles-ready" : ""}`}>
-      <MapContainer center={[36.2, 138]} zoom={5} minZoom={2} maxZoom={18} scrollWheelZoom className="map" zoomControl={false}>
+      <MapContainer
+        center={[36.2, 138]}
+        zoom={5}
+        minZoom={2}
+        maxZoom={18}
+        maxBounds={[[-85.05112878, -180], [85.05112878, 180]]}
+        maxBoundsViscosity={1}
+        scrollWheelZoom
+        className="map"
+        zoomControl={false}
+      >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           className="map-tile"
@@ -221,7 +231,6 @@ export function MapView({ shops, selected, onSelect }: MapViewProps) {
         <span><i className="legend-dot" />通常</span>
         <span><i className="legend-dot legend-dot--closed" />閉店</span>
       </div>
-      <div className="map-stamp" aria-hidden="true">SOURCE<br />DATA</div>
     </div>
   );
 }
