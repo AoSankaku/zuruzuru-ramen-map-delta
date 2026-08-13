@@ -18,7 +18,7 @@ export function ShopList({ shops, selected, onSelect }: { shops: Shop[]; selecte
           <h2>該当する一杯がありません</h2>
           <p>検索条件を少し広げてみてください。</p>
         </div>
-      ) : shops.map((shop, index) => {
+      ) : shops.map((shop) => {
         const status = statusLabel(shop);
         return (
           <article
@@ -26,7 +26,6 @@ export function ShopList({ shops, selected, onSelect }: { shops: Shop[]; selecte
             className={`shop-card ${selected?.id === shop.id ? "is-selected" : ""}`}
             onClick={() => onSelect(shop)}
           >
-            <div className="shop-card__index">{String(index + 1).padStart(2, "0")}</div>
             <div className="shop-card__body">
               <div className="shop-card__meta">
                 <span>{shop.genre}</span>
