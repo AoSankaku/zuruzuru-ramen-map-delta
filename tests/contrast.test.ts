@@ -4,6 +4,7 @@ import { resolve } from "node:path";
 
 const styles = readFileSync(resolve(import.meta.dir, "../src/styles.css"), "utf8");
 const AA_NORMAL_TEXT_RATIO = 4.5;
+const AA_UI_COMPONENT_RATIO = 3;
 
 function escapeRegExp(value: string) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -73,5 +74,19 @@ describe("button rules use the audited semantic color pairs", () => {
     const declarations = rule(selector);
     expect(declarations).toMatch(new RegExp(`color\\s*:\\s*var\\(${foreground}\\)`));
     expect(declarations).toMatch(new RegExp(`background\\s*:\\s*var\\(${background}\\)`));
+  });
+});
+
+describe.each([
+  ["light", lightTheme],
+  ["dark", darkTheme],
+])("%s theme form control contrast", (_theme, properties) => {
+  test("unchecked checkbox boundary meets WCAG AA", () => {
+    const boundaryColor = properties["--control-border"];
+    const backgroundColor = properties["--paper"];
+
+    expect(boundaryColor, "--control-border must be a six-digit hex color").toBeDefined();
+    expect(contrastRatio(boundaryColor, backgroundColor)).toBeGreaterThanOrEqual(AA_UI_COMPONENT_RATIO);
+    expect(rule(".custom-check")).toMatch(/border\s*:\s*1px solid var\(--control-border\)/);
   });
 });
