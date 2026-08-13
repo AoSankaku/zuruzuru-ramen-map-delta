@@ -1,7 +1,8 @@
 import { useEffect, useLayoutEffect, useMemo, useState } from "react";
-import { List, LocateFixed, Map as MapIcon, Moon, Sun } from "lucide-react";
+import { House, List, LocateFixed, Map as MapIcon, Moon, Sun } from "lucide-react";
 import { BrandMark } from "./components/BrandMark";
 import { FilterBar, type Filters } from "./components/FilterBar";
+import { HomeMode } from "./components/HomeMode";
 import { MapView } from "./components/MapView";
 import { ShopDetail } from "./components/ShopDetail";
 import { ShopList } from "./components/ShopList";
@@ -36,6 +37,7 @@ export default function App() {
   const [themePreference, setThemePreference] = useState<Theme | "system">(() => getStoredTheme() ?? "system");
   const [systemTheme, setSystemTheme] = useState<Theme>(getSystemTheme);
   const [mobileView, setMobileView] = useState<"map" | "list">("map");
+  const [mode, setMode] = useState<"shops" | "home">("shops");
   const [locationStatus, setLocationStatus] = useState<"idle" | "loading" | "done" | "error">("idle");
   const theme = themePreference === "system" ? systemTheme : themePreference;
 
@@ -107,14 +109,27 @@ export default function App() {
       <header className="topbar">
         <BrandMark />
         <div className="topbar__right">
-          <span className="demo-pill"><i /> DATA {sourceShops.length}</span>
+          <button
+            className={`mode-switch ${mode === "home" ? "is-home" : ""}`}
+            onClick={() => {
+              setMode(mode === "home" ? "shops" : "home");
+              setSelected(null);
+              setFilterOpen(false);
+            }}
+            aria-pressed={mode === "home"}
+          >
+            {mode === "home" ? <MapIcon size={16} /> : <House size={16} />}
+            <span>{mode === "home" ? "お店モード" : "おうちモード"}</span>
+          </button>
           <button className="icon-button" onClick={() => setThemePreference(theme === "light" ? "dark" : "light")} aria-label={theme === "light" ? "ダークテーマにする" : "ライトテーマにする"}>
             {theme === "light" ? <Moon size={18} /> : <Sun size={18} />}
           </button>
         </div>
       </header>
 
-      <main className={`workspace mobile-${mobileView}`}>
+      {mode === "home" && <HomeMode />}
+
+      <main hidden={mode === "home"} className={`workspace mobile-${mobileView} ${mode === "home" ? "is-hidden" : ""}`}>
         <section className="map-pane" aria-label="店舗地図">
           <MapView shops={shops} selected={selected} onSelect={setSelected} />
           <button className={`locate-button is-${locationStatus}`} onClick={locate}>
@@ -153,7 +168,7 @@ export default function App() {
         </section>
       </main>
 
-      {selected && <ShopDetail shop={selected} onClose={() => setSelected(null)} />}
+      {mode === "shops" && selected && <ShopDetail shop={selected} onClose={() => setSelected(null)} />}
       {filterOpen && <button className="scrim" onClick={() => setFilterOpen(false)} aria-label="絞り込みを閉じる" />}
 
       <nav className="mobile-nav" aria-label="表示切り替え">
