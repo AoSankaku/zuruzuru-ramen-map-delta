@@ -18,7 +18,7 @@ const defaultFilters: Filters = {
   maxWalkMinutes: "all",
   genre: "all",
   area: "all",
-  business: "all",
+  business: "open",
   awardsOnly: false,
   sort: "recommended",
 };
