@@ -1,0 +1,32 @@
+{
+  "name": "zuruzuru-ramen-map-delta",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "test": "bun test",
+    "test:contrast": "bun test tests/contrast.test.ts",
+    "preview": "vite preview",
+    "fetch:youtube": "node scripts/fetch-youtube.mjs",
+    "check:youtube": "node scripts/check-youtube-availability.mjs",
+    "build:shops": "node scripts/build-shops.mjs",
+    "sync:data": "node scripts/fetch-youtube.mjs && node scripts/build-shops.mjs"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-leaflet": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.16",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "typescript": "~5.8.3",
+    "vite": "^6.1.0"
+  }
+}

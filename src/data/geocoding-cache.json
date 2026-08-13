@@ -1,0 +1,236 @@
+{
+  "埼玉県狭山市中央4-24-8": {
+    "longitude": 139.423508,
+    "latitude": 35.854389,
+    "matchedAddress": "埼玉県狭山市中央四丁目２４番８号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県松戸市小根本51-5": {
+    "longitude": 139.904739,
+    "latitude": 35.787243,
+    "matchedAddress": "千葉県松戸市小根本５１番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県長生郡白子町関5199-4": {
+    "longitude": 140.360764,
+    "latitude": 35.45071,
+    "matchedAddress": "千葉県白子町関",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市神奈川区六角橋2丁目28-21": {
+    "longitude": 139.623184,
+    "latitude": 35.489285,
+    "matchedAddress": "神奈川県横浜市神奈川区六角橋二丁目２８番２１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区東池袋1-38-1 シャトー豊島 101": {
+    "longitude": 139.714539,
+    "latitude": 35.732891,
+    "matchedAddress": "東京都豊島区東池袋一丁目３８番１号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県高座郡寒川町岡田5-16-3-3": {
+    "longitude": 139.395493,
+    "latitude": 35.37302,
+    "matchedAddress": "神奈川県寒川町岡田五丁目１６番３号",
+    "source": "GSI Address Search API"
+  },
+  "岩手県盛岡市前九年2-1-7": {
+    "longitude": 141.128845,
+    "latitude": 39.715736,
+    "matchedAddress": "岩手県盛岡市前九年二丁目１番７号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県朝霞市本町2-8-15": {
+    "longitude": 139.595947,
+    "latitude": 35.799206,
+    "matchedAddress": "埼玉県朝霞市本町二丁目８番１５号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市中央区道場北町317": {
+    "longitude": 140.133087,
+    "latitude": 35.61565,
+    "matchedAddress": "千葉県千葉市中央区道場北町３１７番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市南区別所中里台41-9": {
+    "longitude": 139.583954,
+    "latitude": 35.418312,
+    "matchedAddress": "神奈川県横浜市南区別所中里台４１番９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都八王子市東町1-18": {
+    "longitude": 139.341125,
+    "latitude": 35.657864,
+    "matchedAddress": "東京都八王子市東町１番１８号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県茅ヶ崎市堤73-5": {
+    "longitude": 139.433456,
+    "latitude": 35.367401,
+    "matchedAddress": "神奈川県茅ヶ崎市堤７３番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県高座郡寒川町一之宮7-7-4": {
+    "longitude": 139.380783,
+    "latitude": 35.362671,
+    "matchedAddress": "神奈川県寒川町一之宮七丁目７番４号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県平塚市宮松町10-18": {
+    "longitude": 139.35202,
+    "latitude": 35.335155,
+    "matchedAddress": "神奈川県平塚市宮松町１０番１８号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市戸塚区戸塚町4081-1": {
+    "longitude": 139.531067,
+    "latitude": 35.401123,
+    "matchedAddress": "神奈川県横浜市戸塚区戸塚町４０８１番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区渋谷1-9-5 高橋ビル B1F": {
+    "longitude": 139.704681,
+    "latitude": 35.66037,
+    "matchedAddress": "東京都渋谷区渋谷一丁目９番５号",
+    "source": "GSI Address Search API"
+  },
+  "福島県福島市北矢野目原田66-9": {
+    "longitude": 140.459763,
+    "latitude": 37.791698,
+    "matchedAddress": "福島県福島市北矢野目原田６６番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都八王子市小門町5-3": {
+    "longitude": 139.327057,
+    "latitude": 35.6577,
+    "matchedAddress": "東京都八王子市小門町５番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都大田区西蒲田8-2-1": {
+    "longitude": 139.714066,
+    "latitude": 35.561066,
+    "matchedAddress": "東京都大田区西蒲田八丁目２番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区新宿4-1-20": {
+    "longitude": 139.702911,
+    "latitude": 35.688583,
+    "matchedAddress": "東京都新宿区新宿四丁目１番２０号",
+    "source": "GSI Address Search API"
+  },
+  "福島県郡山市台新1-176-4": {
+    "longitude": 140.345108,
+    "latitude": 37.393654,
+    "matchedAddress": "福島県郡山市台新一丁目",
+    "source": "GSI Address Search API"
+  },
+  "福島県郡山市桑野1-25-9": {
+    "longitude": 140.352524,
+    "latitude": 37.399071,
+    "matchedAddress": "福島県郡山市桑野一丁目２５番９号",
+    "source": "GSI Address Search API"
+  },
+  "福島県郡山市並木3-6-14 鈴木ビル １F": {
+    "longitude": 140.357681,
+    "latitude": 37.409241,
+    "matchedAddress": "福島県郡山市並木三丁目６番",
+    "source": "GSI Address Search API"
+  },
+  "東京都江東区亀戸2-8-11 アドリーム亀戸 1F": {
+    "longitude": 139.822693,
+    "latitude": 35.701496,
+    "matchedAddress": "東京都江東区亀戸二丁目８番１１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都品川区二葉1-16-15": {
+    "longitude": 139.727844,
+    "latitude": 35.606804,
+    "matchedAddress": "東京都品川区二葉一丁目１６番１５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都大田区西糀谷4-27-8 1F": {
+    "longitude": 139.72995,
+    "latitude": 35.553761,
+    "matchedAddress": "東京都大田区西糀谷四丁目２７番８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区駒込1-16-10 ルーブルビル 101号": {
+    "longitude": 139.75174,
+    "latitude": 35.735363,
+    "matchedAddress": "東京都豊島区駒込一丁目１６番１０号",
+    "source": "GSI Address Search API"
+  },
+  "東京都三鷹市下連雀3-28-21 公団三鷹駅前第2アパート B1F": {
+    "longitude": 139.561157,
+    "latitude": 35.699482,
+    "matchedAddress": "東京都三鷹市下連雀三丁目２８番２１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区神田三崎町2-16-10": {
+    "longitude": 139.753418,
+    "latitude": 35.70105,
+    "matchedAddress": "東京都千代田区神田三崎町二丁目１６番",
+    "source": "GSI Address Search API"
+  },
+  "福島県白河市二番町6": {
+    "longitude": 140.204712,
+    "latitude": 37.125217,
+    "matchedAddress": "福島県白河市二番町６番地",
+    "source": "GSI Address Search API"
+  },
+  "福島県白河市道場小路71-32": {
+    "longitude": 140.205002,
+    "latitude": 37.129951,
+    "matchedAddress": "福島県白河市道場小路７１番地",
+    "source": "GSI Address Search API"
+  },
+  "福島県白河市泉田池ノ下89": {
+    "longitude": 140.248291,
+    "latitude": 37.149235,
+    "matchedAddress": "福島県白河市泉田池ノ下８９番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市港南区下永谷3-4-3": {
+    "longitude": 139.562653,
+    "latitude": 35.409527,
+    "matchedAddress": "神奈川県横浜市港南区下永谷三丁目４番３号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県市原市姉崎東1-4-9": {
+    "longitude": 140.044266,
+    "latitude": 35.476162,
+    "matchedAddress": "千葉県市原市姉崎東一丁目４番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県大網白里市北横川175-1": {
+    "longitude": 140.340866,
+    "latitude": 35.514309,
+    "matchedAddress": "千葉県大網白里市北横川１７５番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県市原市深城48-1": {
+    "longitude": 140.063782,
+    "latitude": 35.437347,
+    "matchedAddress": "千葉県市原市深城",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区赤坂3-13-4": {
+    "longitude": 139.73735,
+    "latitude": 35.673473,
+    "matchedAddress": "東京都港区赤坂三丁目１３番",
+    "source": "GSI Address Search API"
+  },
+  "福島県白河市瀬戸原4-9": {
+    "longitude": 140.228683,
+    "latitude": 37.103142,
+    "matchedAddress": "福島県白河市瀬戸原４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区荻窪4-32-8": {
+    "longitude": 139.623779,
+    "latitude": 35.704304,
+    "matchedAddress": "東京都杉並区荻窪四丁目３２番８号",
+    "source": "GSI Address Search API"
+  }
+}

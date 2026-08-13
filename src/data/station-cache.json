@@ -1,0 +1,353 @@
+{
+  "埼玉県狭山市中央4-24-8": {
+    "name": "狭山市",
+    "line": "西武新宿線",
+    "latitude": 35.856936,
+    "longitude": 139.413015,
+    "distanceMeters": 990,
+    "walkMinutes": 15,
+    "source": "HeartRails Express"
+  },
+  "千葉県松戸市小根本51-5": {
+    "name": "松戸",
+    "line": "JR常磐線各駅停車",
+    "latitude": 35.784472,
+    "longitude": 139.900779,
+    "distanceMeters": 470,
+    "walkMinutes": 8,
+    "source": "HeartRails Express"
+  },
+  "千葉県長生郡白子町関5199-4": {
+    "name": "八積",
+    "line": "JR外房線",
+    "latitude": 35.403971,
+    "longitude": 140.345367,
+    "distanceMeters": 5390,
+    "walkMinutes": 81,
+    "source": "HeartRails Express"
+  },
+  "神奈川県横浜市神奈川区六角橋2丁目28-21": {
+    "name": "白楽",
+    "line": "東急東横線",
+    "latitude": 35.489555,
+    "longitude": 139.627875,
+    "distanceMeters": 430,
+    "walkMinutes": 7,
+    "source": "HeartRails Express"
+  },
+  "東京都豊島区東池袋1-38-1 シャトー豊島 101": {
+    "name": "池袋",
+    "line": "東武東上本線",
+    "latitude": 35.730924,
+    "longitude": 139.710678,
+    "distanceMeters": 410,
+    "walkMinutes": 7,
+    "source": "HeartRails Express"
+  },
+  "神奈川県高座郡寒川町岡田5-16-3-3": {
+    "name": "寒川",
+    "line": "JR相模線",
+    "latitude": 35.367579,
+    "longitude": 139.387452,
+    "distanceMeters": 950,
+    "walkMinutes": 15,
+    "source": "HeartRails Express"
+  },
+  "岩手県盛岡市前九年2-1-7": {
+    "name": "青山",
+    "line": "いわて銀河鉄道線",
+    "latitude": 39.725029,
+    "longitude": 141.118462,
+    "distanceMeters": 1360,
+    "walkMinutes": 21,
+    "source": "HeartRails Express"
+  },
+  "埼玉県朝霞市本町2-8-15": {
+    "name": "朝霞",
+    "line": "東武東上本線",
+    "latitude": 35.796736,
+    "longitude": 139.600321,
+    "distanceMeters": 480,
+    "walkMinutes": 8,
+    "source": "HeartRails Express"
+  },
+  "千葉県千葉市中央区道場北町317": {
+    "name": "東千葉",
+    "line": "JR総武本線",
+    "latitude": 35.617014,
+    "longitude": 140.122261,
+    "distanceMeters": 990,
+    "walkMinutes": 15,
+    "source": "HeartRails Express"
+  },
+  "神奈川県横浜市南区別所中里台41-9": {
+    "name": "弘明寺",
+    "line": "京浜急行本線",
+    "latitude": 35.42437,
+    "longitude": 139.596791,
+    "distanceMeters": 1350,
+    "walkMinutes": 21,
+    "source": "HeartRails Express"
+  },
+  "東京都八王子市東町1-18": {
+    "name": "京王八王子",
+    "line": "京王線",
+    "latitude": 35.657416,
+    "longitude": 139.343851,
+    "distanceMeters": 250,
+    "walkMinutes": 4,
+    "source": "HeartRails Express"
+  },
+  "神奈川県茅ヶ崎市堤73-5": {
+    "name": "香川",
+    "line": "JR相模線",
+    "latitude": 35.35655,
+    "longitude": 139.400044,
+    "distanceMeters": 3260,
+    "walkMinutes": 49,
+    "source": "HeartRails Express"
+  },
+  "神奈川県高座郡寒川町一之宮7-7-4": {
+    "name": "寒川",
+    "line": "JR相模線",
+    "latitude": 35.367579,
+    "longitude": 139.387452,
+    "distanceMeters": 820,
+    "walkMinutes": 13,
+    "source": "HeartRails Express"
+  },
+  "神奈川県平塚市宮松町10-18": {
+    "name": "平塚",
+    "line": "JR東海道本線",
+    "latitude": 35.327647,
+    "longitude": 139.349063,
+    "distanceMeters": 880,
+    "walkMinutes": 14,
+    "source": "HeartRails Express"
+  },
+  "神奈川県横浜市戸塚区戸塚町4081-1": {
+    "name": "戸塚",
+    "line": "横浜市ブルーライン",
+    "latitude": 35.400818,
+    "longitude": 139.534328,
+    "distanceMeters": 300,
+    "walkMinutes": 5,
+    "source": "HeartRails Express"
+  },
+  "東京都渋谷区渋谷1-9-5 高橋ビル B1F": {
+    "name": "渋谷",
+    "line": "東京メトロ副都心線",
+    "latitude": 35.659545,
+    "longitude": 139.702417,
+    "distanceMeters": 220,
+    "walkMinutes": 4,
+    "source": "HeartRails Express"
+  },
+  "福島県福島市北矢野目原田66-9": {
+    "name": "桜水",
+    "line": "福島交通飯坂線",
+    "latitude": 37.796682,
+    "longitude": 140.441369,
+    "distanceMeters": 1710,
+    "walkMinutes": 26,
+    "source": "HeartRails Express"
+  },
+  "東京都八王子市小門町5-3": {
+    "name": "八王子",
+    "line": "JR八高線",
+    "latitude": 35.655555,
+    "longitude": 139.338998,
+    "distanceMeters": 1110,
+    "walkMinutes": 17,
+    "source": "HeartRails Express"
+  },
+  "東京都大田区西蒲田8-2-1": {
+    "name": "蒲田",
+    "line": "東急池上線",
+    "latitude": 35.561767,
+    "longitude": 139.714626,
+    "distanceMeters": 90,
+    "walkMinutes": 2,
+    "source": "HeartRails Express"
+  },
+  "東京都新宿区新宿4-1-20": {
+    "name": "新宿",
+    "line": "JR総武線",
+    "latitude": 35.689729,
+    "longitude": 139.700464,
+    "distanceMeters": 260,
+    "walkMinutes": 4,
+    "source": "HeartRails Express"
+  },
+  "福島県郡山市台新1-176-4": {
+    "name": "郡山富田",
+    "line": "JR磐越西線",
+    "latitude": 37.420361,
+    "longitude": 140.3695,
+    "distanceMeters": 3670,
+    "walkMinutes": 56,
+    "source": "HeartRails Express"
+  },
+  "福島県郡山市桑野1-25-9": {
+    "name": "郡山富田",
+    "line": "JR磐越西線",
+    "latitude": 37.420361,
+    "longitude": 140.3695,
+    "distanceMeters": 2810,
+    "walkMinutes": 43,
+    "source": "HeartRails Express"
+  },
+  "福島県郡山市並木3-6-14 鈴木ビル １F": {
+    "name": "郡山富田",
+    "line": "JR磐越西線",
+    "latitude": 37.420361,
+    "longitude": 140.3695,
+    "distanceMeters": 1620,
+    "walkMinutes": 25,
+    "source": "HeartRails Express"
+  },
+  "東京都江東区亀戸2-8-11 アドリーム亀戸 1F": {
+    "name": "亀戸",
+    "line": "東武亀戸線",
+    "latitude": 35.697708,
+    "longitude": 139.826791,
+    "distanceMeters": 560,
+    "walkMinutes": 9,
+    "source": "HeartRails Express"
+  },
+  "東京都品川区二葉1-16-15": {
+    "name": "下神明",
+    "line": "東急大井町線",
+    "latitude": 35.608704,
+    "longitude": 139.726256,
+    "distanceMeters": 260,
+    "walkMinutes": 4,
+    "source": "HeartRails Express"
+  },
+  "東京都大田区西糀谷4-27-8 1F": {
+    "name": "糀谷",
+    "line": "京浜急行空港線",
+    "latitude": 35.5545,
+    "longitude": 139.72962,
+    "distanceMeters": 90,
+    "walkMinutes": 2,
+    "source": "HeartRails Express"
+  },
+  "東京都豊島区駒込1-16-10 ルーブルビル 101号": {
+    "name": "駒込",
+    "line": "JR山手線",
+    "latitude": 35.736825,
+    "longitude": 139.748053,
+    "distanceMeters": 370,
+    "walkMinutes": 6,
+    "source": "HeartRails Express"
+  },
+  "東京都三鷹市下連雀3-28-21 公団三鷹駅前第2アパート B1F": {
+    "name": "三鷹",
+    "line": "JR中央線",
+    "latitude": 35.702683,
+    "longitude": 139.560325,
+    "distanceMeters": 360,
+    "walkMinutes": 6,
+    "source": "HeartRails Express"
+  },
+  "東京都千代田区神田三崎町2-16-10": {
+    "name": "水道橋",
+    "line": "JR中央線",
+    "latitude": 35.702039,
+    "longitude": 139.754312,
+    "distanceMeters": 140,
+    "walkMinutes": 3,
+    "source": "HeartRails Express"
+  },
+  "福島県白河市二番町6": {
+    "name": "白河",
+    "line": "JR東北本線",
+    "latitude": 37.129692,
+    "longitude": 140.213742,
+    "distanceMeters": 940,
+    "walkMinutes": 15,
+    "source": "HeartRails Express"
+  },
+  "福島県白河市道場小路71-32": {
+    "name": "白河",
+    "line": "JR東北本線",
+    "latitude": 37.129692,
+    "longitude": 140.213742,
+    "distanceMeters": 780,
+    "walkMinutes": 12,
+    "source": "HeartRails Express"
+  },
+  "福島県白河市泉田池ノ下89": {
+    "name": "久田野",
+    "line": "JR東北本線",
+    "latitude": 37.137048,
+    "longitude": 140.259458,
+    "distanceMeters": 1680,
+    "walkMinutes": 26,
+    "source": "HeartRails Express"
+  },
+  "神奈川県横浜市港南区下永谷3-4-3": {
+    "name": "下永谷",
+    "line": "横浜市ブルーライン",
+    "latitude": 35.402677,
+    "longitude": 139.559389,
+    "distanceMeters": 820,
+    "walkMinutes": 13,
+    "source": "HeartRails Express"
+  },
+  "千葉県市原市姉崎東1-4-9": {
+    "name": "姉ケ崎",
+    "line": "JR内房線",
+    "latitude": 35.4786,
+    "longitude": 140.041749,
+    "distanceMeters": 350,
+    "walkMinutes": 6,
+    "source": "HeartRails Express"
+  },
+  "千葉県大網白里市北横川175-1": {
+    "name": "大網",
+    "line": "JR外房線",
+    "latitude": 35.522427,
+    "longitude": 140.311111,
+    "distanceMeters": 2840,
+    "walkMinutes": 43,
+    "source": "HeartRails Express"
+  },
+  "千葉県市原市深城48-1": {
+    "name": "光風台",
+    "line": "小湊鉄道",
+    "latitude": 35.439662,
+    "longitude": 140.114174,
+    "distanceMeters": 4580,
+    "walkMinutes": 69,
+    "source": "HeartRails Express"
+  },
+  "東京都港区赤坂3-13-4": {
+    "name": "赤坂",
+    "line": "東京メトロ千代田線",
+    "latitude": 35.67323,
+    "longitude": 139.738348,
+    "distanceMeters": 90,
+    "walkMinutes": 2,
+    "source": "HeartRails Express"
+  },
+  "福島県白河市瀬戸原4-9": {
+    "name": "白河",
+    "line": "JR東北本線",
+    "latitude": 37.129692,
+    "longitude": 140.213742,
+    "distanceMeters": 3240,
+    "walkMinutes": 49,
+    "source": "HeartRails Express"
+  },
+  "東京都杉並区荻窪4-32-8": {
+    "name": "荻窪",
+    "line": "東京メトロ丸ノ内線",
+    "latitude": 35.704304,
+    "longitude": 139.620116,
+    "distanceMeters": 330,
+    "walkMinutes": 5,
+    "source": "HeartRails Express"
+  }
+}
