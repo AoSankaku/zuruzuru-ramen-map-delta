@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import L from "leaflet";
-import { MapContainer, Marker, TileLayer, Tooltip, useMap, useMapEvents } from "react-leaflet";
+import { MapContainer, Marker, Tooltip, useMap, useMapEvents } from "react-leaflet";
 import type { UserLocation } from "../location";
 import type { Shop } from "../types";
 
@@ -93,6 +93,71 @@ const userLocationMarker = L.divIcon({
   iconAnchor: [16, 16],
   tooltipAnchor: [0, -18],
 });
+
+const gsiJapanBounds = L.latLngBounds([20, 122], [47, 154]);
+const gsiDetailedBounds = [
+  L.latLngBounds([41.2, 139], [46.5, 150.5]),
+  L.latLngBounds([34, 135], [41.7, 142.2]),
+  L.latLngBounds([30.8, 129.2], [35.5, 136.5]),
+  L.latLngBounds([33, 128.9], [34.8, 130.2]),
+  L.latLngBounds([23, 122.5], [31.5, 132]),
+  L.latLngBounds([20, 135], [28, 143]),
+];
+
+class LocalizedTileLayer extends L.TileLayer {
+  private usesGsiTile(coords: L.Coords) {
+    if (coords.z <= 8) return true;
+
+    const tileSize = this.getTileSize();
+    const tileCenter = L.point(
+      (coords.x + 0.5) * tileSize.x,
+      (coords.y + 0.5) * tileSize.y,
+    );
+    const center = this._map.unproject(tileCenter, coords.z);
+    if (coords.z <= 11) return gsiJapanBounds.contains(center);
+    return gsiDetailedBounds.some((bounds) => bounds.contains(center));
+  }
+
+  override getTileUrl(coords: L.Coords) {
+    if (this.usesGsiTile(coords)) {
+      return `https://cyberjapandata.gsi.go.jp/xyz/pale/${coords.z}/${coords.x}/${coords.y}.png`;
+    }
+    return `https://tile.openstreetmap.org/${coords.z}/${coords.x}/${coords.y}.png`;
+  }
+
+  override createTile(coords: L.Coords, done: L.DoneCallback) {
+    const tile = super.createTile(coords, done);
+    tile.classList.add("map-tile", this.usesGsiTile(coords) ? "map-tile--gsi" : "map-tile--osm");
+    return tile;
+  }
+}
+
+function LocalizedBaseMap({ onReady }: { onReady: () => void }) {
+  const map = useMap();
+  const onReadyRef = useRef(onReady);
+
+  useEffect(() => {
+    onReadyRef.current = onReady;
+  }, [onReady]);
+
+  useEffect(() => {
+    const layer = new LocalizedTileLayer("", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="https://maps.gsi.go.jp/development/ichiran.html">地理院タイル</a> / Shoreline data: NIMA VMAP0 (1997)',
+      maxZoom: 18,
+      minZoom: 2,
+    });
+    const handleLoad = () => onReadyRef.current();
+    layer.on("load", handleLoad);
+    layer.addTo(map);
+
+    return () => {
+      layer.off("load", handleLoad);
+      layer.removeFrom(map);
+    };
+  }, [map]);
+
+  return null;
+}
 
 function cellKey(point: L.Point, radius: number) {
   return `${Math.floor(point.x / radius)}:${Math.floor(point.y / radius)}`;
@@ -260,12 +325,7 @@ export function MapView({ shops, selected, location, pickingLocation, onSelect, 
         className={`map${pickingLocation ? " is-location-picking" : ""}`}
         zoomControl={false}
       >
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          className="map-tile"
-          eventHandlers={{ load: () => setTilesReady(true) }}
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
+        <LocalizedBaseMap onReady={() => setTilesReady(true)} />
         <MapController selected={selected} location={location} />
         <MapClickPicker enabled={pickingLocation} onPick={onLocationPick} />
         {location && (

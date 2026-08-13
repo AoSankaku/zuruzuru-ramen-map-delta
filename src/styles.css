@@ -116,7 +116,8 @@ button { color: inherit; }
   opacity: 1;
   transition: opacity 140ms ease-out;
 }
-:root[data-theme="dark"] .leaflet-tile { filter: grayscale(.75) invert(.92) hue-rotate(160deg) brightness(.62) contrast(1.1); }
+:root[data-theme="dark"] .map-tile--osm { filter: grayscale(.75) invert(.92) hue-rotate(160deg) brightness(.62) contrast(1.1); }
+:root[data-theme="dark"] .map-tile--gsi { filter: grayscale(.35) invert(.78) hue-rotate(160deg) brightness(.94) contrast(.88); }
 .leaflet-container { font-family: "Noto Sans JP", sans-serif; background-color: var(--map-placeholder); }
 .leaflet-control-attribution { font-size: 8px !important; background: color-mix(in srgb, var(--paper) 78%, transparent) !important; color: var(--ink-soft) !important; }
 .leaflet-control-attribution a { color: inherit !important; }
