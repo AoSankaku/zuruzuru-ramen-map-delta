@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import L from "leaflet";
-import { MapContainer, Marker, TileLayer, Tooltip, useMap } from "react-leaflet";
+import { MapContainer, Marker, TileLayer, Tooltip, useMap, useMapEvents } from "react-leaflet";
+import type { UserLocation } from "../location";
 import type { Shop } from "../types";
 
 type ShopCluster = {
@@ -15,7 +16,7 @@ type WorkingCluster = ShopCluster & {
   cellKey: string;
 };
 
-function MapController({ selected }: { selected: Shop | null }) {
+function MapController({ selected, location }: { selected: Shop | null; location: UserLocation | null }) {
   const map = useMap();
 
   useEffect(() => {
@@ -26,6 +27,35 @@ function MapController({ selected }: { selected: Shop | null }) {
       });
     }
   }, [map, selected]);
+
+  useEffect(() => {
+    if (location) {
+      map.flyTo([location.latitude, location.longitude], Math.max(map.getZoom(), 14), {
+        animate: true,
+        duration: 0.7,
+      });
+    }
+  }, [location, map]);
+
+  return null;
+}
+
+function MapClickPicker({ enabled, onPick }: { enabled: boolean; onPick: (location: UserLocation) => void }) {
+  const map = useMapEvents({
+    click: ({ latlng }) => {
+      if (!enabled) return;
+      onPick({
+        latitude: latlng.lat,
+        longitude: latlng.lng,
+        label: "地図上で指定した場所",
+      });
+    },
+  });
+
+  useEffect(() => {
+    map.getContainer().classList.toggle("is-location-picking", enabled);
+    return () => map.getContainer().classList.remove("is-location-picking");
+  }, [enabled, map]);
 
   return null;
 }
@@ -55,6 +85,14 @@ function createClusterMarker(cluster: ShopCluster) {
     tooltipAnchor: [0, -(size / 2 + 3)],
   });
 }
+
+const userLocationMarker = L.divIcon({
+  className: "user-location-marker-wrap",
+  html: '<span class="user-location-marker"><i></i></span>',
+  iconSize: [32, 32],
+  iconAnchor: [16, 16],
+  tooltipAnchor: [0, -18],
+});
 
 function cellKey(point: L.Point, radius: number) {
   return `${Math.floor(point.x / radius)}:${Math.floor(point.y / radius)}`;
@@ -121,7 +159,7 @@ function buildClusters(shops: Shop[], map: L.Map): ShopCluster[] {
   return clusters;
 }
 
-function ClusteredMarkers({ shops, selected, onSelect }: MapViewProps) {
+function ClusteredMarkers({ shops, selected, onSelect, pickingLocation }: Pick<MapViewProps, "shops" | "selected" | "onSelect" | "pickingLocation">) {
   const map = useMap();
   const [viewRevision, setViewRevision] = useState(0);
 
@@ -166,6 +204,7 @@ function ClusteredMarkers({ shops, selected, onSelect }: MapViewProps) {
           key={shop.id}
           position={[shop.latitude, shop.longitude]}
           icon={createMarker(shop, selected?.id === shop.id)}
+          interactive={!pickingLocation}
           alt={shop.name}
           title={shop.name}
           eventHandlers={{ click: () => onSelect(shop) }}
@@ -182,6 +221,7 @@ function ClusteredMarkers({ shops, selected, onSelect }: MapViewProps) {
         key={`${cluster.id}-${cluster.shops.length}`}
         position={cluster.center}
         icon={createClusterMarker(cluster)}
+        interactive={!pickingLocation}
         alt={`${cluster.shops.length}軒の店舗。クリックして拡大`}
         title={`${cluster.shops.length}軒の店舗。クリックして拡大`}
         eventHandlers={{ click: () => zoomToCluster(cluster) }}
@@ -198,10 +238,13 @@ function ClusteredMarkers({ shops, selected, onSelect }: MapViewProps) {
 type MapViewProps = {
   shops: Shop[];
   selected: Shop | null;
+  location: UserLocation | null;
+  pickingLocation: boolean;
   onSelect: (shop: Shop) => void;
+  onLocationPick: (location: UserLocation) => void;
 };
 
-export function MapView({ shops, selected, onSelect }: MapViewProps) {
+export function MapView({ shops, selected, location, pickingLocation, onSelect, onLocationPick }: MapViewProps) {
   const [tilesReady, setTilesReady] = useState(false);
 
   return (
@@ -214,7 +257,7 @@ export function MapView({ shops, selected, onSelect }: MapViewProps) {
         maxBounds={[[-85.05112878, -180], [85.05112878, 180]]}
         maxBoundsViscosity={1}
         scrollWheelZoom
-        className="map"
+        className={`map${pickingLocation ? " is-location-picking" : ""}`}
         zoomControl={false}
       >
         <TileLayer
@@ -223,14 +266,30 @@ export function MapView({ shops, selected, onSelect }: MapViewProps) {
           eventHandlers={{ load: () => setTilesReady(true) }}
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <MapController selected={selected} />
-        <ClusteredMarkers shops={shops} selected={selected} onSelect={onSelect} />
+        <MapController selected={selected} location={location} />
+        <MapClickPicker enabled={pickingLocation} onPick={onLocationPick} />
+        {location && (
+          <Marker
+            position={[location.latitude, location.longitude]}
+            icon={userLocationMarker}
+            alt="設定した現在地"
+            title="設定した現在地"
+            zIndexOffset={1000}
+          >
+            <Tooltip direction="top" opacity={1} className="map-tooltip">
+              <b>設定した現在地</b><span>{location.label}</span>
+            </Tooltip>
+          </Marker>
+        )}
+        <ClusteredMarkers shops={shops} selected={selected} onSelect={onSelect} pickingLocation={pickingLocation} />
       </MapContainer>
       <div className="map-legend" aria-label="地図の凡例">
         <span><i className="legend-dot legend-dot--award" />大賞</span>
         <span><i className="legend-dot" />通常</span>
         <span><i className="legend-dot legend-dot--closed" />閉店</span>
+        {location && <span><i className="legend-dot legend-dot--location" />現在地</span>}
       </div>
+      {pickingLocation && <div className="map-pick-guide" role="status">地図上の現在地にしたい場所をクリック</div>}
     </div>
   );
 }

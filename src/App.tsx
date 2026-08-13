@@ -1,12 +1,14 @@
 import { useEffect, useLayoutEffect, useMemo, useState } from "react";
-import { House, List, LocateFixed, Map as MapIcon, Moon, Sun } from "lucide-react";
+import { House, List, Map as MapIcon, Moon, Sun } from "lucide-react";
 import { BrandMark } from "./components/BrandMark";
 import { FilterBar, type Filters } from "./components/FilterBar";
 import { HomeMode } from "./components/HomeMode";
+import { LocationControl } from "./components/LocationControl";
 import { MapView } from "./components/MapView";
 import { ShopDetail } from "./components/ShopDetail";
 import { ShopList } from "./components/ShopList";
 import generatedData from "./data/shops.generated.json";
+import type { UserLocation } from "./location";
 import { applyTheme, getStoredTheme, getSystemTheme, isTheme, storeTheme, THEME_STORAGE_KEY, type Theme } from "./theme";
 import type { Shop } from "./types";
 
@@ -38,7 +40,9 @@ export default function App() {
   const [systemTheme, setSystemTheme] = useState<Theme>(getSystemTheme);
   const [mobileView, setMobileView] = useState<"map" | "list">("map");
   const [mode, setMode] = useState<"shops" | "home">("shops");
-  const [locationStatus, setLocationStatus] = useState<"idle" | "loading" | "done" | "error">("idle");
+  const [location, setLocation] = useState<UserLocation | null>(null);
+  const [locationOpen, setLocationOpen] = useState(false);
+  const [pickingLocation, setPickingLocation] = useState(false);
   const theme = themePreference === "system" ? systemTheme : themePreference;
 
   useEffect(() => {
@@ -91,19 +95,6 @@ export default function App() {
     });
   }, [filters]);
 
-  const locate = () => {
-    if (!navigator.geolocation) {
-      setLocationStatus("error");
-      return;
-    }
-    setLocationStatus("loading");
-    navigator.geolocation.getCurrentPosition(
-      () => setLocationStatus("done"),
-      () => setLocationStatus("error"),
-      { timeout: 8000, maximumAge: 300000 },
-    );
-  };
-
   return (
     <div className={`app theme-${theme}`}>
       <header className="topbar">
@@ -115,6 +106,8 @@ export default function App() {
               setMode(mode === "home" ? "shops" : "home");
               setSelected(null);
               setFilterOpen(false);
+              setLocationOpen(false);
+              setPickingLocation(false);
             }}
             aria-pressed={mode === "home"}
           >
@@ -131,11 +124,25 @@ export default function App() {
 
       <main hidden={mode === "home"} className={`workspace mobile-${mobileView} ${mode === "home" ? "is-hidden" : ""}`}>
         <section className="map-pane" aria-label="店舗地図">
-          <MapView shops={shops} selected={selected} onSelect={setSelected} />
-          <button className={`locate-button is-${locationStatus}`} onClick={locate}>
-            <LocateFixed size={17} />
-            {locationStatus === "loading" ? "取得中…" : locationStatus === "done" ? "現在地を確認" : locationStatus === "error" ? "位置情報を使えません" : "現在地から探す"}
-          </button>
+          <MapView
+            shops={shops}
+            selected={selected}
+            location={location}
+            pickingLocation={pickingLocation}
+            onSelect={setSelected}
+            onLocationPick={(nextLocation) => {
+              setLocation(nextLocation);
+              setPickingLocation(false);
+            }}
+          />
+          <LocationControl
+            location={location}
+            open={locationOpen}
+            picking={pickingLocation}
+            onOpenChange={setLocationOpen}
+            onPickingChange={setPickingLocation}
+            onLocationChange={setLocation}
+          />
         </section>
 
         <section className="list-pane" aria-label="店舗一覧">
