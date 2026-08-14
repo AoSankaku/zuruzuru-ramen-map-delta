@@ -54,6 +54,7 @@ type MapViewProps = {
   selected: Shop | null;
   location: UserLocation | null;
   pickingLocation: boolean;
+  showLegend: boolean;
   onSelect: (shop: Shop) => void;
   onLocationPick: (location: UserLocation) => void;
 };
@@ -319,7 +320,7 @@ function createLocationMarker(map: MapLibreMap, location: UserLocation): MarkerH
   };
 }
 
-export function MapView({ shops, selected, location, pickingLocation, onSelect, onLocationPick }: MapViewProps) {
+export function MapView({ shops, selected, location, pickingLocation, showLegend, onSelect, onLocationPick }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const shopMarkersRef = useRef<MarkerHandle[]>([]);
@@ -462,12 +463,14 @@ export function MapView({ shops, selected, location, pickingLocation, onSelect, 
     <div className={`map-shell${mapReady ? " is-tiles-ready" : ""}`}>
       <div ref={containerRef} className={`map${pickingLocation ? " is-location-picking" : ""}`} />
       {mapError && <div className="map-load-error" role="alert">地図を読み込めませんでした</div>}
-      <div className="map-legend" aria-label="地図の凡例">
-        <span><i className="legend-dot legend-dot--award" />大賞</span>
-        <span><i className="legend-dot" />通常</span>
-        <span><i className="legend-dot legend-dot--closed" />閉店</span>
-        {location && <span><i className="legend-dot legend-dot--location" />現在地</span>}
-      </div>
+      {showLegend && (
+        <div className="map-legend" aria-label="地図の凡例">
+          <span><i className="legend-dot legend-dot--award" />大賞</span>
+          <span><i className="legend-dot" />通常</span>
+          <span><i className="legend-dot legend-dot--closed" />閉店</span>
+          {location && <span><i className="legend-dot legend-dot--location" />現在地</span>}
+        </div>
+      )}
       {pickingLocation && <div className="map-pick-guide" role="status">地図上の現在地にしたい場所をクリック</div>}
     </div>
   );

@@ -129,6 +129,7 @@ export default function App() {
             selected={selected}
             location={location}
             pickingLocation={pickingLocation}
+            showLegend={filters.business !== "open"}
             onSelect={setSelected}
             onLocationPick={(nextLocation) => {
               setLocation(nextLocation);
