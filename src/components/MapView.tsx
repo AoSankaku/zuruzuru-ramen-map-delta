@@ -8,6 +8,7 @@ import maplibregl, {
   type StyleSpecification,
 } from "maplibre-gl";
 import type { UserLocation } from "../location";
+import { getClusterClickAction } from "../map-cluster-action";
 import type { Shop } from "../types";
 
 const MAP_STYLE_URL = "https://tile.openstreetmap.jp/styles/maptiler-basic-ja/style.json";
@@ -46,6 +47,11 @@ type WorkingCluster = ShopCluster & {
 };
 
 type MarkerHandle = {
+  remove: () => void;
+};
+
+type TooltipHandle = {
+  hide: () => void;
   remove: () => void;
 };
 
@@ -163,7 +169,7 @@ function attachTooltip(
   detail: string,
   offset: number,
   centered = false,
-) {
+): TooltipHandle {
   let popup: MapLibrePopup | null = null;
   const show = () => {
     popup?.remove();
@@ -188,12 +194,15 @@ function attachTooltip(
   element.addEventListener("focus", show);
   element.addEventListener("blur", hide);
 
-  return () => {
-    hide();
-    element.removeEventListener("mouseenter", show);
-    element.removeEventListener("mouseleave", hide);
-    element.removeEventListener("focus", show);
-    element.removeEventListener("blur", hide);
+  return {
+    hide,
+    remove: () => {
+      hide();
+      element.removeEventListener("mouseenter", show);
+      element.removeEventListener("mouseleave", hide);
+      element.removeEventListener("focus", show);
+      element.removeEventListener("blur", hide);
+    },
   };
 }
 
@@ -221,7 +230,7 @@ function createShopMarker(
 
   const position: [number, number] = [shop.longitude, shop.latitude];
   const marker = new maplibregl.Marker({ element, anchor: "bottom" }).setLngLat(position).addTo(map);
-  const removeTooltip = attachTooltip(map, element, position, shop.name, `${shop.genre} · ${shop.region}`, 40);
+  const tooltip = attachTooltip(map, element, position, shop.name, `${shop.genre} · ${shop.region}`, 40);
   const select = (event: MouseEvent) => {
     event.stopPropagation();
     onSelect(shop);
@@ -230,7 +239,7 @@ function createShopMarker(
 
   return {
     remove: () => {
-      removeTooltip();
+      tooltip.remove();
       element.removeEventListener("click", select);
       marker.remove();
     },
@@ -238,34 +247,63 @@ function createShopMarker(
 }
 
 function zoomToCluster(map: MapLibreMap, cluster: ShopCluster) {
-  const northEast = cluster.bounds.getNorthEast();
-  const southWest = cluster.bounds.getSouthWest();
-
-  if (northEast.lng === southWest.lng && northEast.lat === southWest.lat) {
-    map.flyTo({
-      center: cluster.center,
-      duration: 650,
-      zoom: Math.min(map.getZoom() + 2, map.getMaxZoom()),
-    });
-    return;
-  }
-
   map.fitBounds(cluster.bounds, {
     duration: 650,
-    maxZoom: Math.min(15, map.getZoom() + 5),
+    maxZoom: Math.min(map.getMaxZoom(), map.getZoom() + 5),
     padding: 64,
   });
 }
 
-function createClusterMarker(map: MapLibreMap, cluster: ShopCluster, pickingLocation: boolean): MarkerHandle {
+function createClusterPickerContent(cluster: ShopCluster, onSelect: (shop: Shop) => void, close: () => void) {
+  const content = document.createElement("div");
+  content.className = "map-cluster-picker";
+  content.setAttribute("role", "dialog");
+  content.setAttribute("aria-label", `${cluster.shops.length}軒の店舗から選択`);
+
+  const heading = document.createElement("b");
+  heading.className = "map-cluster-picker__heading";
+  heading.textContent = `${cluster.shops.length}軒の店舗があります`;
+
+  const list = document.createElement("div");
+  list.className = "map-cluster-picker__list";
+  for (const shop of cluster.shops) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "map-cluster-picker__shop";
+
+    const name = document.createElement("strong");
+    name.textContent = shop.name;
+    const detail = document.createElement("small");
+    detail.textContent = `${shop.genre} · ${shop.address} · 最新動画 ${shop.latestVideoPublishedAt}`;
+    button.append(name, detail);
+    button.addEventListener("click", (event) => {
+      event.stopPropagation();
+      close();
+      onSelect(shop);
+    });
+    list.append(button);
+  }
+
+  content.append(heading, list);
+  return content;
+}
+
+function createClusterMarker(
+  map: MapLibreMap,
+  cluster: ShopCluster,
+  pickingLocation: boolean,
+  onSelect: (shop: Shop) => void,
+): MarkerHandle {
   const count = cluster.shops.length;
   const size = count >= 20 ? 56 : count >= 10 ? 50 : 44;
   const hasAward = cluster.shops.some((shop) => shop.rating.kind === "award");
+  const clickAction = getClusterClickAction(cluster.shops, map.getZoom(), map.getMaxZoom());
+  const actionLabel = clickAction === "zoom" ? "クリックして拡大" : "クリックして店舗を選択";
   const element = document.createElement("button");
   element.type = "button";
   element.className = "map-cluster-wrap";
-  element.setAttribute("aria-label", `${count}軒の店舗。クリックして拡大`);
-  element.title = `${count}軒の店舗。クリックして拡大`;
+  element.setAttribute("aria-label", `${count}軒の店舗。${actionLabel}`);
+  element.title = `${count}軒の店舗。${actionLabel}`;
   element.style.pointerEvents = pickingLocation ? "none" : "auto";
 
   const clusterBody = document.createElement("span");
@@ -280,16 +318,41 @@ function createClusterMarker(map: MapLibreMap, cluster: ShopCluster, pickingLoca
 
   const position: [number, number] = [cluster.center.lng, cluster.center.lat];
   const marker = new maplibregl.Marker({ element, anchor: "center" }).setLngLat(position).addTo(map);
-  const removeTooltip = attachTooltip(map, element, position, `${count}軒の店舗`, "クリックして拡大", size / 2 + 7, true);
+  const tooltip = attachTooltip(map, element, position, `${count}軒の店舗`, actionLabel, size / 2 + 7, true);
+  let picker: MapLibrePopup | null = null;
+  const closePicker = () => {
+    picker?.remove();
+    picker = null;
+  };
   const zoom = (event: MouseEvent) => {
     event.stopPropagation();
-    zoomToCluster(map, cluster);
+    if (clickAction === "zoom") {
+      closePicker();
+      zoomToCluster(map, cluster);
+      return;
+    }
+
+    tooltip.hide();
+    closePicker();
+    picker = new maplibregl.Popup({
+      anchor: "bottom",
+      className: "map-cluster-picker-popup",
+      closeButton: true,
+      closeOnClick: true,
+      focusAfterOpen: true,
+      maxWidth: "320px",
+      offset: [0, -(size / 2 + 8)],
+    })
+      .setLngLat(position)
+      .setDOMContent(createClusterPickerContent(cluster, onSelect, closePicker))
+      .addTo(map);
   };
   element.addEventListener("click", zoom);
 
   return {
     remove: () => {
-      removeTooltip();
+      closePicker();
+      tooltip.remove();
       element.removeEventListener("click", zoom);
       marker.remove();
     },
@@ -310,11 +373,11 @@ function createLocationMarker(map: MapLibreMap, location: UserLocation): MarkerH
 
   const position: [number, number] = [location.longitude, location.latitude];
   const marker = new maplibregl.Marker({ element, anchor: "center" }).setLngLat(position).addTo(map);
-  const removeTooltip = attachTooltip(map, element, position, "設定した現在地", location.label, 20);
+  const tooltip = attachTooltip(map, element, position, "設定した現在地", location.label, 20);
 
   return {
     remove: () => {
-      removeTooltip();
+      tooltip.remove();
       marker.remove();
     },
   };
@@ -394,7 +457,7 @@ export function MapView({ shops, selected, location, pickingLocation, showLegend
           const shop = cluster.shops[0];
           return createShopMarker(map, shop, selected?.id === shop.id, pickingLocation, onSelect);
         }
-        return createClusterMarker(map, cluster, pickingLocation);
+        return createClusterMarker(map, cluster, pickingLocation, onSelect);
       });
     };
 

@@ -169,6 +169,27 @@ select option { color: var(--ink); background: var(--paper); }
 .map-tooltip b { font-size: 12px; }
 .map-tooltip span { margin-top: 2px; opacity: .66; font-size: 9px; }
 .map-tooltip--cluster { text-align: center; }
+.map-cluster-picker-popup { z-index: 700; }
+.map-cluster-picker-popup .maplibregl-popup-content {
+  overflow: hidden; padding: 0; border: 1px solid var(--line); border-radius: 5px;
+  color: var(--ink); background: var(--surface); box-shadow: 0 14px 36px rgba(0,0,0,.28);
+}
+.map-cluster-picker-popup .maplibregl-popup-tip { display: none; }
+.map-cluster-picker-popup .maplibregl-popup-close-button {
+  z-index: 1; width: 30px; height: 30px; color: var(--ink-soft); font-size: 20px;
+}
+.map-cluster-picker { width: min(280px, calc(100vw - 56px)); }
+.map-cluster-picker__heading { display: block; padding: 12px 38px 10px 12px; border-bottom: 1px solid var(--line); font-size: 11px; }
+.map-cluster-picker__list { max-height: min(280px, 45vh); overflow-y: auto; }
+.map-cluster-picker__shop {
+  width: 100%; display: block; padding: 10px 12px; border: 0; border-bottom: 1px solid var(--line);
+  color: var(--ink); background: transparent; text-align: left; cursor: pointer;
+}
+.map-cluster-picker__shop:last-child { border-bottom: 0; }
+.map-cluster-picker__shop:hover, .map-cluster-picker__shop:focus-visible { background: var(--surface); }
+.map-cluster-picker__shop strong, .map-cluster-picker__shop small { display: block; }
+.map-cluster-picker__shop strong { padding-right: 12px; font-size: 12px; }
+.map-cluster-picker__shop small { margin-top: 3px; color: var(--ink-soft); font-size: 9px; }
 .user-location-marker-wrap { width: 24px; height: 24px; background: transparent; border: 0; }
 .user-location-marker {
   width: 24px; height: 24px; display: grid; place-items: center; position: relative;
