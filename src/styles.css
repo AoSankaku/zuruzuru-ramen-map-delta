@@ -34,6 +34,7 @@ html, body, #root { width: 100%; min-width: 320px; min-height: 100%; margin: 0; 
 button, input, select { font: inherit; }
 button, a { -webkit-tap-highlight-color: transparent; }
 button { color: inherit; }
+select option { color: var(--ink); background: var(--paper); }
 
 .app {
   --paper: #f4efe4;

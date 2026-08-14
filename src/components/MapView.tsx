@@ -348,7 +348,7 @@ export function MapView({ shops, selected, location, pickingLocation, onSelect, 
         container,
         maxZoom: 18,
         minZoom: 2,
-        renderWorldCopies: false,
+        renderWorldCopies: true,
         style,
         zoom: 5,
       });

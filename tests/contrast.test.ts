@@ -81,6 +81,19 @@ describe.each([
   ["light", lightTheme],
   ["dark", darkTheme],
 ])("%s theme form control contrast", (_theme, properties) => {
+  test("select option text meets WCAG AA", () => {
+    const foregroundColor = properties["--ink"];
+    const backgroundColor = properties["--paper"];
+
+    expect(foregroundColor, "--ink must be a six-digit hex color").toBeDefined();
+    expect(backgroundColor, "--paper must be a six-digit hex color").toBeDefined();
+    expect(contrastRatio(foregroundColor, backgroundColor)).toBeGreaterThanOrEqual(AA_NORMAL_TEXT_RATIO);
+
+    const declarations = rule("select option");
+    expect(declarations).toMatch(/color\s*:\s*var\(--ink\)/);
+    expect(declarations).toMatch(/background\s*:\s*var\(--paper\)/);
+  });
+
   test("unchecked checkbox boundary meets WCAG AA", () => {
     const boundaryColor = properties["--control-border"];
     const backgroundColor = properties["--paper"];
