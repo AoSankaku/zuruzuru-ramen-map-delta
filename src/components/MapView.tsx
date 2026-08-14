@@ -1,177 +1,97 @@
-import { useEffect, useMemo, useRef, useState } from "react";
-import L from "leaflet";
-import { MapContainer, Marker, Tooltip, useMap, useMapEvents } from "react-leaflet";
+import { useEffect, useRef, useState } from "react";
+import maplibregl, {
+  type LngLat,
+  type LngLatBounds,
+  type Map as MapLibreMap,
+  type Marker as MapLibreMarker,
+  type Popup as MapLibrePopup,
+  type StyleSpecification,
+} from "maplibre-gl";
 import type { UserLocation } from "../location";
 import type { Shop } from "../types";
+
+const MAP_STYLE_URL = "https://tile.openstreetmap.jp/styles/maptiler-basic-ja/style.json";
+const JAPANESE_LABEL_LAYERS = [
+  "poi_label",
+  "airport-label",
+  "road_major_label",
+  "place_label_other",
+  "place_label_city",
+  "country_label-other",
+  "country_label",
+];
+const JAPANESE_NAME = [
+  "case",
+  [
+    "any",
+    ["==", ["slice", ["coalesce", ["get", "name:ja"], ""], 0, 2], "独島"],
+    ["==", ["slice", ["coalesce", ["get", "name"], ""], 0, 2], "독도"],
+  ],
+  "",
+  ["coalesce", ["get", "name:ja"], ["get", "name"]],
+] as const;
+
+type ProjectedPoint = ReturnType<MapLibreMap["project"]>;
 
 type ShopCluster = {
   id: string;
   shops: Shop[];
-  center: L.LatLng;
-  bounds: L.LatLngBounds;
+  center: LngLat;
+  bounds: LngLatBounds;
 };
 
 type WorkingCluster = ShopCluster & {
-  point: L.Point;
+  point: ProjectedPoint;
   cellKey: string;
 };
 
-function MapController({ selected, location }: { selected: Shop | null; location: UserLocation | null }) {
-  const map = useMap();
+type MarkerHandle = {
+  remove: () => void;
+};
 
-  useEffect(() => {
-    if (selected) {
-      map.flyTo([selected.latitude, selected.longitude], selected.countryCode === "JP" ? 12 : 10, {
-        animate: true,
-        duration: 0.7,
-      });
+type MapViewProps = {
+  shops: Shop[];
+  selected: Shop | null;
+  location: UserLocation | null;
+  pickingLocation: boolean;
+  onSelect: (shop: Shop) => void;
+  onLocationPick: (location: UserLocation) => void;
+};
+
+function applyJapaneseTerritoryStyle(map: MapLibreMap) {
+  for (const layerId of JAPANESE_LABEL_LAYERS) {
+    if (map.getLayer(layerId)) {
+      map.setLayoutProperty(layerId, "text-field", JAPANESE_NAME);
     }
-  }, [map, selected]);
-
-  useEffect(() => {
-    if (location) {
-      map.flyTo([location.latitude, location.longitude], Math.max(map.getZoom(), 14), {
-        animate: true,
-        duration: 0.7,
-      });
-    }
-  }, [location, map]);
-
-  return null;
-}
-
-function MapClickPicker({ enabled, onPick }: { enabled: boolean; onPick: (location: UserLocation) => void }) {
-  const map = useMapEvents({
-    click: ({ latlng }) => {
-      if (!enabled) return;
-      onPick({
-        latitude: latlng.lat,
-        longitude: latlng.lng,
-        label: "地図上で指定した場所",
-      });
-    },
-  });
-
-  useEffect(() => {
-    map.getContainer().classList.toggle("is-location-picking", enabled);
-    return () => map.getContainer().classList.remove("is-location-picking");
-  }, [enabled, map]);
-
-  return null;
-}
-
-function createMarker(shop: Shop, active: boolean) {
-  const special = shop.rating.kind === "award";
-  const closed = shop.status === "closed";
-  return L.divIcon({
-    className: "map-pin-wrap",
-    html: `<span class="map-pin${active ? " is-active" : ""}${special ? " is-special" : ""}${closed ? " is-closed" : ""}"><i></i></span>`,
-    iconSize: [38, 46],
-    iconAnchor: [19, 42],
-    tooltipAnchor: [0, -38],
-  });
-}
-
-function createClusterMarker(cluster: ShopCluster) {
-  const count = cluster.shops.length;
-  const size = count >= 20 ? 56 : count >= 10 ? 50 : 44;
-  const hasAward = cluster.shops.some((shop) => shop.rating.kind === "award");
-
-  return L.divIcon({
-    className: "map-cluster-wrap",
-    html: `<span class="map-cluster${hasAward ? " is-special" : ""}" style="--cluster-size:${size}px"><strong>${count}</strong><small>軒</small></span>`,
-    iconSize: [size, size],
-    iconAnchor: [size / 2, size / 2],
-    tooltipAnchor: [0, -(size / 2 + 3)],
-  });
-}
-
-const userLocationMarker = L.divIcon({
-  className: "user-location-marker-wrap",
-  html: '<span class="user-location-marker"><i></i></span>',
-  iconSize: [32, 32],
-  iconAnchor: [16, 16],
-  tooltipAnchor: [0, -18],
-});
-
-const gsiJapanBounds = L.latLngBounds([20, 122], [47, 154]);
-const gsiDetailedBounds = [
-  L.latLngBounds([41.2, 139], [46.5, 150.5]),
-  L.latLngBounds([34, 135], [41.7, 142.2]),
-  L.latLngBounds([30.8, 129.2], [35.5, 136.5]),
-  L.latLngBounds([33, 128.9], [34.8, 130.2]),
-  L.latLngBounds([23, 122.5], [31.5, 132]),
-  L.latLngBounds([20, 135], [28, 143]),
-];
-
-class LocalizedTileLayer extends L.TileLayer {
-  private usesGsiTile(coords: L.Coords) {
-    if (coords.z <= 8) return true;
-
-    const tileSize = this.getTileSize();
-    const tileCenter = L.point(
-      (coords.x + 0.5) * tileSize.x,
-      (coords.y + 0.5) * tileSize.y,
-    );
-    const center = this._map.unproject(tileCenter, coords.z);
-    if (coords.z <= 11) return gsiJapanBounds.contains(center);
-    return gsiDetailedBounds.some((bounds) => bounds.contains(center));
   }
 
-  override getTileUrl(coords: L.Coords) {
-    if (this.usesGsiTile(coords)) {
-      return `https://cyberjapandata.gsi.go.jp/xyz/pale/${coords.z}/${coords.x}/${coords.y}.png`;
-    }
-    return `https://tile.openstreetmap.org/${coords.z}/${coords.x}/${coords.y}.png`;
+  // The custom source already supplies Japanese names. Its opaque fill is what
+  // produced the conspicuous white mesh over the Northern Territories.
+  if (map.getLayer("island-hoppo")) {
+    map.setLayoutProperty("island-hoppo", "visibility", "none");
   }
 
-  override createTile(coords: L.Coords, done: L.DoneCallback) {
-    const tile = super.createTile(coords, done);
-    tile.classList.add("map-tile", this.usesGsiTile(coords) ? "map-tile--gsi" : "map-tile--osm");
-    return tile;
+  // Keep the Takeshima island/name overlay, but suppress disputed POI labels
+  // such as names prefixed with "独島" that remain inside the custom source.
+  if (map.getLayer("island-takeshima-poi")) {
+    map.setLayoutProperty("island-takeshima-poi", "visibility", "none");
   }
+
 }
 
-function LocalizedBaseMap({ onReady }: { onReady: () => void }) {
-  const map = useMap();
-  const onReadyRef = useRef(onReady);
-
-  useEffect(() => {
-    onReadyRef.current = onReady;
-  }, [onReady]);
-
-  useEffect(() => {
-    const layer = new LocalizedTileLayer("", {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="https://maps.gsi.go.jp/development/ichiran.html">地理院タイル</a> / Shoreline data: NIMA VMAP0 (1997)',
-      maxZoom: 18,
-      minZoom: 2,
-    });
-    const handleLoad = () => onReadyRef.current();
-    layer.on("load", handleLoad);
-    layer.addTo(map);
-
-    return () => {
-      layer.off("load", handleLoad);
-      layer.removeFrom(map);
-    };
-  }, [map]);
-
-  return null;
-}
-
-function cellKey(point: L.Point, radius: number) {
+function cellKey(point: ProjectedPoint, radius: number) {
   return `${Math.floor(point.x / radius)}:${Math.floor(point.y / radius)}`;
 }
 
-function buildClusters(shops: Shop[], map: L.Map): ShopCluster[] {
+function buildClusters(shops: Shop[], map: MapLibreMap): ShopCluster[] {
   const zoom = map.getZoom();
   const radius = zoom <= 5 ? 72 : zoom <= 8 ? 58 : 46;
   const grid = new Map<string, WorkingCluster[]>();
   const clusters: WorkingCluster[] = [];
 
   for (const shop of shops) {
-    const latLng = L.latLng(shop.latitude, shop.longitude);
-    const point = map.project(latLng, zoom);
+    const lngLat = new maplibregl.LngLat(shop.longitude, shop.latitude);
+    const point = map.project(lngLat);
     const column = Math.floor(point.x / radius);
     const row = Math.floor(point.y / radius);
     let nearest: WorkingCluster | undefined;
@@ -180,7 +100,7 @@ function buildClusters(shops: Shop[], map: L.Map): ShopCluster[] {
     for (let x = column - 1; x <= column + 1; x += 1) {
       for (let y = row - 1; y <= row + 1; y += 1) {
         for (const candidate of grid.get(`${x}:${y}`) ?? []) {
-          const distance = point.distanceTo(candidate.point);
+          const distance = point.dist(candidate.point);
           if (distance <= radius && distance < nearestDistance) {
             nearest = candidate;
             nearestDistance = distance;
@@ -194,8 +114,8 @@ function buildClusters(shops: Shop[], map: L.Map): ShopCluster[] {
       const cluster: WorkingCluster = {
         id: `cluster-${shop.id}`,
         shops: [shop],
-        center: latLng,
-        bounds: L.latLngBounds(latLng, latLng),
+        center: lngLat,
+        bounds: new maplibregl.LngLatBounds(lngLat, lngLat),
         point,
         cellKey: key,
       };
@@ -207,12 +127,10 @@ function buildClusters(shops: Shop[], map: L.Map): ShopCluster[] {
     const previousKey = nearest.cellKey;
     const count = nearest.shops.length;
     nearest.shops.push(shop);
-    nearest.bounds.extend(latLng);
-    nearest.point = L.point(
-      (nearest.point.x * count + point.x) / (count + 1),
-      (nearest.point.y * count + point.y) / (count + 1),
-    );
-    nearest.center = map.unproject(nearest.point, zoom);
+    nearest.bounds.extend(lngLat);
+    nearest.point.x = (nearest.point.x * count + point.x) / (count + 1);
+    nearest.point.y = (nearest.point.y * count + point.y) / (count + 1);
+    nearest.center = map.unproject(nearest.point);
     nearest.cellKey = cellKey(nearest.point, radius);
 
     if (nearest.cellKey !== previousKey) {
@@ -224,125 +142,326 @@ function buildClusters(shops: Shop[], map: L.Map): ShopCluster[] {
   return clusters;
 }
 
-function ClusteredMarkers({ shops, selected, onSelect, pickingLocation }: Pick<MapViewProps, "shops" | "selected" | "onSelect" | "pickingLocation">) {
-  const map = useMap();
-  const [viewRevision, setViewRevision] = useState(0);
+function createTooltipContent(title: string, detail: string, centered = false) {
+  const content = document.createElement("div");
+  content.className = `map-tooltip${centered ? " map-tooltip--cluster" : ""}`;
 
-  useEffect(() => {
-    const refresh = () => setViewRevision((revision) => revision + 1);
-    map.on("zoomend moveend resize", refresh);
-    return () => {
-      map.off("zoomend moveend resize", refresh);
-    };
-  }, [map]);
+  const heading = document.createElement("b");
+  heading.textContent = title;
+  const description = document.createElement("span");
+  description.textContent = detail;
+  content.append(heading, description);
+  return content;
+}
 
-  const clusters = useMemo(
-    () => buildClusters(shops, map),
-    [map, shops, viewRevision],
-  );
-
-  const zoomToCluster = (cluster: ShopCluster) => {
-    const northEast = cluster.bounds.getNorthEast();
-    const southWest = cluster.bounds.getSouthWest();
-
-    if (northEast.equals(southWest)) {
-      map.flyTo(cluster.center, Math.min(map.getZoom() + 2, map.getMaxZoom()), {
-        animate: true,
-        duration: 0.65,
-      });
-      return;
-    }
-
-    map.fitBounds(cluster.bounds, {
-      animate: true,
-      duration: 0.65,
-      maxZoom: Math.min(15, map.getZoom() + 5),
-      padding: [64, 64],
-    });
+function attachTooltip(
+  map: MapLibreMap,
+  element: HTMLElement,
+  position: [number, number],
+  title: string,
+  detail: string,
+  offset: number,
+  centered = false,
+) {
+  let popup: MapLibrePopup | null = null;
+  const show = () => {
+    popup?.remove();
+    popup = new maplibregl.Popup({
+      anchor: "bottom",
+      className: "map-tooltip-popup",
+      closeButton: false,
+      closeOnClick: false,
+      offset: [0, -offset],
+    })
+      .setLngLat(position)
+      .setDOMContent(createTooltipContent(title, detail, centered))
+      .addTo(map);
+  };
+  const hide = () => {
+    popup?.remove();
+    popup = null;
   };
 
-  return clusters.map((cluster) => {
-    if (cluster.shops.length === 1) {
-      const shop = cluster.shops[0];
-      return (
-        <Marker
-          key={shop.id}
-          position={[shop.latitude, shop.longitude]}
-          icon={createMarker(shop, selected?.id === shop.id)}
-          interactive={!pickingLocation}
-          alt={shop.name}
-          title={shop.name}
-          eventHandlers={{ click: () => onSelect(shop) }}
-        >
-          <Tooltip direction="top" opacity={1} className="map-tooltip">
-            <b>{shop.name}</b><span>{shop.genre} · {shop.region}</span>
-          </Tooltip>
-        </Marker>
-      );
-    }
+  element.addEventListener("mouseenter", show);
+  element.addEventListener("mouseleave", hide);
+  element.addEventListener("focus", show);
+  element.addEventListener("blur", hide);
 
-    return (
-      <Marker
-        key={`${cluster.id}-${cluster.shops.length}`}
-        position={cluster.center}
-        icon={createClusterMarker(cluster)}
-        interactive={!pickingLocation}
-        alt={`${cluster.shops.length}軒の店舗。クリックして拡大`}
-        title={`${cluster.shops.length}軒の店舗。クリックして拡大`}
-        eventHandlers={{ click: () => zoomToCluster(cluster) }}
-        riseOnHover
-      >
-        <Tooltip direction="top" opacity={1} className="map-tooltip map-tooltip--cluster">
-          <b>{cluster.shops.length}軒の店舗</b><span>クリックして拡大</span>
-        </Tooltip>
-      </Marker>
-    );
+  return () => {
+    hide();
+    element.removeEventListener("mouseenter", show);
+    element.removeEventListener("mouseleave", hide);
+    element.removeEventListener("focus", show);
+    element.removeEventListener("blur", hide);
+  };
+}
+
+function createShopMarker(
+  map: MapLibreMap,
+  shop: Shop,
+  active: boolean,
+  pickingLocation: boolean,
+  onSelect: (shop: Shop) => void,
+): MarkerHandle {
+  const element = document.createElement("button");
+  element.type = "button";
+  element.className = "map-pin-wrap";
+  element.setAttribute("aria-label", shop.name);
+  element.title = shop.name;
+  element.style.pointerEvents = pickingLocation ? "none" : "auto";
+  if (active) element.style.zIndex = "2";
+
+  const pin = document.createElement("span");
+  const special = shop.rating.kind === "award";
+  const closed = shop.status === "closed";
+  pin.className = `map-pin${active ? " is-active" : ""}${special ? " is-special" : ""}${closed ? " is-closed" : ""}`;
+  pin.append(document.createElement("i"));
+  element.append(pin);
+
+  const position: [number, number] = [shop.longitude, shop.latitude];
+  const marker = new maplibregl.Marker({ element, anchor: "bottom" }).setLngLat(position).addTo(map);
+  const removeTooltip = attachTooltip(map, element, position, shop.name, `${shop.genre} · ${shop.region}`, 40);
+  const select = (event: MouseEvent) => {
+    event.stopPropagation();
+    onSelect(shop);
+  };
+  element.addEventListener("click", select);
+
+  return {
+    remove: () => {
+      removeTooltip();
+      element.removeEventListener("click", select);
+      marker.remove();
+    },
+  };
+}
+
+function zoomToCluster(map: MapLibreMap, cluster: ShopCluster) {
+  const northEast = cluster.bounds.getNorthEast();
+  const southWest = cluster.bounds.getSouthWest();
+
+  if (northEast.lng === southWest.lng && northEast.lat === southWest.lat) {
+    map.flyTo({
+      center: cluster.center,
+      duration: 650,
+      zoom: Math.min(map.getZoom() + 2, map.getMaxZoom()),
+    });
+    return;
+  }
+
+  map.fitBounds(cluster.bounds, {
+    duration: 650,
+    maxZoom: Math.min(15, map.getZoom() + 5),
+    padding: 64,
   });
 }
 
-type MapViewProps = {
-  shops: Shop[];
-  selected: Shop | null;
-  location: UserLocation | null;
-  pickingLocation: boolean;
-  onSelect: (shop: Shop) => void;
-  onLocationPick: (location: UserLocation) => void;
-};
+function createClusterMarker(map: MapLibreMap, cluster: ShopCluster, pickingLocation: boolean): MarkerHandle {
+  const count = cluster.shops.length;
+  const size = count >= 20 ? 56 : count >= 10 ? 50 : 44;
+  const hasAward = cluster.shops.some((shop) => shop.rating.kind === "award");
+  const element = document.createElement("button");
+  element.type = "button";
+  element.className = "map-cluster-wrap";
+  element.setAttribute("aria-label", `${count}軒の店舗。クリックして拡大`);
+  element.title = `${count}軒の店舗。クリックして拡大`;
+  element.style.pointerEvents = pickingLocation ? "none" : "auto";
+
+  const clusterBody = document.createElement("span");
+  clusterBody.className = `map-cluster${hasAward ? " is-special" : ""}`;
+  clusterBody.style.setProperty("--cluster-size", `${size}px`);
+  const number = document.createElement("strong");
+  number.textContent = String(count);
+  const unit = document.createElement("small");
+  unit.textContent = "軒";
+  clusterBody.append(number, unit);
+  element.append(clusterBody);
+
+  const position: [number, number] = [cluster.center.lng, cluster.center.lat];
+  const marker = new maplibregl.Marker({ element, anchor: "center" }).setLngLat(position).addTo(map);
+  const removeTooltip = attachTooltip(map, element, position, `${count}軒の店舗`, "クリックして拡大", size / 2 + 7, true);
+  const zoom = (event: MouseEvent) => {
+    event.stopPropagation();
+    zoomToCluster(map, cluster);
+  };
+  element.addEventListener("click", zoom);
+
+  return {
+    remove: () => {
+      removeTooltip();
+      element.removeEventListener("click", zoom);
+      marker.remove();
+    },
+  };
+}
+
+function createLocationMarker(map: MapLibreMap, location: UserLocation): MarkerHandle {
+  const element = document.createElement("div");
+  element.className = "user-location-marker-wrap";
+  element.setAttribute("aria-label", "設定した現在地");
+  element.title = "設定した現在地";
+  element.tabIndex = 0;
+
+  const body = document.createElement("span");
+  body.className = "user-location-marker";
+  body.append(document.createElement("i"));
+  element.append(body);
+
+  const position: [number, number] = [location.longitude, location.latitude];
+  const marker = new maplibregl.Marker({ element, anchor: "center" }).setLngLat(position).addTo(map);
+  const removeTooltip = attachTooltip(map, element, position, "設定した現在地", location.label, 20);
+
+  return {
+    remove: () => {
+      removeTooltip();
+      marker.remove();
+    },
+  };
+}
 
 export function MapView({ shops, selected, location, pickingLocation, onSelect, onLocationPick }: MapViewProps) {
-  const [tilesReady, setTilesReady] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const mapRef = useRef<MapLibreMap | null>(null);
+  const shopMarkersRef = useRef<MarkerHandle[]>([]);
+  const locationMarkerRef = useRef<MarkerHandle | null>(null);
+  const [mapReady, setMapReady] = useState(false);
+  const [mapError, setMapError] = useState(false);
+
+  useEffect(() => {
+    if (!containerRef.current) return;
+    const container = containerRef.current;
+    const controller = new AbortController();
+    let map: MapLibreMap | null = null;
+    let resizeObserver: ResizeObserver | null = null;
+    let disposed = false;
+
+    const initializeMap = async () => {
+      const response = await fetch(MAP_STYLE_URL, { signal: controller.signal });
+      if (!response.ok) throw new Error(`地図スタイルを取得できませんでした (${response.status})`);
+      const style = await response.json() as StyleSpecification;
+      style.projection = { type: "mercator" };
+      if (disposed) return;
+
+      map = new maplibregl.Map({
+        attributionControl: { compact: true },
+        center: [138, 36.2],
+        container,
+        maxZoom: 18,
+        minZoom: 2,
+        renderWorldCopies: false,
+        style,
+        zoom: 5,
+      });
+      map.getCanvas().setAttribute("aria-label", "店舗地図");
+      mapRef.current = map;
+
+      const handleStyleLoad = () => applyJapaneseTerritoryStyle(map!);
+      map.on("style.load", handleStyleLoad);
+      map.once("idle", () => setMapReady(true));
+
+      resizeObserver = new ResizeObserver(() => map?.resize());
+      resizeObserver.observe(container);
+    };
+
+    void initializeMap().catch((error: unknown) => {
+      if (controller.signal.aborted) return;
+      console.error(error);
+      setMapError(true);
+    });
+
+    return () => {
+      disposed = true;
+      controller.abort();
+      resizeObserver?.disconnect();
+      shopMarkersRef.current.forEach((marker) => marker.remove());
+      shopMarkersRef.current = [];
+      locationMarkerRef.current?.remove();
+      locationMarkerRef.current = null;
+      mapRef.current = null;
+      map?.remove();
+    };
+  }, []);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!mapReady || !map) return;
+
+    const renderMarkers = () => {
+      shopMarkersRef.current.forEach((marker) => marker.remove());
+      shopMarkersRef.current = buildClusters(shops, map).map((cluster) => {
+        if (cluster.shops.length === 1) {
+          const shop = cluster.shops[0];
+          return createShopMarker(map, shop, selected?.id === shop.id, pickingLocation, onSelect);
+        }
+        return createClusterMarker(map, cluster, pickingLocation);
+      });
+    };
+
+    renderMarkers();
+    map.on("moveend", renderMarkers);
+    map.on("resize", renderMarkers);
+    return () => {
+      map.off("moveend", renderMarkers);
+      map.off("resize", renderMarkers);
+      shopMarkersRef.current.forEach((marker) => marker.remove());
+      shopMarkersRef.current = [];
+    };
+  }, [mapReady, onSelect, pickingLocation, selected?.id, shops]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!mapReady || !map) return;
+
+    locationMarkerRef.current?.remove();
+    locationMarkerRef.current = location ? createLocationMarker(map, location) : null;
+    return () => {
+      locationMarkerRef.current?.remove();
+      locationMarkerRef.current = null;
+    };
+  }, [location, mapReady]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!mapReady || !map || !selected) return;
+    map.flyTo({
+      center: [selected.longitude, selected.latitude],
+      duration: 700,
+      zoom: selected.countryCode === "JP" ? 12 : 10,
+    });
+  }, [mapReady, selected]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!mapReady || !map || !location) return;
+    map.flyTo({
+      center: [location.longitude, location.latitude],
+      duration: 700,
+      zoom: Math.max(map.getZoom(), 14),
+    });
+  }, [location, mapReady]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!mapReady || !map) return;
+
+    const pickLocation = (event: maplibregl.MapMouseEvent) => {
+      if (!pickingLocation) return;
+      onLocationPick({
+        latitude: event.lngLat.lat,
+        longitude: event.lngLat.lng,
+        label: "地図上で指定した場所",
+      });
+    };
+    map.on("click", pickLocation);
+    return () => {
+      map.off("click", pickLocation);
+    };
+  }, [mapReady, onLocationPick, pickingLocation]);
 
   return (
-    <div className={`map-shell${tilesReady ? " is-tiles-ready" : ""}`}>
-      <MapContainer
-        center={[36.2, 138]}
-        zoom={5}
-        minZoom={2}
-        maxZoom={18}
-        maxBounds={[[-85.05112878, -180], [85.05112878, 180]]}
-        maxBoundsViscosity={1}
-        scrollWheelZoom
-        className={`map${pickingLocation ? " is-location-picking" : ""}`}
-        zoomControl={false}
-      >
-        <LocalizedBaseMap onReady={() => setTilesReady(true)} />
-        <MapController selected={selected} location={location} />
-        <MapClickPicker enabled={pickingLocation} onPick={onLocationPick} />
-        {location && (
-          <Marker
-            position={[location.latitude, location.longitude]}
-            icon={userLocationMarker}
-            alt="設定した現在地"
-            title="設定した現在地"
-            zIndexOffset={1000}
-          >
-            <Tooltip direction="top" opacity={1} className="map-tooltip">
-              <b>設定した現在地</b><span>{location.label}</span>
-            </Tooltip>
-          </Marker>
-        )}
-        <ClusteredMarkers shops={shops} selected={selected} onSelect={onSelect} pickingLocation={pickingLocation} />
-      </MapContainer>
+    <div className={`map-shell${mapReady ? " is-tiles-ready" : ""}`}>
+      <div ref={containerRef} className={`map${pickingLocation ? " is-location-picking" : ""}`} />
+      {mapError && <div className="map-load-error" role="alert">地図を読み込めませんでした</div>}
       <div className="map-legend" aria-label="地図の凡例">
         <span><i className="legend-dot legend-dot--award" />大賞</span>
         <span><i className="legend-dot" />通常</span>
