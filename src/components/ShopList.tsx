@@ -1,5 +1,5 @@
 import { ChevronRight, MapPin, Play, Soup, TrainFront } from "lucide-react";
-import { RatingBadge } from "./RatingBadge";
+import { AppearanceBadge } from "./AppearanceBadge";
 import type { Shop } from "../types";
 
 const statusLabel = (shop: Shop) => {
@@ -36,8 +36,8 @@ export function ShopList({ shops, selected, onSelect }: { shops: Shop[]; selecte
               <h3>{shop.name}</h3>
               <p>{shop.summary}</p>
               <div className="shop-card__foot">
-                <RatingBadge rating={shop.rating} compact />
-                <span className="visits"><Play size={12} fill="currentColor" />登場 {shop.visits}回</span>
+                <AppearanceBadge count={shop.visits} compact />
+                {shop.visits >= 2 && <span className="repeat-visit"><Play size={11} aria-hidden="true" />複数回登場</span>}
               </div>
             </div>
             <ChevronRight className="shop-card__arrow" size={20} aria-hidden="true" />

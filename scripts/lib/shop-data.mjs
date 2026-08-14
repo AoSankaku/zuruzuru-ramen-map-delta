@@ -132,12 +132,6 @@ function splitJapaneseLocation(address, region) {
   return locality || region;
 }
 
-function calculatedScore(videos) {
-  const views = videos.reduce((sum, video) => sum + Number(video.viewCount ?? 0), 0);
-  const score = 3 + Math.min(1.25, Math.log10(views + 1) / 5) + Math.min(0.5, (videos.length - 1) * 0.12);
-  return Math.round(Math.min(5, score) * 10) / 10;
-}
-
 export function toShopRecord(shop, geocode, generatedAt) {
   const latest = shop.videos[0];
   const viewCount = shop.videos.reduce((sum, video) => sum + Number(video.viewCount ?? 0), 0);
@@ -158,7 +152,7 @@ export function toShopRecord(shop, geocode, generatedAt) {
     status: "unknown",
     statusVerifiedAt: generatedAt.slice(0, 10),
     visits: shop.videos.length,
-    rating: { kind: "calculated", score: calculatedScore(shop.videos), scoreVersion: "video-attention-v1" },
+    rating: { kind: "unrated" },
     completeSoup: null,
     companion: null,
     isShort: parseIsoDurationSeconds(latest.duration) <= 60,

@@ -1,5 +1,5 @@
 import { CalendarDays, ExternalLink, MapPin, Play, Share2, Soup, TrainFront, Users, X } from "lucide-react";
-import { RatingBadge } from "./RatingBadge";
+import { AppearanceBadge } from "./AppearanceBadge";
 import type { Shop } from "../types";
 
 const formatViews = (value: number) => new Intl.NumberFormat("ja-JP", { notation: "compact", maximumFractionDigits: 1 }).format(value);
@@ -27,7 +27,7 @@ export function ShopDetail({ shop, onClose }: { shop: Shop; onClose: () => void 
             <span className="detail__genre">{shop.genre}</span>
             <h2>{shop.name}</h2>
           </div>
-          <RatingBadge rating={shop.rating} />
+          <AppearanceBadge count={shop.visits} />
         </div>
 
         <div className="detail__location">

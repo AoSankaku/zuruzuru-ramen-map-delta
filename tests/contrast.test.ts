@@ -64,12 +64,13 @@ describe.each([
   });
 });
 
-describe("button rules use the audited semantic color pairs", () => {
+describe("prominent UI rules use the audited semantic color pairs", () => {
   test.each([
     [".filter-toggle span", "--accent-contrast", "--accent"],
     [".primary-action", "--accent-contrast", "--accent"],
     [".mobile-nav button.is-active", "--paper", "--ink"],
     [".map-cluster.is-special", "--gold-contrast", "--gold"],
+    [".appearance-badge", "--accent-contrast", "--accent"],
   ])("%s", (selector, foreground, background) => {
     const declarations = rule(selector);
     expect(declarations).toMatch(new RegExp(`color\\s*:\\s*var\\(${foreground}\\)`));

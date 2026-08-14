@@ -8,7 +8,6 @@ export type BusinessStatus =
 export type VideoAvailability = "public" | "unavailable" | "unknown";
 
 export type Rating =
-  | { kind: "calculated"; score: number; scoreVersion: string }
   | {
       kind: "award";
       awardType: "monthly" | "annual";

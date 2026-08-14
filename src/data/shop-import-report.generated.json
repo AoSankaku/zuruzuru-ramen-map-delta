@@ -1,13 +1,63 @@
 {
-  "generatedAt": "2026-08-12T21:54:51.682Z",
-  "sourceVideoCount": 50,
-  "publicSourceVideoCount": 50,
-  "extractedCandidateCount": 40,
-  "uniqueCandidateCount": 39,
-  "generatedShopCount": 39,
-  "unresolvedCount": 0,
-  "unresolved": [],
-  "stationResolvedCount": 39,
-  "stationUnresolvedCount": 0,
-  "stationUnresolved": []
+  "generatedAt": "2026-08-14T10:03:10.898Z",
+  "sourceVideoCount": 1500,
+  "publicSourceVideoCount": 1500,
+  "extractedCandidateCount": 1137,
+  "uniqueCandidateCount": 968,
+  "generatedShopCount": 965,
+  "unresolvedCount": 3,
+  "unresolved": [
+    {
+      "name": "本家 第一旭 烏丸店",
+      "address": "京都府京都市中京区蛸薬師通り室町西入姥柳町190-1",
+      "reason": "座標候補なし",
+      "shopUrl": "https://tabelog.com/kyoto/A2601/A260202/26041687/"
+    },
+    {
+      "name": "566ラーメン",
+      "address": "https://maps.app.goo.gl/gstaRwVxvA9MHtQh7",
+      "reason": "座標候補なし",
+      "shopUrl": "https://maps.app.goo.gl/1mrRiCRAEjizLwwa8"
+    },
+    {
+      "name": "566ラーメン",
+      "address": "https://maps.app.goo.gl/gstaRwVxvA9MHtQh7",
+      "reason": "座標候補なし",
+      "shopUrl": "https://maps.app.goo.gl/YjXniRhdciFTX9Tm8"
+    }
+  ],
+  "stationResolvedCount": 959,
+  "stationUnresolvedCount": 6,
+  "stationUnresolved": [
+    {
+      "name": "麺屋 梅ノ木",
+      "address": "山梨県北都留郡小菅村大久保3337",
+      "reason": "最寄り駅候補なし"
+    },
+    {
+      "name": "麺ハウス こもれ美",
+      "address": "宮城県黒川郡大衡村大衡大柳31-1",
+      "reason": "最寄り駅候補なし"
+    },
+    {
+      "name": "中華そば すする",
+      "address": "東京都大島町元町2-20-2",
+      "reason": "最寄り駅候補なし"
+    },
+    {
+      "name": "栄楽",
+      "address": "東京都大島町元町1-2-5",
+      "reason": "最寄り駅候補なし"
+    },
+    {
+      "name": "どさん娘",
+      "address": "東京都大島町元町4-9-9",
+      "reason": "最寄り駅候補なし"
+    },
+    {
+      "name": "04992-2-8524",
+      "address": "東京都大島町岡田5 2階",
+      "reason": "最寄り駅候補なし"
+    }
+  ]
 }

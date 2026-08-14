@@ -322,14 +322,14 @@ select option { color: var(--ink); background: var(--paper); }
 .shop-card__foot { margin-top: 10px; display: flex; align-items: center; gap: 9px; }
 .shop-card__arrow { align-self: center; color: var(--ink-soft); opacity: .55; }
 .shop-card__hit { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
-.rating { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; font-size: 10px; font-weight: 700; }
-.rating--award { padding: 5px 7px; color: var(--gold-contrast); background: var(--gold); border-radius: 2px; }
-.rating--compact { padding: 3px 6px; font-size: 8px; }
-.rating--score { color: var(--accent); }
-.rating--score b { font-family: "DM Mono", monospace; font-size: 14px; }
-.rating--score small { color: var(--ink-soft); font-size: 8px; }
-.rating--muted { color: var(--ink-soft); opacity: .65; }
-.visits { display: inline-flex; align-items: center; gap: 4px; color: var(--ink-soft); font-size: 8px; font-weight: 700; }
+.appearance-badge { display: inline-flex; align-items: center; gap: 5px; padding: 7px 9px; white-space: nowrap; color: var(--accent-contrast); background: var(--accent); border-radius: 3px; font-weight: 800; }
+.appearance-badge b { font-family: "DM Mono", monospace; font-size: 18px; line-height: 1; }
+.appearance-badge small { font-size: 9px; }
+.appearance-badge em { margin-left: 3px; padding-left: 8px; border-left: 1px solid currentColor; font-size: 8px; font-style: normal; opacity: .86; }
+.appearance-badge--compact { padding: 5px 7px; gap: 4px; border-radius: 2px; }
+.appearance-badge--compact b { font-size: 13px; }
+.appearance-badge--compact small { font-size: 8px; }
+.repeat-visit { display: inline-flex; align-items: center; gap: 3px; color: var(--accent); font-size: 8px; font-weight: 800; }
 .empty-state { padding: 80px 20px; text-align: center; color: var(--ink-soft); }
 .empty-state h2 { color: var(--ink); font-family: "Shippori Mincho", serif; font-size: 20px; }
 .empty-state p { font-size: 11px; }

@@ -22,15 +22,8 @@ const defaultFilters: Filters = {
   area: "all",
   business: "open",
   awardsOnly: false,
-  sort: "recommended",
+  sort: "visits",
 };
-
-const awardRank = (shop: Shop) => {
-  if (shop.rating.kind !== "award") return 0;
-  return shop.rating.awardType === "annual" ? 2 : 1;
-};
-
-const scoreOf = (shop: Shop) => shop.rating.kind === "calculated" ? shop.rating.score : 0;
 
 export default function App() {
   const [filters, setFilters] = useState(defaultFilters);
@@ -88,10 +81,10 @@ export default function App() {
     });
 
     return result.sort((a, b) => {
-      if (filters.sort === "visits") return b.visits - a.visits;
-      if (filters.sort === "views") return b.viewCount - a.viewCount;
+      if (filters.sort === "visits") return b.visits - a.visits || b.latestVideoPublishedAt.localeCompare(a.latestVideoPublishedAt);
+      if (filters.sort === "views") return b.viewCount - a.viewCount || b.latestVideoPublishedAt.localeCompare(a.latestVideoPublishedAt);
       if (filters.sort === "station") return (a.nearestStation?.walkMinutes ?? Number.POSITIVE_INFINITY) - (b.nearestStation?.walkMinutes ?? Number.POSITIVE_INFINITY);
-      return awardRank(b) - awardRank(a) || scoreOf(b) - scoreOf(a) || b.visits - a.visits;
+      return 0;
     });
   }, [filters]);
 
@@ -161,7 +154,6 @@ export default function App() {
             <label>
               <span>並び順</span>
               <select value={filters.sort} onChange={(event) => setFilters({ ...filters, sort: event.target.value as Filters["sort"] })}>
-                <option value="recommended">おすすめ順</option>
                 <option value="visits">登場回数順</option>
                 <option value="views">視聴回数順</option>
                 <option value="station">駅徒歩順</option>

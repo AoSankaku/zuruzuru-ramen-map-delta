@@ -3,6 +3,7 @@ import {
   extractShopCandidates,
   mergeShopCandidates,
   parseIsoDurationSeconds,
+  toShopRecord,
 } from "../scripts/lib/shop-data.mjs";
 
 const video = (overrides: Record<string, unknown> = {}) => ({
@@ -51,6 +52,22 @@ describe("店舗データ抽出", () => {
     const shops = mergeShopCandidates(candidates);
     expect(shops).toHaveLength(1);
     expect(shops[0].videos.map((item) => item.videoId)).toEqual(["video-1", "video-2"]);
+  });
+
+  test("登場回数を保持し、視聴回数から独自評価を生成しない", () => {
+    const description = "【本日のお店】\nますや本店 台新店\n福島県郡山市台新1-176-4\nhttps://tabelog.com/fukushima/example/";
+    const [shop] = mergeShopCandidates([
+      ...extractShopCandidates(video({ description })),
+      ...extractShopCandidates(video({ videoId: "video-2", description })),
+    ]);
+    const record = toShopRecord(shop, {
+      latitude: 37.4,
+      longitude: 140.3,
+      source: "test",
+    }, "2026-08-14T00:00:00.000Z");
+
+    expect(record.visits).toBe(2);
+    expect(record.rating).toEqual({ kind: "unrated" });
   });
 
   test("店舗URLがない動画は店舗として扱わない", () => {

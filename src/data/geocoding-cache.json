@@ -232,5 +232,5459 @@
     "latitude": 35.704304,
     "matchedAddress": "東京都杉並区荻窪四丁目３２番８号",
     "source": "GSI Address Search API"
+  },
+  "東京都渋谷区渋谷2-19-15 宮益坂ビルディング 1F 105区画": {
+    "longitude": 139.703751,
+    "latitude": 35.659668,
+    "matchedAddress": "東京都渋谷区渋谷二丁目１９番１５号",
+    "source": "GSI Address Search API"
+  },
+  "福島県福島市小倉寺字敷ヶ森16-1": {
+    "longitude": 140.472885,
+    "latitude": 37.73333,
+    "matchedAddress": "福島県福島市小倉寺敷ケ森１６番地",
+    "source": "GSI Address Search API"
+  },
+  "福島県福島市置賜町6-12 鴻野屋ビル 1F": {
+    "longitude": 140.464462,
+    "latitude": 37.755016,
+    "matchedAddress": "福島県福島市置賜町６番１２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区高田3-21-11 高田橋ハイツ 1F": {
+    "longitude": 139.710175,
+    "latitude": 35.714619,
+    "matchedAddress": "東京都豊島区高田三丁目２１番１１号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市若葉区若松町416-196": {
+    "longitude": 140.159592,
+    "latitude": 35.639549,
+    "matchedAddress": "千葉県千葉市若葉区若松町４１６番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区南池袋2-17-11 野萩ハイツ 1F": {
+    "longitude": 139.713303,
+    "latitude": 35.726654,
+    "matchedAddress": "東京都豊島区南池袋二丁目１７番１１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都立川市錦町2-2-1 sk錦町ビル 1F": {
+    "longitude": 139.416122,
+    "latitude": 35.695904,
+    "matchedAddress": "東京都立川市錦町二丁目２番１号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県朝霞市仲町1-10-1": {
+    "longitude": 139.600723,
+    "latitude": 35.799969,
+    "matchedAddress": "埼玉県朝霞市仲町一丁目１０番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区内神田2-13-4": {
+    "longitude": 139.768402,
+    "latitude": 35.691235,
+    "matchedAddress": "東京都千代田区内神田二丁目１３番４号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県深谷市本郷319-5": {
+    "longitude": 139.222809,
+    "latitude": 36.16581,
+    "matchedAddress": "埼玉県深谷市本郷３１９番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都武蔵野市吉祥寺北町3-4-3": {
+    "longitude": 139.57283,
+    "latitude": 35.70966,
+    "matchedAddress": "東京都武蔵野市吉祥寺北町三丁目４番３号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県羽生市東6-16-19": {
+    "longitude": 139.548828,
+    "latitude": 36.171879,
+    "matchedAddress": "埼玉県羽生市東六丁目１６番",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市南区南太田1-8-24": {
+    "longitude": 139.614532,
+    "latitude": 35.436646,
+    "matchedAddress": "神奈川県横浜市南区南太田一丁目８番２４号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県つくば市学園の森2-20-3": {
+    "longitude": 140.07901,
+    "latitude": 36.099598,
+    "matchedAddress": "茨城県つくば市学園の森二丁目２０番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県狭山市東三ツ木62-1": {
+    "longitude": 139.436432,
+    "latitude": 35.871693,
+    "matchedAddress": "埼玉県狭山市東三ツ木６２番地",
+    "source": "GSI Address Search API"
+  },
+  "茨城県つくば市天久保3-8-1": {
+    "longitude": 140.104034,
+    "latitude": 36.104652,
+    "matchedAddress": "茨城県つくば市天久保三丁目８番",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県北葛飾郡杉戸町北蓮沼497": {
+    "longitude": 139.7724,
+    "latitude": 36.013252,
+    "matchedAddress": "埼玉県杉戸町北蓮沼４９７番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県越谷市南荻島275-1": {
+    "longitude": 139.766968,
+    "latitude": 35.90889,
+    "matchedAddress": "埼玉県越谷市南荻島",
+    "source": "GSI Address Search API"
+  },
+  "東京都台東区下谷1-11-7": {
+    "longitude": 139.783279,
+    "latitude": 35.719757,
+    "matchedAddress": "東京都台東区下谷一丁目１１番７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都葛飾区東立石3-11-6": {
+    "longitude": 139.843628,
+    "latitude": 35.736252,
+    "matchedAddress": "東京都葛飾区東立石三丁目１１番６号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市港北区新横浜2-14-21 新横浜ラーメン博物館 B1F": {
+    "longitude": 139.614166,
+    "latitude": 35.509949,
+    "matchedAddress": "神奈川県横浜市港北区新横浜二丁目１４番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市港北区新横浜2-14-21 B2F": {
+    "longitude": 139.614166,
+    "latitude": 35.509949,
+    "matchedAddress": "神奈川県横浜市港北区新横浜二丁目１４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区西池袋1-24-8": {
+    "longitude": 139.710526,
+    "latitude": 35.732059,
+    "matchedAddress": "東京都豊島区西池袋一丁目２４番８号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県富津市竹岡92": {
+    "longitude": 139.866516,
+    "latitude": 35.187023,
+    "matchedAddress": "千葉県富津市竹岡",
+    "source": "GSI Address Search API"
+  },
+  "千葉県市原市五井2442-1": {
+    "longitude": 140.085236,
+    "latitude": 35.517544,
+    "matchedAddress": "千葉県市原市五井２４４２番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県習志野市谷津6-21-4 第一カンノビル1F": {
+    "longitude": 140.008469,
+    "latitude": 35.69471,
+    "matchedAddress": "千葉県習志野市谷津六丁目２１番４号",
+    "source": "GSI Address Search API"
+  },
+  "青森県弘前市川合浅田27-1": {
+    "longitude": 140.519241,
+    "latitude": 40.578876,
+    "matchedAddress": "青森県弘前市大字川合浅田２７番地",
+    "source": "GSI Address Search API"
+  },
+  "青森県弘前市外崎2-1-2": {
+    "longitude": 140.495941,
+    "latitude": 40.599545,
+    "matchedAddress": "青森県弘前市外崎二丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "青森県八戸市城下2-11 イオンタウン八戸城下": {
+    "longitude": 141.484711,
+    "latitude": 40.517544,
+    "matchedAddress": "青森県八戸市城下二丁目１１番",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市神奈川区大口通135-11": {
+    "longitude": 139.646042,
+    "latitude": 35.491364,
+    "matchedAddress": "神奈川県横浜市神奈川区大口通１３５番地",
+    "source": "GSI Address Search API"
+  },
+  "青森県青森市松原1-14-6": {
+    "longitude": 140.762253,
+    "latitude": 40.821533,
+    "matchedAddress": "青森県青森市松原一丁目１４番６号",
+    "source": "GSI Address Search API"
+  },
+  "青森県弘前市駅前町9-20 ヒロロ 4F": {
+    "longitude": 140.481659,
+    "latitude": 40.597374,
+    "matchedAddress": "青森県弘前市駅前町９番",
+    "source": "GSI Address Search API"
+  },
+  "千葉県八千代市萱田町730-1": {
+    "longitude": 140.107605,
+    "latitude": 35.723934,
+    "matchedAddress": "千葉県八千代市萱田町７３０番地",
+    "source": "GSI Address Search API"
+  },
+  "茨城県つくば市筑穂1-1-13": {
+    "longitude": 140.082047,
+    "latitude": 36.137619,
+    "matchedAddress": "茨城県つくば市筑穂一丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "茨城県つくば市花畑3-12-8": {
+    "longitude": 140.092743,
+    "latitude": 36.128304,
+    "matchedAddress": "茨城県つくば市花畑三丁目１２番",
+    "source": "GSI Address Search API"
+  },
+  "茨城県土浦市若松町3-5": {
+    "longitude": 140.205322,
+    "latitude": 36.107117,
+    "matchedAddress": "茨城県土浦市若松町３番５号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県平塚市紅谷町15-14": {
+    "longitude": 139.346329,
+    "latitude": 35.328476,
+    "matchedAddress": "神奈川県平塚市紅谷町１５番１４号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県つくば市小野崎127-1": {
+    "longitude": 140.106781,
+    "latitude": 36.076012,
+    "matchedAddress": "茨城県つくば市小野崎１２７番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都三鷹市下連雀3-28-23": {
+    "longitude": 139.561142,
+    "latitude": 35.699753,
+    "matchedAddress": "東京都三鷹市下連雀三丁目２８番２３号",
+    "source": "GSI Address Search API"
+  },
+  "東京都練馬区上石神井1丁目5-8": {
+    "longitude": 139.591675,
+    "latitude": 35.725346,
+    "matchedAddress": "東京都練馬区上石神井一丁目５番８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都文京区本郷2-26-9 片岡ビル １Ｆ": {
+    "longitude": 139.760696,
+    "latitude": 35.705536,
+    "matchedAddress": "東京都文京区本郷二丁目２６番９号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県下都賀郡野木町丸林408-1": {
+    "longitude": 139.735229,
+    "latitude": 36.231148,
+    "matchedAddress": "栃木県野木町丸林４０８番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県茅ヶ崎市幸町1-12-2": {
+    "longitude": 139.407715,
+    "latitude": 35.330322,
+    "matchedAddress": "神奈川県茅ヶ崎市幸町１番１２号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県栃木市薗部町2-19-30": {
+    "longitude": 139.715851,
+    "latitude": 36.377739,
+    "matchedAddress": "栃木県栃木市薗部町二丁目１９番３０号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市磯子区杉田4-2-17": {
+    "longitude": 139.620087,
+    "latitude": 35.384045,
+    "matchedAddress": "神奈川県横浜市磯子区杉田四丁目２番１７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都板橋区坂下2-16-11": {
+    "longitude": 139.679596,
+    "latitude": 35.784321,
+    "matchedAddress": "東京都板橋区坂下二丁目１６番１１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都中野区中野5-53-2": {
+    "longitude": 139.66655,
+    "latitude": 35.709,
+    "matchedAddress": "東京都中野区中野五丁目５３番２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都小金井市貫井北町3-31-15": {
+    "longitude": 139.496292,
+    "latitude": 35.711838,
+    "matchedAddress": "東京都小金井市貫井北町三丁目３１番１５号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県川口市栄町3-9-15": {
+    "longitude": 139.720139,
+    "latitude": 35.80291,
+    "matchedAddress": "埼玉県川口市栄町三丁目９番１５号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県戸田市新曽199-1 ConecToda": {
+    "longitude": 139.670303,
+    "latitude": 35.815632,
+    "matchedAddress": "埼玉県戸田市新曽１９９番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県平塚市夕陽ヶ丘61-2": {
+    "longitude": 139.357727,
+    "latitude": 35.325485,
+    "matchedAddress": "神奈川県平塚市夕陽ケ丘６１番２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区和泉2-9-21": {
+    "longitude": 139.651505,
+    "latitude": 35.671738,
+    "matchedAddress": "東京都杉並区和泉二丁目９番２１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区巣鴨4-24-6 富士ビル": {
+    "longitude": 139.733612,
+    "latitude": 35.737377,
+    "matchedAddress": "東京都豊島区巣鴨四丁目２４番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都荒川区東尾久2-19-10 西脇ビル 1F": {
+    "longitude": 139.77298,
+    "latitude": 35.744602,
+    "matchedAddress": "東京都荒川区東尾久二丁目１９番１０号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区高田馬場2-6-10 関ビル 103": {
+    "longitude": 139.708908,
+    "latitude": 35.713444,
+    "matchedAddress": "東京都新宿区高田馬場二丁目６番１０号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区東池袋1-27-5 関口ビル 1F": {
+    "longitude": 139.716415,
+    "latitude": 35.729107,
+    "matchedAddress": "東京都豊島区東池袋一丁目２７番５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区新橋3-22-3": {
+    "longitude": 139.757889,
+    "latitude": 35.664879,
+    "matchedAddress": "東京都港区新橋三丁目２２番",
+    "source": "GSI Address Search API"
+  },
+  "東京都台東区浅草2-22-8": {
+    "longitude": 139.793839,
+    "latitude": 35.716888,
+    "matchedAddress": "東京都台東区浅草二丁目２２番８号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県平塚市八重咲町4-31": {
+    "longitude": 139.350143,
+    "latitude": 35.32637,
+    "matchedAddress": "神奈川県平塚市八重咲町４番３１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都足立区谷中2-7-5": {
+    "longitude": 139.832581,
+    "latitude": 35.777275,
+    "matchedAddress": "東京都足立区谷中二丁目７番５号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県海老名市門沢橋3-6-21": {
+    "longitude": 139.374832,
+    "latitude": 35.40583,
+    "matchedAddress": "神奈川県海老名市門沢橋三丁目６番２１号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県印西市草深1137": {
+    "longitude": 140.133865,
+    "latitude": 35.806774,
+    "matchedAddress": "千葉県印西市草深１１３７番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県藤沢市大鋸999-8": {
+    "longitude": 139.494141,
+    "latitude": 35.349892,
+    "matchedAddress": "神奈川県藤沢市大鋸９９９番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都武蔵野市西久保2-21-3": {
+    "longitude": 139.556076,
+    "latitude": 35.708408,
+    "matchedAddress": "東京都武蔵野市西久保二丁目２１番３号",
+    "source": "GSI Address Search API"
+  },
+  "鹿児島県霧島市国分福島3-6-6": {
+    "longitude": 130.762009,
+    "latitude": 31.731588,
+    "matchedAddress": "鹿児島県霧島市国分福島三丁目６番６号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市中区弥生町1-13": {
+    "longitude": 139.630875,
+    "latitude": 35.440632,
+    "matchedAddress": "神奈川県横浜市中区弥生町一丁目１３番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都中央区銀座6-3-5 第一高橋ビル 1F": {
+    "longitude": 139.761459,
+    "latitude": 35.671589,
+    "matchedAddress": "東京都中央区銀座六丁目３番５号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県春日部市南5-1-56": {
+    "longitude": 139.759705,
+    "latitude": 35.970051,
+    "matchedAddress": "埼玉県春日部市南五丁目１番５６号",
+    "source": "GSI Address Search API"
+  },
+  "富山県滑川市上小泉2139-1": {
+    "longitude": 137.349243,
+    "latitude": 36.756927,
+    "matchedAddress": "富山県滑川市上小泉２１３９番地",
+    "source": "GSI Address Search API"
+  },
+  "新潟県新潟市中央区西堀通り8番町1576-13": {
+    "longitude": 139.039673,
+    "latitude": 37.917454,
+    "matchedAddress": "新潟県新潟市中央区西堀通一番町",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区阿佐谷北1-45-10": {
+    "longitude": 139.635574,
+    "latitude": 35.70993,
+    "matchedAddress": "東京都杉並区阿佐谷北一丁目４５番１０号",
+    "source": "GSI Address Search API"
+  },
+  "鹿児島県志布志市志布志町志布志2丁目8-41": {
+    "longitude": 131.098618,
+    "latitude": 31.475758,
+    "matchedAddress": "鹿児島県志布志市志布志町志布志二丁目８番",
+    "source": "GSI Address Search API"
+  },
+  "東京都江東区門前仲町1-16-5 門仲原田ビル 1F": {
+    "longitude": 139.794067,
+    "latitude": 35.674416,
+    "matchedAddress": "東京都江東区門前仲町一丁目１６番５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都中央区京橋1-17-12 吉住ビル 1F": {
+    "longitude": 139.773605,
+    "latitude": 35.677803,
+    "matchedAddress": "東京都中央区京橋一丁目１７番１２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都武蔵野市境5-17-12": {
+    "longitude": 139.533127,
+    "latitude": 35.703239,
+    "matchedAddress": "東京都武蔵野市境五丁目１７番１２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都板橋区志村2-1-4": {
+    "longitude": 139.69397,
+    "latitude": 35.776299,
+    "matchedAddress": "東京都板橋区志村二丁目１番４号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市中央区祐光4-17-7": {
+    "longitude": 140.131638,
+    "latitude": 35.618904,
+    "matchedAddress": "千葉県千葉市中央区祐光四丁目１７番７号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市中央区中央2-2-6": {
+    "longitude": 140.121262,
+    "latitude": 35.609798,
+    "matchedAddress": "千葉県千葉市中央区中央二丁目２番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都大田区大森北1-26-5 浅野ビル 1F": {
+    "longitude": 139.729706,
+    "latitude": 35.58511,
+    "matchedAddress": "東京都大田区大森北一丁目２６番５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都目黒区上目黒2-44-5": {
+    "longitude": 139.696747,
+    "latitude": 35.641582,
+    "matchedAddress": "東京都目黒区上目黒二丁目４４番５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区新橋3-16-9 共立ビル 1F": {
+    "longitude": 139.756836,
+    "latitude": 35.665482,
+    "matchedAddress": "東京都港区新橋三丁目１６番",
+    "source": "GSI Address Search API"
+  },
+  "新潟県上越市下源入173-4": {
+    "longitude": 138.25798,
+    "latitude": 37.164379,
+    "matchedAddress": "新潟県上越市下源入",
+    "source": "GSI Address Search API"
+  },
+  "千葉県柏市柏2-10-2 ザ・柏タワー 1F": {
+    "longitude": 139.973114,
+    "latitude": 35.861752,
+    "matchedAddress": "千葉県柏市柏二丁目１０番２号",
+    "source": "GSI Address Search API"
+  },
+  "新潟県上越市大字下門前1650": {
+    "longitude": 138.254837,
+    "latitude": 37.155846,
+    "matchedAddress": "新潟県上越市下門前１６５０番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区渋谷2-8-8": {
+    "longitude": 139.707169,
+    "latitude": 35.660465,
+    "matchedAddress": "東京都渋谷区渋谷二丁目８番８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都目黒区五本木2-53-8": {
+    "longitude": 139.6875,
+    "latitude": 35.632851,
+    "matchedAddress": "東京都目黒区五本木二丁目５３番８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都目黒区祐天寺2-3-13": {
+    "longitude": 139.6922,
+    "latitude": 35.637348,
+    "matchedAddress": "東京都目黒区祐天寺二丁目３番１３号",
+    "source": "GSI Address Search API"
+  },
+  "富山県富山市新庄町3-5-22": {
+    "longitude": 137.252625,
+    "latitude": 36.696712,
+    "matchedAddress": "富山県富山市新庄町三丁目５番２２号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市南区真金町2-18 T.Iビル 1F": {
+    "longitude": 139.62764,
+    "latitude": 35.438171,
+    "matchedAddress": "神奈川県横浜市南区真金町二丁目１８番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県松戸市紙敷1-8-6": {
+    "longitude": 139.957901,
+    "latitude": 35.776104,
+    "matchedAddress": "千葉県松戸市紙敷一丁目８番",
+    "source": "GSI Address Search API"
+  },
+  "群馬県桐生市相生町2-588-38": {
+    "longitude": 139.299149,
+    "latitude": 36.415222,
+    "matchedAddress": "群馬県桐生市相生町二丁目５８８番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区三田3-1-2 北村ビル 1F": {
+    "longitude": 139.74379,
+    "latitude": 35.647675,
+    "matchedAddress": "東京都港区三田三丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市中央区千日前1-6-1": {
+    "longitude": 135.505157,
+    "latitude": 34.668262,
+    "matchedAddress": "大阪府大阪市中央区千日前一丁目６番１号",
+    "source": "GSI Address Search API"
+  },
+  "新潟県新潟市西区木場1421": {
+    "longitude": 138.981796,
+    "latitude": 37.827183,
+    "matchedAddress": "新潟県新潟市西区木場１４２１番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都小金井市貫井北町2-18-3": {
+    "longitude": 139.496124,
+    "latitude": 35.707355,
+    "matchedAddress": "東京都小金井市貫井北町二丁目１８番３号",
+    "source": "GSI Address Search API"
+  },
+  "東京都江戸川区平井3-30-35": {
+    "longitude": 139.842941,
+    "latitude": 35.706276,
+    "matchedAddress": "東京都江戸川区平井三丁目３０番",
+    "source": "GSI Address Search API"
+  },
+  "山口県山陽小野田市西高泊3384-8": {
+    "longitude": 131.152618,
+    "latitude": 34.020809,
+    "matchedAddress": "山口県山陽小野田市西高泊３３８４番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県野田市野田560-1 1F": {
+    "longitude": 139.864792,
+    "latitude": 35.949505,
+    "matchedAddress": "千葉県野田市野田５６０番地",
+    "source": "GSI Address Search API"
+  },
+  "新潟県新潟市江南区早通5-1-2": {
+    "longitude": 139.086258,
+    "latitude": 37.86285,
+    "matchedAddress": "新潟県新潟市江南区早通五丁目１番２号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県松戸市小根本51-9 マツドKビル 1F": {
+    "longitude": 139.904739,
+    "latitude": 35.787243,
+    "matchedAddress": "千葉県松戸市小根本５１番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区渋谷2-19-17 第106東京ビル": {
+    "longitude": 139.704086,
+    "latitude": 35.659725,
+    "matchedAddress": "東京都渋谷区渋谷二丁目１９番１７号",
+    "source": "GSI Address Search API"
+  },
+  "岩手県遠野市宮守町上鱒沢6-27-3": {
+    "longitude": 141.428543,
+    "latitude": 39.309509,
+    "matchedAddress": "岩手県遠野市宮守町上鱒沢",
+    "source": "GSI Address Search API"
+  },
+  "岩手県滝沢市巣子1159‐15": {
+    "longitude": 141.13002,
+    "latitude": 39.773666,
+    "matchedAddress": "岩手県滝沢市巣子１１５９番地",
+    "source": "GSI Address Search API"
+  },
+  "岩手県盛岡市大通2-6-21": {
+    "longitude": 141.145432,
+    "latitude": 39.703781,
+    "matchedAddress": "岩手県盛岡市大通二丁目６番２１号",
+    "source": "GSI Address Search API"
+  },
+  "新潟県新潟市中央区紫竹山6-3-7": {
+    "longitude": 139.067505,
+    "latitude": 37.897545,
+    "matchedAddress": "新潟県新潟市中央区紫竹山六丁目３番７号",
+    "source": "GSI Address Search API"
+  },
+  "山口県宇部市野中1丁目5-3": {
+    "longitude": 131.275696,
+    "latitude": 33.952187,
+    "matchedAddress": "山口県宇部市野中一丁目５番３号",
+    "source": "GSI Address Search API"
+  },
+  "東京都板橋区常盤台4-33-3-201 浅香ビル 2F": {
+    "longitude": 139.676193,
+    "latitude": 35.763916,
+    "matchedAddress": "東京都板橋区常盤台四丁目３３番３号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県久喜市樋ノ口584-4": {
+    "longitude": 139.649872,
+    "latitude": 36.039677,
+    "matchedAddress": "埼玉県久喜市樋ノ口５８４番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県さいたま市岩槻区東岩槻6-1-4 1F": {
+    "longitude": 139.714279,
+    "latitude": 35.963318,
+    "matchedAddress": "埼玉県さいたま市岩槻区東岩槻六丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県さいたま市浦和区北浦和3-1-6": {
+    "longitude": 139.647018,
+    "latitude": 35.871796,
+    "matchedAddress": "埼玉県さいたま市浦和区北浦和三丁目１番６号",
+    "source": "GSI Address Search API"
+  },
+  "新潟県新潟市西区青山2-5-1 イオン新潟青山店 2F": {
+    "longitude": 139.006012,
+    "latitude": 37.896366,
+    "matchedAddress": "新潟県新潟市西区青山二丁目５番１号",
+    "source": "GSI Address Search API"
+  },
+  "群馬県太田市出塚町507-8": {
+    "longitude": 139.29187,
+    "latitude": 36.262199,
+    "matchedAddress": "群馬県太田市出塚町５０７番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都江東区扇橋2-12-5": {
+    "longitude": 139.815994,
+    "latitude": 35.683758,
+    "matchedAddress": "東京都江東区扇橋二丁目１２番５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都文京区本郷2-26-1 福重ビル 1F": {
+    "longitude": 139.760803,
+    "latitude": 35.704842,
+    "matchedAddress": "東京都文京区本郷二丁目２６番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都練馬区関町北2-27-13 樋田ビル 1F": {
+    "longitude": 139.57695,
+    "latitude": 35.727242,
+    "matchedAddress": "東京都練馬区関町北二丁目２７番１３号",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区道玄坂1-17-7 いちのビル １F･２F": {
+    "longitude": 139.697037,
+    "latitude": 35.656776,
+    "matchedAddress": "東京都渋谷区道玄坂一丁目１７番７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都練馬区関町北4-1-7": {
+    "longitude": 139.577942,
+    "latitude": 35.727974,
+    "matchedAddress": "東京都練馬区関町北四丁目１番７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都江戸川区松本2-40-1": {
+    "longitude": 139.878189,
+    "latitude": 35.719727,
+    "matchedAddress": "東京都江戸川区松本二丁目４０番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都江東区亀戸5-13-2 スクエア三報104区画": {
+    "longitude": 139.826126,
+    "latitude": 35.699047,
+    "matchedAddress": "東京都江東区亀戸五丁目１３番２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区芝5-24-12": {
+    "longitude": 139.745331,
+    "latitude": 35.648167,
+    "matchedAddress": "東京都港区芝五丁目２４番",
+    "source": "GSI Address Search API"
+  },
+  "千葉県松戸市松飛台112-26": {
+    "longitude": 139.965973,
+    "latitude": 35.788338,
+    "matchedAddress": "千葉県松戸市松飛台１１２番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県鎌ケ谷市初富30-17": {
+    "longitude": 139.976624,
+    "latitude": 35.779671,
+    "matchedAddress": "千葉県鎌ケ谷市初富３０番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県鎌ケ谷市東初富6-9-39": {
+    "longitude": 140.013641,
+    "latitude": 35.759617,
+    "matchedAddress": "千葉県鎌ケ谷市東初富六丁目９番３９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都世田谷区松原2-42-5 明大前フラワーハイホーム 1F": {
+    "longitude": 139.64888,
+    "latitude": 35.668736,
+    "matchedAddress": "東京都世田谷区松原二丁目４２番５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都足立区千住中居町17-14 1F": {
+    "longitude": 139.799545,
+    "latitude": 35.75042,
+    "matchedAddress": "東京都足立区千住中居町１７番１４号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区新宿1-16-10": {
+    "longitude": 139.710983,
+    "latitude": 35.690094,
+    "matchedAddress": "東京都新宿区新宿一丁目１６番１０号",
+    "source": "GSI Address Search API"
+  },
+  "東京都武蔵野市吉祥寺本町1-8-22 パレスビル 4Ｆ": {
+    "longitude": 139.579742,
+    "latitude": 35.704361,
+    "matchedAddress": "東京都武蔵野市吉祥寺本町一丁目８番２２号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横須賀市安浦町2-8": {
+    "longitude": 139.677719,
+    "latitude": 35.271877,
+    "matchedAddress": "神奈川県横須賀市安浦町二丁目８番",
+    "source": "GSI Address Search API"
+  },
+  "東京都八王子市堀之内3-6-10": {
+    "longitude": 139.404236,
+    "latitude": 35.628033,
+    "matchedAddress": "東京都八王子市堀之内三丁目６番",
+    "source": "GSI Address Search API"
+  },
+  "東京都大田区西蒲田7-1-10": {
+    "longitude": 139.716125,
+    "latitude": 35.563766,
+    "matchedAddress": "東京都大田区西蒲田七丁目１番１０号",
+    "source": "GSI Address Search API"
+  },
+  "東京都府中市清水が丘3-29-3": {
+    "longitude": 139.502441,
+    "latitude": 35.66526,
+    "matchedAddress": "東京都府中市清水が丘三丁目２９番",
+    "source": "GSI Address Search API"
+  },
+  "茨城県つくば市竹園1-9-7 林ビル 102": {
+    "longitude": 140.115036,
+    "latitude": 36.078007,
+    "matchedAddress": "茨城県つくば市竹園一丁目９番",
+    "source": "GSI Address Search API"
+  },
+  "茨城県つくば市春日4-26-1": {
+    "longitude": 140.099289,
+    "latitude": 36.103195,
+    "matchedAddress": "茨城県つくば市春日四丁目２６番",
+    "source": "GSI Address Search API"
+  },
+  "茨城県つくば市春日4-12-3": {
+    "longitude": 140.099716,
+    "latitude": 36.096081,
+    "matchedAddress": "茨城県つくば市春日四丁目１２番",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区西荻南3-25-1 西荻窪駅改札内": {
+    "longitude": 139.600357,
+    "latitude": 35.703686,
+    "matchedAddress": "東京都杉並区西荻南三丁目２５番１号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横須賀市若松町1-14 近藤ビル1Ｆ": {
+    "longitude": 139.671158,
+    "latitude": 35.280266,
+    "matchedAddress": "神奈川県横須賀市若松町一丁目１４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都武蔵野市吉祥寺本町1-1-5": {
+    "longitude": 139.578796,
+    "latitude": 35.703571,
+    "matchedAddress": "東京都武蔵野市吉祥寺本町一丁目１番５号",
+    "source": "GSI Address Search API"
+  },
+  "富山県富山市南新町3-6": {
+    "longitude": 137.2202,
+    "latitude": 36.686157,
+    "matchedAddress": "富山県富山市南新町３番６号",
+    "source": "GSI Address Search API"
+  },
+  "群馬県安中市松井田町横川553-3": {
+    "longitude": 138.730087,
+    "latitude": 36.33884,
+    "matchedAddress": "群馬県安中市松井田町横川５５３番地",
+    "source": "GSI Address Search API"
+  },
+  "群馬県渋川市渋川1827-25 1F": {
+    "longitude": 139.004883,
+    "latitude": 36.493526,
+    "matchedAddress": "群馬県渋川市渋川１８２７番地",
+    "source": "GSI Address Search API"
+  },
+  "群馬県高崎市飯塚町154-1": {
+    "longitude": 138.998199,
+    "latitude": 36.342274,
+    "matchedAddress": "群馬県高崎市飯塚町１５４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都八王子市万町34-1": {
+    "longitude": 139.333649,
+    "latitude": 35.653214,
+    "matchedAddress": "東京都八王子市万町３４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都世田谷区駒沢2-41-2": {
+    "longitude": 139.655777,
+    "latitude": 35.636993,
+    "matchedAddress": "東京都世田谷区駒沢二丁目４１番２号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県松戸市西馬橋蔵元町186-2": {
+    "longitude": 139.911896,
+    "latitude": 35.813972,
+    "matchedAddress": "千葉県松戸市西馬橋蔵元町１８６番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区百人町1-24-8": {
+    "longitude": 139.697525,
+    "latitude": 35.698776,
+    "matchedAddress": "東京都新宿区百人町一丁目２４番８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都調布市若葉町2-25-20": {
+    "longitude": 139.590027,
+    "latitude": 35.656361,
+    "matchedAddress": "東京都調布市若葉町二丁目２５番",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市中央区亀井町1-12": {
+    "longitude": 140.127777,
+    "latitude": 35.607601,
+    "matchedAddress": "千葉県千葉市中央区亀井町１番１２号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市中央区中央3-13-15": {
+    "longitude": 140.123169,
+    "latitude": 35.608067,
+    "matchedAddress": "千葉県千葉市中央区中央三丁目１３番１５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都目黒区自由が丘3-7-1": {
+    "longitude": 139.665619,
+    "latitude": 35.609146,
+    "matchedAddress": "東京都目黒区自由が丘三丁目７番１号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県市原市糸久339-1": {
+    "longitude": 140.107178,
+    "latitude": 35.47657,
+    "matchedAddress": "千葉県市原市糸久３３９番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県さいたま市大宮区大門町1-24-1 1F": {
+    "longitude": 139.626007,
+    "latitude": 35.906788,
+    "matchedAddress": "埼玉県さいたま市大宮区大門町一丁目２４番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県さいたま市大宮区宮町2-4 1F": {
+    "longitude": 139.626968,
+    "latitude": 35.908817,
+    "matchedAddress": "埼玉県さいたま市大宮区宮町二丁目４番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市保土ケ谷区和田1-11-25": {
+    "longitude": 139.589828,
+    "latitude": 35.464596,
+    "matchedAddress": "神奈川県横浜市保土ケ谷区和田一丁目１１番２５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区雑司ヶ谷1-30-15": {
+    "longitude": 139.721954,
+    "latitude": 35.718925,
+    "matchedAddress": "東京都豊島区雑司が谷一丁目３０番１５号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県小山市中久喜1174-35": {
+    "longitude": 139.844666,
+    "latitude": 36.319515,
+    "matchedAddress": "栃木県小山市中久喜１１７４番地",
+    "source": "GSI Address Search API"
+  },
+  "栃木県栃木市城内町1-6-24": {
+    "longitude": 139.742126,
+    "latitude": 36.374893,
+    "matchedAddress": "栃木県栃木市城内町一丁目６番２４号",
+    "source": "GSI Address Search API"
+  },
+  "群馬県安中市原市2-2-8": {
+    "longitude": 138.859177,
+    "latitude": 36.314468,
+    "matchedAddress": "群馬県安中市原市二丁目２番８号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市港北区新横浜2-14-21 新横浜ラーメン博物館": {
+    "longitude": 139.614166,
+    "latitude": 35.509949,
+    "matchedAddress": "神奈川県横浜市港北区新横浜二丁目１４番地",
+    "source": "GSI Address Search API"
+  },
+  "茨城県牛久市結束町504-1": {
+    "longitude": 140.168701,
+    "latitude": 35.965195,
+    "matchedAddress": "茨城県牛久市結束町５０４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区芝浦3-1-32": {
+    "longitude": 139.748886,
+    "latitude": 35.644985,
+    "matchedAddress": "東京都港区芝浦三丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "東京都八王子市打越町334-5": {
+    "longitude": 139.355347,
+    "latitude": 35.643681,
+    "matchedAddress": "東京都八王子市打越町３３４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区高円寺南4-25-13": {
+    "longitude": 139.649353,
+    "latitude": 35.704876,
+    "matchedAddress": "東京都杉並区高円寺南四丁目２５番１３号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県さいたま市南区文蔵1-17-2": {
+    "longitude": 139.670364,
+    "latitude": 35.845249,
+    "matchedAddress": "埼玉県さいたま市南区文蔵一丁目１７番２号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県取手市桑原770-1": {
+    "longitude": 140.079391,
+    "latitude": 35.911934,
+    "matchedAddress": "茨城県取手市桑原７７０番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県さいたま市大宮区大門町1-13": {
+    "longitude": 139.625626,
+    "latitude": 35.907112,
+    "matchedAddress": "埼玉県さいたま市大宮区大門町一丁目１３番地",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市千種区千種2-16番13 イオン千種ショッピングセンター１階": {
+    "longitude": 136.923828,
+    "latitude": 35.160912,
+    "matchedAddress": "愛知県名古屋市千種区千種二丁目１６番１３号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市中村区名駅4-15-2 マルナカ食品センター": {
+    "longitude": 136.888519,
+    "latitude": 35.170147,
+    "matchedAddress": "愛知県名古屋市中村区名駅四丁目１５番２号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市東区矢田4-3-7": {
+    "longitude": 136.941925,
+    "latitude": 35.193916,
+    "matchedAddress": "愛知県名古屋市東区矢田四丁目３番７号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市神奈川区反町1-5-12 シティコープ反町 1F": {
+    "longitude": 139.626968,
+    "latitude": 35.474682,
+    "matchedAddress": "神奈川県横浜市神奈川区反町一丁目５番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都中野区中野5-56-12": {
+    "longitude": 139.666214,
+    "latitude": 35.708492,
+    "matchedAddress": "東京都中野区中野五丁目５６番１２号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市神奈川区反町2-15-14 ヒルトップ反町": {
+    "longitude": 139.627838,
+    "latitude": 35.476109,
+    "matchedAddress": "神奈川県横浜市神奈川区反町二丁目１５番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区弁天町20": {
+    "longitude": 139.726654,
+    "latitude": 35.704655,
+    "matchedAddress": "東京都新宿区弁天町２０番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都品川区中延2-15-10": {
+    "longitude": 139.711639,
+    "latitude": 35.609722,
+    "matchedAddress": "東京都品川区中延二丁目１５番１０号",
+    "source": "GSI Address Search API"
+  },
+  "東京都中野区東中野4-30-16 ライオンズマンション中野東 1F": {
+    "longitude": 139.685974,
+    "latitude": 35.710381,
+    "matchedAddress": "東京都中野区東中野四丁目３０番１６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区山吹町362 プレステージ362": {
+    "longitude": 139.73053,
+    "latitude": 35.709019,
+    "matchedAddress": "東京都新宿区山吹町３６２番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都目黒区下目黒3-4-6 サンライズ目黒 1Ｆ": {
+    "longitude": 139.709641,
+    "latitude": 35.630623,
+    "matchedAddress": "東京都目黒区下目黒三丁目４番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区神田司町2-2-8 マガザン神田 1F": {
+    "longitude": 139.767853,
+    "latitude": 35.692726,
+    "matchedAddress": "東京都千代田区神田司町二丁目２番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県柏市十余二249-5 MEM柏 1F": {
+    "longitude": 139.957626,
+    "latitude": 35.881977,
+    "matchedAddress": "千葉県柏市十余二２４９番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市中央区春日2-19-9": {
+    "longitude": 140.102585,
+    "latitude": 35.622307,
+    "matchedAddress": "千葉県千葉市中央区春日二丁目１９番９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都中央区日本橋蛎殻町2-2-2 山口ビル 1F": {
+    "longitude": 139.785751,
+    "latitude": 35.682602,
+    "matchedAddress": "東京都中央区日本橋蛎殻町二丁目２番２号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県川越市大字天沼新田197-1": {
+    "longitude": 139.424957,
+    "latitude": 35.935966,
+    "matchedAddress": "埼玉県川越市天沼新田１９７番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都品川区上大崎3-4-1 1F": {
+    "longitude": 139.718674,
+    "latitude": 35.634201,
+    "matchedAddress": "東京都品川区上大崎三丁目４番１号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市中央区中央3-9-14 Maison de 1F": {
+    "longitude": 140.123825,
+    "latitude": 35.609093,
+    "matchedAddress": "千葉県千葉市中央区中央三丁目９番１４号",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区台場1-7-1 アクアシティお台場 5F": {
+    "longitude": 139.77359,
+    "latitude": 35.627804,
+    "matchedAddress": "東京都港区台場一丁目７番",
+    "source": "GSI Address Search API"
+  },
+  "東京都板橋区大山金井町14-12": {
+    "longitude": 139.708008,
+    "latitude": 35.744957,
+    "matchedAddress": "東京都板橋区大山金井町１４番１２号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県柏市若柴1-25 レジデンス北斗 1F": {
+    "longitude": 139.957581,
+    "latitude": 35.888042,
+    "matchedAddress": "千葉県柏市若柴１番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区桜丘町1-4 渋谷サクラステージSHIBUYA サイド 1F": {
+    "longitude": 139.702011,
+    "latitude": 35.657001,
+    "matchedAddress": "東京都渋谷区桜丘町１番４号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県川崎市川崎区小川町8-14": {
+    "longitude": 139.69574,
+    "latitude": 35.526585,
+    "matchedAddress": "神奈川県川崎市川崎区小川町８番",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区内神田2-9‐11": {
+    "longitude": 139.768753,
+    "latitude": 35.691132,
+    "matchedAddress": "東京都千代田区内神田二丁目９番１１号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県八千代市米本2146": {
+    "longitude": 140.116074,
+    "latitude": 35.750309,
+    "matchedAddress": "千葉県八千代市米本２１４６番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都中野区中野5-62-7": {
+    "longitude": 139.666168,
+    "latitude": 35.706631,
+    "matchedAddress": "東京都中野区中野五丁目６２番７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区神田佐久間町3-20-1": {
+    "longitude": 139.778488,
+    "latitude": 35.697334,
+    "matchedAddress": "東京都千代田区神田佐久間町三丁目２０番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都足立区加平1-22-11": {
+    "longitude": 139.829941,
+    "latitude": 35.776329,
+    "matchedAddress": "東京都足立区加平一丁目２２番１１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都品川区荏原4-4-14": {
+    "longitude": 139.70813,
+    "latitude": 35.61615,
+    "matchedAddress": "東京都品川区荏原四丁目４番１４号",
+    "source": "GSI Address Search API"
+  },
+  "東京都墨田区錦糸1-8-12": {
+    "longitude": 139.811417,
+    "latitude": 35.69809,
+    "matchedAddress": "東京都墨田区錦糸一丁目８番１２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区千駄ヶ谷3-30-4 ホワイトキャッスル 1F": {
+    "longitude": 139.70755,
+    "latitude": 35.677307,
+    "matchedAddress": "東京都渋谷区千駄ケ谷三丁目３０番４号",
+    "source": "GSI Address Search API"
+  },
+  "東京都大田区西蒲田7-34-1": {
+    "longitude": 139.711136,
+    "latitude": 35.563496,
+    "matchedAddress": "東京都大田区西蒲田七丁目３４番１号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県八千代市八千代台北1-9-3": {
+    "longitude": 140.090179,
+    "latitude": 35.70269,
+    "matchedAddress": "千葉県八千代市八千代台北一丁目９番",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県秩父市阿保町11-27": {
+    "longitude": 139.087021,
+    "latitude": 36.018063,
+    "matchedAddress": "埼玉県秩父市阿保町１１番２７号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県秩父市番場町19-8": {
+    "longitude": 139.083572,
+    "latitude": 35.994286,
+    "matchedAddress": "埼玉県秩父市番場町１９番８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区神田駿河台2-10-6 御茶ノ水Sビル 1F": {
+    "longitude": 139.764282,
+    "latitude": 35.698906,
+    "matchedAddress": "東京都千代田区神田駿河台二丁目１０番",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区高円寺北2-21-4": {
+    "longitude": 139.649872,
+    "latitude": 35.706978,
+    "matchedAddress": "東京都杉並区高円寺北二丁目２１番４号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県成田市花崎町846-16": {
+    "longitude": 140.313965,
+    "latitude": 35.777115,
+    "matchedAddress": "千葉県成田市花崎町８４６番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県川崎市川崎区昭和2-14-10": {
+    "longitude": 139.737869,
+    "latitude": 35.529171,
+    "matchedAddress": "神奈川県川崎市川崎区昭和二丁目１４番",
+    "source": "GSI Address Search API"
+  },
+  "東京都中野区中野5-56-13": {
+    "longitude": 139.666382,
+    "latitude": 35.7085,
+    "matchedAddress": "東京都中野区中野五丁目５６番１３号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区西新宿7-2-6 Ｋ１ビル １Ｆ": {
+    "longitude": 139.698593,
+    "latitude": 35.695362,
+    "matchedAddress": "東京都新宿区西新宿七丁目２番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区新橋2東口地下街1号 ウィング新橋": {
+    "longitude": 139.757095,
+    "latitude": 35.666859,
+    "matchedAddress": "東京都港区新橋二丁目",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市中京区寺町通六角下ル式部町264": {
+    "longitude": 135.751389,
+    "latitude": 35.009998,
+    "matchedAddress": "京都府京都市中京区",
+    "source": "GSI Address Search API"
+  },
+  "東京都江戸川区西葛西5-2-15 旭屋商事ビル 1F": {
+    "longitude": 139.859482,
+    "latitude": 35.665867,
+    "matchedAddress": "東京都江戸川区西葛西五丁目２番１５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区西荻北3-20-12 グラツィオーソ西荻窪 104": {
+    "longitude": 139.600586,
+    "latitude": 35.704487,
+    "matchedAddress": "東京都杉並区西荻北三丁目２０番１２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都福生市熊川１６５５−３": {
+    "longitude": 139.343826,
+    "latitude": 35.722923,
+    "matchedAddress": "東京都福生市熊川１６５５番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市緑区十日市場町838-1": {
+    "longitude": 139.515915,
+    "latitude": 35.523312,
+    "matchedAddress": "神奈川県横浜市緑区十日市場町８３８番地",
+    "source": "GSI Address Search API"
+  },
+  "山形県山形市風間字有在家938-1": {
+    "longitude": 140.381866,
+    "latitude": 38.295528,
+    "matchedAddress": "山形県山形市風間",
+    "source": "GSI Address Search API"
+  },
+  "山形県山形市大字漆山1318-2": {
+    "longitude": 140.363632,
+    "latitude": 38.309498,
+    "matchedAddress": "山形県山形市漆山１３１８番地",
+    "source": "GSI Address Search API"
+  },
+  "山形県山形市久保田2-1-6": {
+    "longitude": 140.314667,
+    "latitude": 38.25161,
+    "matchedAddress": "山形県山形市久保田二丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県川越市小堤910-28": {
+    "longitude": 139.423859,
+    "latitude": 35.936676,
+    "matchedAddress": "埼玉県川越市小堤９１０番地",
+    "source": "GSI Address Search API"
+  },
+  "茨城県牛久市ひたち野東3-1-3": {
+    "longitude": 140.1707,
+    "latitude": 36.004124,
+    "matchedAddress": "茨城県牛久市ひたち野東三丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "東京都葛飾区金町5-24-16": {
+    "longitude": 139.869095,
+    "latitude": 35.765957,
+    "matchedAddress": "東京都葛飾区金町五丁目２４番１６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都練馬区東大泉2-9-18 大泉源第2ビル 108": {
+    "longitude": 139.593781,
+    "latitude": 35.751793,
+    "matchedAddress": "東京都練馬区東大泉二丁目９番１８号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県つくば市研究学園5-6-6 D12ビル 1F": {
+    "longitude": 140.080917,
+    "latitude": 36.083836,
+    "matchedAddress": "茨城県つくば市研究学園五丁目６番地",
+    "source": "GSI Address Search API"
+  },
+  "栃木県小山市横倉596-76": {
+    "longitude": 139.829132,
+    "latitude": 36.280884,
+    "matchedAddress": "栃木県小山市横倉５９６番地",
+    "source": "GSI Address Search API"
+  },
+  "北海道小樽市住吉町14-8": {
+    "longitude": 141.010056,
+    "latitude": 43.186665,
+    "matchedAddress": "北海道小樽市住吉町１４番",
+    "source": "GSI Address Search API"
+  },
+  "北海道小樽市新富町13-13": {
+    "longitude": 141.009048,
+    "latitude": 43.181438,
+    "matchedAddress": "北海道小樽市新富町１３番",
+    "source": "GSI Address Search API"
+  },
+  "青森県青森市八重田4-3-8": {
+    "longitude": 140.799866,
+    "latitude": 40.828129,
+    "matchedAddress": "青森県青森市八重田四丁目３番８号",
+    "source": "GSI Address Search API"
+  },
+  "青森県青森市栄町1丁目6-8": {
+    "longitude": 140.766449,
+    "latitude": 40.824596,
+    "matchedAddress": "青森県青森市栄町一丁目６番８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都大田区蒲田5-18-2": {
+    "longitude": 139.717957,
+    "latitude": 35.562664,
+    "matchedAddress": "東京都大田区蒲田五丁目１８番２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都中野区野方6-23-12": {
+    "longitude": 139.652512,
+    "latitude": 35.722389,
+    "matchedAddress": "東京都中野区野方六丁目２３番１２号",
+    "source": "GSI Address Search API"
+  },
+  "北海道札幌市東区北31条東1-1-8": {
+    "longitude": 141.34584,
+    "latitude": 43.098808,
+    "matchedAddress": "北海道札幌市東区北三十一条東一丁目１番８号",
+    "source": "GSI Address Search API"
+  },
+  "北海道札幌市中央区北11条西22-1-26 卸売センター 万歳市場 1F": {
+    "longitude": 141.320587,
+    "latitude": 43.070446,
+    "matchedAddress": "北海道札幌市中央区北十一条西二十二丁目１番２６号",
+    "source": "GSI Address Search API"
+  },
+  "静岡県藤枝市志太2丁目2-26-1": {
+    "longitude": 138.249008,
+    "latitude": 34.86211,
+    "matchedAddress": "静岡県藤枝市志太二丁目２番２６号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県結城市結城字油内7060-1": {
+    "longitude": 139.872223,
+    "latitude": 36.29734,
+    "matchedAddress": "茨城県結城市結城",
+    "source": "GSI Address Search API"
+  },
+  "静岡県藤枝市南新屋275–11": {
+    "longitude": 138.247833,
+    "latitude": 34.856762,
+    "matchedAddress": "静岡県藤枝市南新屋",
+    "source": "GSI Address Search API"
+  },
+  "千葉県松戸市上本郷618-1 マンション第八松戸 109": {
+    "longitude": 139.910217,
+    "latitude": 35.80431,
+    "matchedAddress": "千葉県松戸市上本郷６１８番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市神奈川区反町1-3-4 ルミノ反町 1F": {
+    "longitude": 139.628006,
+    "latitude": 35.474197,
+    "matchedAddress": "神奈川県横浜市神奈川区反町一丁目３番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県川崎市中原区新城4-4-15 森善ビル 101": {
+    "longitude": 139.629883,
+    "latitude": 35.583313,
+    "matchedAddress": "神奈川県川崎市中原区新城四丁目４番",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県川崎市中原区下小田中1-6-19": {
+    "longitude": 139.639389,
+    "latitude": 35.581337,
+    "matchedAddress": "神奈川県川崎市中原区下小田中一丁目６番",
+    "source": "GSI Address Search API"
+  },
+  "兵庫県神戸市東灘区住吉宮町6-14-12": {
+    "longitude": 135.259842,
+    "latitude": 34.717842,
+    "matchedAddress": "兵庫県神戸市東灘区住吉宮町六丁目１４番１２号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県鎌ケ谷市東道野辺3-3-16": {
+    "longitude": 139.998657,
+    "latitude": 35.754494,
+    "matchedAddress": "千葉県鎌ケ谷市東道野辺三丁目３番１６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都葛飾区立石8-3-6 1F": {
+    "longitude": 139.850555,
+    "latitude": 35.738682,
+    "matchedAddress": "東京都葛飾区立石八丁目３番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区四ツ谷1-4": {
+    "longitude": 139.728683,
+    "latitude": 35.686832,
+    "matchedAddress": "東京都新宿区四谷一丁目４番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県川口市並木元町1-48": {
+    "longitude": 139.715515,
+    "latitude": 35.809204,
+    "matchedAddress": "埼玉県川口市並木元町１番４８号",
+    "source": "GSI Address Search API"
+  },
+  "青森県青森市筒井八ツ橋1377-1": {
+    "longitude": 140.766724,
+    "latitude": 40.799343,
+    "matchedAddress": "青森県青森市大字筒井八ツ橋１３７７番地",
+    "source": "GSI Address Search API"
+  },
+  "山形県新庄市金沢797-2": {
+    "longitude": 140.311096,
+    "latitude": 38.765919,
+    "matchedAddress": "山形県新庄市金沢７９７番地",
+    "source": "GSI Address Search API"
+  },
+  "北海道札幌市中央区北1条西2-1-3 りんどうビル B1F": {
+    "longitude": 141.353439,
+    "latitude": 43.063171,
+    "matchedAddress": "北海道札幌市中央区北一条西二丁目１番地",
+    "source": "GSI Address Search API"
+  },
+  "兵庫県神戸市兵庫区新開地6-2-3 1F": {
+    "longitude": 135.175201,
+    "latitude": 34.675629,
+    "matchedAddress": "兵庫県神戸市兵庫区新開地六丁目２番３号",
+    "source": "GSI Address Search API"
+  },
+  "東京都練馬区石神井町1-26-10 光栄ビル 1F": {
+    "longitude": 139.608398,
+    "latitude": 35.743103,
+    "matchedAddress": "東京都練馬区石神井町一丁目２６番１０号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区西早稲田1-8-19 日興パレセゾン 101": {
+    "longitude": 139.720261,
+    "latitude": 35.71022,
+    "matchedAddress": "東京都新宿区西早稲田一丁目８番１９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都江東区南砂5-21-4": {
+    "longitude": 139.833633,
+    "latitude": 35.675266,
+    "matchedAddress": "東京都江東区南砂五丁目２１番４号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区東池袋1-29-1 マルビル 4F": {
+    "longitude": 139.716522,
+    "latitude": 35.730293,
+    "matchedAddress": "東京都豊島区東池袋一丁目２９番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都世田谷区上北沢4-19-18 上北沢ハイネスコーポ1F": {
+    "longitude": 139.622421,
+    "latitude": 35.67062,
+    "matchedAddress": "東京都世田谷区上北沢四丁目１９番１８号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市瑞穂区明前町13-19 堀田グリーンハイツ 1F": {
+    "longitude": 136.921738,
+    "latitude": 35.111908,
+    "matchedAddress": "愛知県名古屋市瑞穂区明前町１３番１９号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県犬山市東古券312-2": {
+    "longitude": 136.973999,
+    "latitude": 35.342381,
+    "matchedAddress": "愛知県犬山市東桑原",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区道玄坂2-25-5 島田ビル 1F": {
+    "longitude": 139.696457,
+    "latitude": 35.660236,
+    "matchedAddress": "東京都渋谷区道玄坂二丁目２５番５号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県つくば市筑穂1-13-2": {
+    "longitude": 140.085266,
+    "latitude": 36.134762,
+    "matchedAddress": "茨城県つくば市筑穂一丁目１３番",
+    "source": "GSI Address Search API"
+  },
+  "東京都葛飾区堀切5-29-1": {
+    "longitude": 139.828949,
+    "latitude": 35.749161,
+    "matchedAddress": "東京都葛飾区堀切五丁目２９番１号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市中区栄3-13-1 南呉服町ビル1F": {
+    "longitude": 136.904877,
+    "latitude": 35.166622,
+    "matchedAddress": "愛知県名古屋市中区栄三丁目１３番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区池袋2-12-1 大晃第二ビル １Ｆ": {
+    "longitude": 139.707413,
+    "latitude": 35.732235,
+    "matchedAddress": "東京都豊島区池袋二丁目１２番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区西池袋1-18-1 五光ビル 1F": {
+    "longitude": 139.709244,
+    "latitude": 35.731182,
+    "matchedAddress": "東京都豊島区西池袋一丁目１８番１号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県川崎市中原区新丸子町７５４": {
+    "longitude": 139.659943,
+    "latitude": 35.580372,
+    "matchedAddress": "神奈川県川崎市中原区新丸子町７５４番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県川口市芝5-2-14": {
+    "longitude": 139.690872,
+    "latitude": 35.831387,
+    "matchedAddress": "埼玉県川口市芝五丁目２番１４号",
+    "source": "GSI Address Search API"
+  },
+  "東京都八王子市並木町14-19": {
+    "longitude": 139.300873,
+    "latitude": 35.651749,
+    "matchedAddress": "東京都八王子市並木町１４番１９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都多摩市愛宕4-8-12": {
+    "longitude": 139.429718,
+    "latitude": 35.62851,
+    "matchedAddress": "東京都多摩市愛宕四丁目８番",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県さいたま市桜区五関6-1": {
+    "longitude": 139.598419,
+    "latitude": 35.871731,
+    "matchedAddress": "埼玉県さいたま市桜区五関６番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都府中市美好町1-33-1": {
+    "longitude": 139.467972,
+    "latitude": 35.673824,
+    "matchedAddress": "東京都府中市美好町一丁目３３番",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区西早稲田1-10-4": {
+    "longitude": 139.721848,
+    "latitude": 35.711128,
+    "matchedAddress": "東京都新宿区西早稲田一丁目１０番４号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県厚木市妻田東2-25-11": {
+    "longitude": 139.359421,
+    "latitude": 35.457947,
+    "matchedAddress": "神奈川県厚木市妻田東二丁目２５番１１号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県大和市鶴間2-12-32": {
+    "longitude": 139.455048,
+    "latitude": 35.491051,
+    "matchedAddress": "神奈川県大和市鶴間二丁目１２番３２号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市栄区桂181-12": {
+    "longitude": 139.561646,
+    "latitude": 35.35817,
+    "matchedAddress": "神奈川県横浜市栄区桂台西",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市中川区上脇町2-116": {
+    "longitude": 136.873581,
+    "latitude": 35.135212,
+    "matchedAddress": "愛知県名古屋市中川区上脇町二丁目１１６番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都葛飾区東金町1-39-1 グリーンハイツ金町 1F": {
+    "longitude": 139.87204,
+    "latitude": 35.770794,
+    "matchedAddress": "東京都葛飾区東金町一丁目３９番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都練馬区関町南4-25-18": {
+    "longitude": 139.566986,
+    "latitude": 35.722954,
+    "matchedAddress": "東京都練馬区関町南四丁目２５番１８号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市港区十一屋町3-25-7": {
+    "longitude": 136.848465,
+    "latitude": 35.097279,
+    "matchedAddress": "愛知県名古屋市港区十一屋町",
+    "source": "GSI Address Search API"
+  },
+  "東京都大田区西蒲田7-1-5": {
+    "longitude": 139.716232,
+    "latitude": 35.563541,
+    "matchedAddress": "東京都大田区西蒲田七丁目１番５号",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市西区江戸堀1-23-21 ビエラ江戸堀 1F": {
+    "longitude": 135.493118,
+    "latitude": 34.689129,
+    "matchedAddress": "大阪府大阪市西区江戸堀一丁目２３番２１号",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市東淀川区瑞光2-2-21": {
+    "longitude": 135.536987,
+    "latitude": 34.749931,
+    "matchedAddress": "大阪府大阪市東淀川区瑞光二丁目２番２１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都八王子市子安町1-7-5": {
+    "longitude": 139.339813,
+    "latitude": 35.653072,
+    "matchedAddress": "東京都八王子市子安町一丁目７番５号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県知多郡阿久比町大字白沢字天神裏2-11": {
+    "longitude": 136.914352,
+    "latitude": 34.9566,
+    "matchedAddress": "愛知県阿久比町大字白沢天神裏２番地",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市緑区徳重5-1301": {
+    "longitude": 136.994003,
+    "latitude": 35.087456,
+    "matchedAddress": "愛知県名古屋市緑区徳重五丁目１３０１番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市金沢区谷津町347 千輝ビル 101": {
+    "longitude": 139.622864,
+    "latitude": 35.342937,
+    "matchedAddress": "神奈川県横浜市金沢区谷津町３４７番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都練馬区東大泉1-27-20": {
+    "longitude": 139.58783,
+    "latitude": 35.750294,
+    "matchedAddress": "東京都練馬区東大泉一丁目２７番２０号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県船橋市習志野台2-2-15": {
+    "longitude": 140.041122,
+    "latitude": 35.722412,
+    "matchedAddress": "千葉県船橋市習志野台二丁目２番１５号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県市川市末広1-18-13 SATOMI-4番館": {
+    "longitude": 139.918045,
+    "latitude": 35.68388,
+    "matchedAddress": "千葉県市川市末広一丁目１８番１３号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県船橋市西習志野3-27-12": {
+    "longitude": 140.041946,
+    "latitude": 35.720997,
+    "matchedAddress": "千葉県船橋市西習志野三丁目２７番１２号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県船橋市本町7-23-14 文平ビル 1F": {
+    "longitude": 139.981766,
+    "latitude": 35.706631,
+    "matchedAddress": "千葉県船橋市本町七丁目２３番１４号",
+    "source": "GSI Address Search API"
+  },
+  "東京都江戸川区船堀3-2-7 岩井ビル": {
+    "longitude": 139.863159,
+    "latitude": 35.682415,
+    "matchedAddress": "東京都江戸川区船堀三丁目２番７号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県市川市市川南1-2-22": {
+    "longitude": 139.908646,
+    "latitude": 35.727661,
+    "matchedAddress": "千葉県市川市市川南一丁目２番２２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都中央区銀座3-11-6 鈴木ビル 1F": {
+    "longitude": 139.76889,
+    "latitude": 35.670845,
+    "matchedAddress": "東京都中央区銀座三丁目１１番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区虎ノ門1-17-1 虎ノ門ヒルズ ビジネスタワー B1F": {
+    "longitude": 139.749924,
+    "latitude": 35.667774,
+    "matchedAddress": "東京都港区虎ノ門一丁目１７番",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区神田神保町1-12 島田ビル 1F": {
+    "longitude": 139.758362,
+    "latitude": 35.696396,
+    "matchedAddress": "東京都千代田区神田神保町一丁目１２番",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区神宮前6-5-6 サンポウ綜合ビル2F": {
+    "longitude": 139.705078,
+    "latitude": 35.667889,
+    "matchedAddress": "東京都渋谷区神宮前六丁目５番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都立川市錦町1-2-16 立川アーバンホテル 立川らーめんたま館": {
+    "longitude": 139.416199,
+    "latitude": 35.697098,
+    "matchedAddress": "東京都立川市錦町一丁目２番１６号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県市川市高谷3-8-1": {
+    "longitude": 139.936569,
+    "latitude": 35.696545,
+    "matchedAddress": "千葉県市川市高谷三丁目８番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都板橋区大和町23-2": {
+    "longitude": 139.703598,
+    "latitude": 35.760971,
+    "matchedAddress": "東京都板橋区大和町２３番２号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県春日井市不二ガ丘1-6": {
+    "longitude": 137.013657,
+    "latitude": 35.267239,
+    "matchedAddress": "愛知県春日井市不二ガ丘一丁目６番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区神田小川町3-22 内外地図ビル": {
+    "longitude": 139.762054,
+    "latitude": 35.696419,
+    "matchedAddress": "東京都千代田区神田小川町三丁目２２番",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県三郷市三郷1-2-7": {
+    "longitude": 139.887177,
+    "latitude": 35.844322,
+    "matchedAddress": "埼玉県三郷市三郷一丁目２番",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県八潮市八条1512-1": {
+    "longitude": 139.837189,
+    "latitude": 35.846733,
+    "matchedAddress": "埼玉県八潮市八條１５１２番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区西池袋1-34-4 共栄ビル 1～3F": {
+    "longitude": 139.710251,
+    "latitude": 35.732609,
+    "matchedAddress": "東京都豊島区西池袋一丁目３４番４号",
+    "source": "GSI Address Search API"
+  },
+  "東京都台東区浅草橋1-28-9 ROJI ASAKUSABASHI 1F": {
+    "longitude": 139.785461,
+    "latitude": 35.697987,
+    "matchedAddress": "東京都台東区浅草橋一丁目２８番９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区高田馬場2-14-27 花富士ビル 1F": {
+    "longitude": 139.707413,
+    "latitude": 35.71307,
+    "matchedAddress": "東京都新宿区高田馬場二丁目１４番２７号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県松戸市松戸1339 高橋ビル 1F": {
+    "longitude": 139.901077,
+    "latitude": 35.781601,
+    "matchedAddress": "千葉県松戸市松戸１３３９番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県相模原市南区相模大野5-27-5 ショウ・ハウジング 2F": {
+    "longitude": 139.432724,
+    "latitude": 35.532162,
+    "matchedAddress": "神奈川県相模原市南区相模大野五丁目２７番５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都八王子市上野町15-4 上野町ビル 1F": {
+    "longitude": 139.32814,
+    "latitude": 35.655495,
+    "matchedAddress": "東京都八王子市上野町１５番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都立川市柏町2-39-46": {
+    "longitude": 139.411697,
+    "latitude": 35.721352,
+    "matchedAddress": "東京都立川市柏町二丁目３９番",
+    "source": "GSI Address Search API"
+  },
+  "東京都町田市森野3-18-17 WING森野 1F": {
+    "longitude": 139.438538,
+    "latitude": 35.553379,
+    "matchedAddress": "東京都町田市森野三丁目１８番１７号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県佐野市浅沼町780-3": {
+    "longitude": 139.592178,
+    "latitude": 36.309013,
+    "matchedAddress": "栃木県佐野市浅沼町７８０番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区九段南4-7-22": {
+    "longitude": 139.739304,
+    "latitude": 35.69125,
+    "matchedAddress": "東京都千代田区九段南四丁目７番２２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都中央区八丁堀2-8-1": {
+    "longitude": 139.775314,
+    "latitude": 35.676952,
+    "matchedAddress": "東京都中央区八丁堀二丁目８番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区浜田山2-19-6 パークフォンテA": {
+    "longitude": 139.627365,
+    "latitude": 35.681488,
+    "matchedAddress": "東京都杉並区浜田山二丁目１９番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都福生市志茂49-1": {
+    "longitude": 139.329651,
+    "latitude": 35.735485,
+    "matchedAddress": "東京都福生市志茂４９番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都練馬区練馬1-5-2 新日本パレス本社ビル 1F": {
+    "longitude": 139.653641,
+    "latitude": 35.737293,
+    "matchedAddress": "東京都練馬区練馬一丁目５番２号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県水戸市宮町1-7-31 水戸駅ビル エクセルみなみ 4F": {
+    "longitude": 140.476166,
+    "latitude": 36.369995,
+    "matchedAddress": "茨城県水戸市宮町一丁目７番３１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区丸の内1-9-1 東京駅一番街 B1F 東京ラーメンストリート": {
+    "longitude": 139.767242,
+    "latitude": 35.681252,
+    "matchedAddress": "東京都千代田区丸の内一丁目９番",
+    "source": "GSI Address Search API"
+  },
+  "青森県青森市浪館泉川34-51": {
+    "longitude": 140.721558,
+    "latitude": 40.806934,
+    "matchedAddress": "青森県青森市大字浪館泉川",
+    "source": "GSI Address Search API"
+  },
+  "青森県青森市大字八ツ役231-3": {
+    "longitude": 140.746094,
+    "latitude": 40.785408,
+    "matchedAddress": "青森県青森市大字八ツ役",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区上荻1-4-9": {
+    "longitude": 139.622528,
+    "latitude": 35.704929,
+    "matchedAddress": "東京都杉並区上荻一丁目４番９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都練馬区小竹町1-58-2 桑原ビル 1F": {
+    "longitude": 139.673477,
+    "latitude": 35.737698,
+    "matchedAddress": "東京都練馬区小竹町一丁目５８番２号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県四街道市もねの里6-10-20": {
+    "longitude": 140.19101,
+    "latitude": 35.685841,
+    "matchedAddress": "千葉県四街道市もねの里六丁目１０番２０号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県さいたま市浦和区仲町2-2-6": {
+    "longitude": 139.65239,
+    "latitude": 35.859589,
+    "matchedAddress": "埼玉県さいたま市浦和区仲町二丁目２番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都世田谷区南烏山6-5-7 明光ビル新館": {
+    "longitude": 139.599609,
+    "latitude": 35.668331,
+    "matchedAddress": "東京都世田谷区南烏山六丁目５番７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区住吉町6-12 井上第3ビル": {
+    "longitude": 139.72171,
+    "latitude": 35.69289,
+    "matchedAddress": "東京都新宿区住吉町６番１２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区丸ノ内1-9-1 東京駅一番街 B1F": {
+    "longitude": 139.767242,
+    "latitude": 35.681252,
+    "matchedAddress": "東京都千代田区丸の内一丁目９番",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区赤坂5-1-36": {
+    "longitude": 139.735352,
+    "latitude": 35.673645,
+    "matchedAddress": "東京都港区赤坂五丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "千葉県佐倉市六崎1053-1": {
+    "longitude": 140.230637,
+    "latitude": 35.703266,
+    "matchedAddress": "千葉県佐倉市六崎１０５３番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区神田小川町1-7 神田小川町ハイツ": {
+    "longitude": 139.765594,
+    "latitude": 35.694077,
+    "matchedAddress": "東京都千代田区神田小川町一丁目７番",
+    "source": "GSI Address Search API"
+  },
+  "東京都大田区西蒲田7-65-8": {
+    "longitude": 139.713623,
+    "latitude": 35.562088,
+    "matchedAddress": "東京都大田区西蒲田七丁目６５番８号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県水戸市栄町1-1-1": {
+    "longitude": 140.459137,
+    "latitude": 36.381611,
+    "matchedAddress": "茨城県水戸市栄町一丁目１番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区西神田2-8-9 ウインド水道橋ビル 1F": {
+    "longitude": 139.755707,
+    "latitude": 35.699654,
+    "matchedAddress": "東京都千代田区西神田二丁目８番９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区高田馬場1-4-18": {
+    "longitude": 139.709625,
+    "latitude": 35.711468,
+    "matchedAddress": "東京都新宿区高田馬場一丁目４番１８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区東池袋1-12-14": {
+    "longitude": 139.714783,
+    "latitude": 35.729404,
+    "matchedAddress": "東京都豊島区東池袋一丁目１２番１４号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区西池袋1-34-4 1F": {
+    "longitude": 139.710251,
+    "latitude": 35.732609,
+    "matchedAddress": "東京都豊島区西池袋一丁目３４番４号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区歌舞伎町2-37-5 日新ビル 1F": {
+    "longitude": 139.701874,
+    "latitude": 35.696198,
+    "matchedAddress": "東京都新宿区歌舞伎町二丁目３７番５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区歌舞伎町1-14-1 1F・2F": {
+    "longitude": 139.702072,
+    "latitude": 35.694347,
+    "matchedAddress": "東京都新宿区歌舞伎町一丁目１４番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区宇田川町24-6 鉄人門渋ビルヂング １Ｆ": {
+    "longitude": 139.699326,
+    "latitude": 35.660206,
+    "matchedAddress": "東京都渋谷区宇田川町２４番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区千駄ヶ谷2-33-9": {
+    "longitude": 139.712494,
+    "latitude": 35.676544,
+    "matchedAddress": "東京都渋谷区千駄ケ谷二丁目３３番９号",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市中京区寺町通二条下る榎木町99-1": {
+    "longitude": 135.751389,
+    "latitude": 35.009998,
+    "matchedAddress": "京都府京都市中京区",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市中京区中之町565-23 ハレの日 花遊小路 2F": {
+    "longitude": 135.767471,
+    "latitude": 35.004189,
+    "matchedAddress": "京都府京都市中京区中之町５６５番地",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市中京区河原町通蛸薬師上る奈良屋町292-3": {
+    "longitude": 135.751389,
+    "latitude": 35.009998,
+    "matchedAddress": "京都府京都市中京区",
+    "source": "GSI Address Search API"
+  },
+  "岩手県花巻市上町6-2 マルカンビル6F": {
+    "longitude": 141.117126,
+    "latitude": 39.38591,
+    "matchedAddress": "岩手県花巻市上町６番２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区高田馬場2-8-5 中島ビル 1F": {
+    "longitude": 139.708267,
+    "latitude": 35.711918,
+    "matchedAddress": "東京都新宿区高田馬場二丁目８番５号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県比企郡滑川町羽尾4340-1": {
+    "longitude": 139.373825,
+    "latitude": 36.055679,
+    "matchedAddress": "埼玉県滑川町羽尾４３４０番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県坂戸市善能寺57-15": {
+    "longitude": 139.352692,
+    "latitude": 35.965469,
+    "matchedAddress": "埼玉県坂戸市善能寺５７番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都北区東十条4-10-6 グリーンコーポ 101": {
+    "longitude": 139.729507,
+    "latitude": 35.767986,
+    "matchedAddress": "東京都北区東十条四丁目１０番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都世田谷区千歳台1-23-12": {
+    "longitude": 139.617371,
+    "latitude": 35.64735,
+    "matchedAddress": "東京都世田谷区千歳台一丁目２３番１２号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県八千代市八千代台南2-10-38": {
+    "longitude": 140.092468,
+    "latitude": 35.697147,
+    "matchedAddress": "千葉県八千代市八千代台南二丁目１０番３８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都武蔵野市西久保2-15-27": {
+    "longitude": 139.559647,
+    "latitude": 35.709469,
+    "matchedAddress": "東京都武蔵野市西久保二丁目１５番２７号",
+    "source": "GSI Address Search API"
+  },
+  "三重県四日市市西日野町606-7": {
+    "longitude": 136.587677,
+    "latitude": 34.951767,
+    "matchedAddress": "三重県四日市市西日野町６０６番地",
+    "source": "GSI Address Search API"
+  },
+  "三重県桑名市京町39": {
+    "longitude": 136.693512,
+    "latitude": 35.063465,
+    "matchedAddress": "三重県桑名市京町３９番地",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市中村区下中村町1-3": {
+    "longitude": 136.863754,
+    "latitude": 35.165031,
+    "matchedAddress": "愛知県名古屋市中村区下中村町一丁目３番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都狛江市元和泉1-8-12": {
+    "longitude": 139.577042,
+    "latitude": 35.631969,
+    "matchedAddress": "東京都狛江市元和泉一丁目８番",
+    "source": "GSI Address Search API"
+  },
+  "千葉県木更津市港南台4-2-7": {
+    "longitude": 139.910889,
+    "latitude": 35.348167,
+    "matchedAddress": "千葉県木更津市港南台四丁目２番",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県川越市新河岸大字砂929-2": {
+    "longitude": 139.480759,
+    "latitude": 35.902931,
+    "matchedAddress": "埼玉県川越市新宿町",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県鶴ヶ島市藤金274": {
+    "longitude": 139.408432,
+    "latitude": 35.942924,
+    "matchedAddress": "埼玉県鶴ヶ島市藤金２７４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都台東区浅草2-22-10": {
+    "longitude": 139.794006,
+    "latitude": 35.716774,
+    "matchedAddress": "東京都台東区浅草二丁目２２番１０号",
+    "source": "GSI Address Search API"
+  },
+  "東京都練馬区田柄2-33-15": {
+    "longitude": 139.644653,
+    "latitude": 35.76881,
+    "matchedAddress": "東京都練馬区田柄二丁目３３番１５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区西新宿3-20-2 東京オペラシティビル Ｂ1F": {
+    "longitude": 139.685852,
+    "latitude": 35.684101,
+    "matchedAddress": "東京都新宿区西新宿三丁目２０番２号",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市北区紫野西蓮台野町57 ＵＫハイム １Ｆ": {
+    "longitude": 135.739014,
+    "latitude": 35.046566,
+    "matchedAddress": "京都府京都市北区紫野西蓮台野町５７番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都目黒区祐天寺2-4-3 バルト祐天寺 1F": {
+    "longitude": 139.693207,
+    "latitude": 35.637768,
+    "matchedAddress": "東京都目黒区祐天寺二丁目４番３号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県川崎市川崎区宮前町2-4": {
+    "longitude": 139.703903,
+    "latitude": 35.528206,
+    "matchedAddress": "神奈川県川崎市川崎区宮前町２番",
+    "source": "GSI Address Search API"
+  },
+  "東京都東久留米市下里1-11-8 本村ビル": {
+    "longitude": 139.507721,
+    "latitude": 35.757229,
+    "matchedAddress": "東京都東久留米市下里一丁目１１番８号",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市左京区一乗寺高槻町20-2": {
+    "longitude": 135.78537,
+    "latitude": 35.044338,
+    "matchedAddress": "京都府京都市左京区一乗寺高槻町２０番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区神田三崎町3-1-18 MH水道橋ビル 1F": {
+    "longitude": 139.753082,
+    "latitude": 35.699371,
+    "matchedAddress": "東京都千代田区神田三崎町三丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "青森県青森市篠田2-27-16": {
+    "longitude": 140.727783,
+    "latitude": 40.830006,
+    "matchedAddress": "青森県青森市篠田二丁目２７番１６号",
+    "source": "GSI Address Search API"
+  },
+  "青森県青森市大字筒井字八ツ橋40-5": {
+    "longitude": 140.769455,
+    "latitude": 40.7962,
+    "matchedAddress": "青森県青森市大字筒井八ツ橋４０番地",
+    "source": "GSI Address Search API"
+  },
+  "山梨県北都留郡小菅村大久保3337": {
+    "longitude": 138.949539,
+    "latitude": 35.752354,
+    "matchedAddress": "山梨県小菅村大久保",
+    "source": "GSI Address Search API"
+  },
+  "千葉県八千代市神久保75-14": {
+    "longitude": 140.091431,
+    "latitude": 35.771126,
+    "matchedAddress": "千葉県八千代市神久保７５番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県秦野市堀西89-3": {
+    "longitude": 139.188416,
+    "latitude": 35.376236,
+    "matchedAddress": "神奈川県秦野市堀西８９番地",
+    "source": "GSI Address Search API"
+  },
+  "福岡県北九州市若松区青葉台南3-1-5": {
+    "longitude": 130.697403,
+    "latitude": 33.895714,
+    "matchedAddress": "福岡県北九州市若松区青葉台南三丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "福岡県北九州市八幡西区鷹の巣1-19-7": {
+    "longitude": 130.746643,
+    "latitude": 33.854935,
+    "matchedAddress": "福岡県北九州市八幡西区鷹の巣一丁目１９番７号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県狭山市下奥富1354-2": {
+    "longitude": 139.434952,
+    "latitude": 35.880875,
+    "matchedAddress": "埼玉県狭山市下奥富１３５４番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県習志野市大久保3-9-12": {
+    "longitude": 140.05011,
+    "latitude": 35.690983,
+    "matchedAddress": "千葉県習志野市大久保三丁目９番１２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区西早稲田3-13-4 1F": {
+    "longitude": 139.713959,
+    "latitude": 35.709942,
+    "matchedAddress": "東京都新宿区西早稲田三丁目１３番４号",
+    "source": "GSI Address Search API"
+  },
+  "福岡県北九州市小倉北区三郎丸3-6-29": {
+    "longitude": 130.887833,
+    "latitude": 33.868591,
+    "matchedAddress": "福岡県北九州市小倉北区三郎丸三丁目６番２９号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市昭和区御器所通1-12 翠明ビル 1F": {
+    "longitude": 136.927933,
+    "latitude": 35.149445,
+    "matchedAddress": "愛知県名古屋市昭和区御器所通一丁目１２番地",
+    "source": "GSI Address Search API"
+  },
+  "岩手県盛岡市西青山2-26-20": {
+    "longitude": 141.106796,
+    "latitude": 39.729553,
+    "matchedAddress": "岩手県盛岡市西青山二丁目２６番２０号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市天白区塩釜口2-801": {
+    "longitude": 136.978577,
+    "latitude": 35.134033,
+    "matchedAddress": "愛知県名古屋市天白区塩釜口二丁目８０１番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市神奈川区大口通11-5": {
+    "longitude": 139.644608,
+    "latitude": 35.490452,
+    "matchedAddress": "神奈川県横浜市神奈川区大口通１１番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県相模原市南区相模大野6-14-9": {
+    "longitude": 139.432846,
+    "latitude": 35.529911,
+    "matchedAddress": "神奈川県相模原市南区相模大野六丁目１４番９号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県厚木市幸町9-6": {
+    "longitude": 139.370544,
+    "latitude": 35.441242,
+    "matchedAddress": "神奈川県厚木市幸町９番６号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県刈谷市桜町1-33 エトワールビル1階": {
+    "longitude": 137.008331,
+    "latitude": 34.99173,
+    "matchedAddress": "愛知県刈谷市桜町一丁目３３番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県習志野市大久保1-16-18 プラザグレミオ 1F": {
+    "longitude": 140.049347,
+    "latitude": 35.688534,
+    "matchedAddress": "千葉県習志野市大久保一丁目１６番１８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都目黒区上目黒3-5-25": {
+    "longitude": 139.697144,
+    "latitude": 35.642811,
+    "matchedAddress": "東京都目黒区上目黒三丁目５番２５号",
+    "source": "GSI Address Search API"
+  },
+  "三重県四日市市小生町23-1": {
+    "longitude": 136.577286,
+    "latitude": 34.975132,
+    "matchedAddress": "三重県四日市市小生町",
+    "source": "GSI Address Search API"
+  },
+  "東京都北区東十条4-1-3": {
+    "longitude": 139.726501,
+    "latitude": 35.765549,
+    "matchedAddress": "東京都北区東十条四丁目１番３号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県飯能市東町8-16": {
+    "longitude": 139.322281,
+    "latitude": 35.853855,
+    "matchedAddress": "埼玉県飯能市東町８番１６号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県日高市栗坪26-46": {
+    "longitude": 139.313126,
+    "latitude": 35.887962,
+    "matchedAddress": "埼玉県日高市栗坪２６番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県所沢市狭山ヶ丘1-3003-83": {
+    "longitude": 139.414047,
+    "latitude": 35.809231,
+    "matchedAddress": "埼玉県所沢市狭山ケ丘一丁目３００３番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都大田区南蒲田1-22-12": {
+    "longitude": 139.724823,
+    "latitude": 35.557579,
+    "matchedAddress": "東京都大田区南蒲田一丁目２２番１２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区外神田4-6-7 カンダエイトビル 1F": {
+    "longitude": 139.772308,
+    "latitude": 35.702164,
+    "matchedAddress": "東京都千代田区外神田四丁目６番７号",
+    "source": "GSI Address Search API"
+  },
+  "福岡県福岡市博多区東那珂2-4-31": {
+    "longitude": 130.445557,
+    "latitude": 33.578213,
+    "matchedAddress": "福岡県福岡市博多区東那珂二丁目４番３１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都武蔵野市吉祥寺本町1-35-17 吉祥寺ビル 1F": {
+    "longitude": 139.584702,
+    "latitude": 35.703529,
+    "matchedAddress": "東京都武蔵野市吉祥寺本町一丁目３５番１７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都足立区六町4-4-14": {
+    "longitude": 139.822357,
+    "latitude": 35.785309,
+    "matchedAddress": "東京都足立区六町四丁目４番１４号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県船橋市本町4-41-29": {
+    "longitude": 139.986206,
+    "latitude": 35.699238,
+    "matchedAddress": "千葉県船橋市本町四丁目４１番２９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都台東区台東2-4-4": {
+    "longitude": 139.778839,
+    "latitude": 35.702545,
+    "matchedAddress": "東京都台東区台東二丁目４番４号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市保土ケ谷区上星川2-3-1 1F": {
+    "longitude": 139.576218,
+    "latitude": 35.471195,
+    "matchedAddress": "神奈川県横浜市保土ケ谷区上星川二丁目３番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区方南2-18-6": {
+    "longitude": 139.65918,
+    "latitude": 35.68391,
+    "matchedAddress": "東京都杉並区方南二丁目１８番６号",
+    "source": "GSI Address Search API"
+  },
+  "静岡県駿東郡清水町堂庭8-7": {
+    "longitude": 138.902985,
+    "latitude": 35.105274,
+    "matchedAddress": "静岡県清水町堂庭８番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県相模原市中央区中央3-7-10": {
+    "longitude": 139.371613,
+    "latitude": 35.570793,
+    "matchedAddress": "神奈川県相模原市中央区中央三丁目７番１０号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県川崎市麻生区上麻生1-6-3": {
+    "longitude": 139.510071,
+    "latitude": 35.601673,
+    "matchedAddress": "神奈川県川崎市麻生区上麻生一丁目６番",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市中区錦2-4-8 宮崎錦ビル 1F": {
+    "longitude": 136.901443,
+    "latitude": 35.173088,
+    "matchedAddress": "愛知県名古屋市中区錦二丁目４番８号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市中村区亀島2-11-1 日興ビル 1F": {
+    "longitude": 136.878265,
+    "latitude": 35.174541,
+    "matchedAddress": "愛知県名古屋市中村区亀島二丁目１１番１号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市北区金城町2-57-1": {
+    "longitude": 136.90683,
+    "latitude": 35.202778,
+    "matchedAddress": "愛知県名古屋市北区金城町二丁目５７番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都目黒区原町1-8-4": {
+    "longitude": 139.698715,
+    "latitude": 35.61573,
+    "matchedAddress": "東京都目黒区原町一丁目８番４号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市中区栄3-11-15": {
+    "longitude": 136.903534,
+    "latitude": 35.166031,
+    "matchedAddress": "愛知県名古屋市中区栄三丁目１１番１５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都中野区中野5-50-6": {
+    "longitude": 139.666504,
+    "latitude": 35.709934,
+    "matchedAddress": "東京都中野区中野五丁目５０番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区巣鴨1-14-1 プラトーサカ 1F": {
+    "longitude": 139.740616,
+    "latitude": 35.732872,
+    "matchedAddress": "東京都豊島区巣鴨一丁目１４番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区恵比寿1-7-12 恵比寿フロントビル 1F": {
+    "longitude": 139.710373,
+    "latitude": 35.648312,
+    "matchedAddress": "東京都渋谷区恵比寿一丁目７番１２号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市中区丸の内2-8-25": {
+    "longitude": 136.897995,
+    "latitude": 35.175793,
+    "matchedAddress": "愛知県名古屋市中区丸の内二丁目８番２５号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県松戸市上本郷3386": {
+    "longitude": 139.909256,
+    "latitude": 35.797871,
+    "matchedAddress": "千葉県松戸市上本郷",
+    "source": "GSI Address Search API"
+  },
+  "北海道札幌市中央区南三条西7-7 狸小路商店街": {
+    "longitude": 141.347519,
+    "latitude": 43.05624,
+    "matchedAddress": "北海道札幌市中央区南三条西七丁目７番地",
+    "source": "GSI Address Search API"
+  },
+  "北海道札幌市中央区南7条西4-2-7 ライトビルⅡ 1F": {
+    "longitude": 141.353394,
+    "latitude": 43.052311,
+    "matchedAddress": "北海道札幌市中央区南七条西四丁目２番地",
+    "source": "GSI Address Search API"
+  },
+  "北海道札幌市中央区南七条西8-1024-24": {
+    "longitude": 141.346024,
+    "latitude": 43.051243,
+    "matchedAddress": "北海道札幌市中央区南七条西八丁目１０２４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区神田佐久間町3-1 森本ビル 1F": {
+    "longitude": 139.77739,
+    "latitude": 35.697388,
+    "matchedAddress": "東京都千代田区神田佐久間町三丁目１番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区西早稲田3-15-5 K2ビル 1F": {
+    "longitude": 139.712524,
+    "latitude": 35.710602,
+    "matchedAddress": "東京都新宿区西早稲田三丁目１５番５号",
+    "source": "GSI Address Search API"
+  },
+  "福島県田村郡三春町大字斎藤字場上田242-1": {
+    "longitude": 140.446823,
+    "latitude": 37.393085,
+    "matchedAddress": "福島県三春町大字斎藤場上田",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県八潮市緑町5-13-12": {
+    "longitude": 139.823456,
+    "latitude": 35.827541,
+    "matchedAddress": "埼玉県八潮市緑町五丁目１３番",
+    "source": "GSI Address Search API"
+  },
+  "千葉県柏市豊四季948-2": {
+    "longitude": 139.958252,
+    "latitude": 35.846317,
+    "matchedAddress": "千葉県柏市豊四季９４８番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区松庵3-37-22 レンツェン松庵 1F": {
+    "longitude": 139.599274,
+    "latitude": 35.701817,
+    "matchedAddress": "東京都杉並区松庵三丁目３７番２２号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県八千代市勝田台1-5-27": {
+    "longitude": 140.124954,
+    "latitude": 35.714825,
+    "matchedAddress": "千葉県八千代市勝田台一丁目５番",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区西池袋3-30-2 フェリース西池袋 1F": {
+    "longitude": 139.706787,
+    "latitude": 35.730587,
+    "matchedAddress": "東京都豊島区西池袋三丁目３０番２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都江東区亀戸7-49-4 高庭ビル 1F": {
+    "longitude": 139.834274,
+    "latitude": 35.695766,
+    "matchedAddress": "東京都江東区亀戸七丁目４９番４号",
+    "source": "GSI Address Search API"
+  },
+  "福島県いわき市平字城東1-3-1": {
+    "longitude": 140.898483,
+    "latitude": 37.061794,
+    "matchedAddress": "福島県いわき市平城東一丁目３番",
+    "source": "GSI Address Search API"
+  },
+  "千葉県鎌ケ谷市道野辺本町1-1-18": {
+    "longitude": 139.998123,
+    "latitude": 35.765995,
+    "matchedAddress": "千葉県鎌ケ谷市道野辺本町一丁目１番１８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区赤坂3-14-2 ドルミ赤坂 2F": {
+    "longitude": 139.737152,
+    "latitude": 35.674019,
+    "matchedAddress": "東京都港区赤坂三丁目１４番",
+    "source": "GSI Address Search API"
+  },
+  "東京都世田谷区給田3-34-1": {
+    "longitude": 139.595474,
+    "latitude": 35.667969,
+    "matchedAddress": "東京都世田谷区給田三丁目３４番１号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市港南区大久保2-32-24": {
+    "longitude": 139.591095,
+    "latitude": 35.408428,
+    "matchedAddress": "神奈川県横浜市港南区大久保二丁目３２番２４号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県流山市駒木台210": {
+    "longitude": 139.934143,
+    "latitude": 35.888214,
+    "matchedAddress": "千葉県流山市駒木台２１０番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都武蔵野市境2-3-19": {
+    "longitude": 139.543945,
+    "latitude": 35.705753,
+    "matchedAddress": "東京都武蔵野市境二丁目３番１９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区六本木5-16-5 インペリアル六本木1号館 1F": {
+    "longitude": 139.735794,
+    "latitude": 35.660809,
+    "matchedAddress": "東京都港区六本木五丁目１６番",
+    "source": "GSI Address Search API"
+  },
+  "東京都大田区北千束1-42-2": {
+    "longitude": 139.685532,
+    "latitude": 35.608864,
+    "matchedAddress": "東京都大田区北千束一丁目４２番２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都足立区一ツ家2-14-6": {
+    "longitude": 139.810791,
+    "latitude": 35.78471,
+    "matchedAddress": "東京都足立区一ツ家二丁目１４番６号",
+    "source": "GSI Address Search API"
+  },
+  "北海道札幌市中央区大通西8-2-39 北大通ビル B1F": {
+    "longitude": 141.34491,
+    "latitude": 43.060242,
+    "matchedAddress": "北海道札幌市中央区大通西八丁目２番地",
+    "source": "GSI Address Search API"
+  },
+  "宮崎県都城市鷹尾5-4342-7": {
+    "longitude": 131.037109,
+    "latitude": 31.726271,
+    "matchedAddress": "宮崎県都城市鷹尾五丁目",
+    "source": "GSI Address Search API"
+  },
+  "福島県いわき市小名浜字栄町66-30": {
+    "longitude": 140.91333,
+    "latitude": 36.944233,
+    "matchedAddress": "福島県いわき市小名浜栄町６６番地",
+    "source": "GSI Address Search API"
+  },
+  "福島県いわき市小名浜竹町23-1": {
+    "longitude": 140.904739,
+    "latitude": 36.948822,
+    "matchedAddress": "福島県いわき市小名浜竹町２３番地",
+    "source": "GSI Address Search API"
+  },
+  "福島県いわき市小名浜中町境4-11": {
+    "longitude": 140.901749,
+    "latitude": 36.954994,
+    "matchedAddress": "福島県いわき市小名浜中町境４番",
+    "source": "GSI Address Search API"
+  },
+  "東京都昭島市中神町1157-55": {
+    "longitude": 139.375534,
+    "latitude": 35.712082,
+    "matchedAddress": "東京都昭島市中神町１１５７番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都小金井市前原町5-9-4": {
+    "longitude": 139.501953,
+    "latitude": 35.689533,
+    "matchedAddress": "東京都小金井市前原町五丁目９番４号",
+    "source": "GSI Address Search API"
+  },
+  "東京都西東京市南町5-3-6": {
+    "longitude": 139.537201,
+    "latitude": 35.726112,
+    "matchedAddress": "東京都西東京市南町五丁目３番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都西東京市向台町1-2-42": {
+    "longitude": 139.542511,
+    "latitude": 35.721951,
+    "matchedAddress": "東京都西東京市向台町一丁目２番４２号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県足柄下郡湯河原町土肥2-12-14": {
+    "longitude": 139.109375,
+    "latitude": 35.144531,
+    "matchedAddress": "神奈川県湯河原町土肥二丁目１２番",
+    "source": "GSI Address Search API"
+  },
+  "東京都世田谷区砧2-15-10 メゾンドオーポン 1F": {
+    "longitude": 139.61824,
+    "latitude": 35.644283,
+    "matchedAddress": "東京都世田谷区砧二丁目１５番１０号",
+    "source": "GSI Address Search API"
+  },
+  "宮崎県宮崎市村角町坪平1221-1": {
+    "longitude": 131.441574,
+    "latitude": 31.951653,
+    "matchedAddress": "宮崎県宮崎市村角町坪平",
+    "source": "GSI Address Search API"
+  },
+  "宮崎県宮崎市江平西2-1-6": {
+    "longitude": 131.426041,
+    "latitude": 31.928459,
+    "matchedAddress": "宮崎県宮崎市江平西二丁目１番６号",
+    "source": "GSI Address Search API"
+  },
+  "福島県田村市滝根町神俣梵天川52": {
+    "longitude": 140.658478,
+    "latitude": 37.324631,
+    "matchedAddress": "福島県田村市滝根町神俣梵天川５２番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区代々木2-20-19 新宿東洋ビル 102": {
+    "longitude": 139.697266,
+    "latitude": 35.686642,
+    "matchedAddress": "東京都渋谷区代々木二丁目２０番１９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区上荻2-40-11 四面道ビル 1F": {
+    "longitude": 139.614151,
+    "latitude": 35.708488,
+    "matchedAddress": "東京都杉並区上荻二丁目４０番１１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区池袋2-18-2 オーロラビル1F": {
+    "longitude": 139.705856,
+    "latitude": 35.732178,
+    "matchedAddress": "東京都豊島区池袋二丁目１８番２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区新橋4-6-7": {
+    "longitude": 139.755234,
+    "latitude": 35.664906,
+    "matchedAddress": "東京都港区新橋四丁目６番",
+    "source": "GSI Address Search API"
+  },
+  "栃木県宇都宮市東宿郷2-5-17": {
+    "longitude": 139.902374,
+    "latitude": 36.55785,
+    "matchedAddress": "栃木県宇都宮市東宿郷二丁目５番１７号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県水戸市浜田町404-3": {
+    "longitude": 140.502213,
+    "latitude": 36.368954,
+    "matchedAddress": "茨城県水戸市浜田町４０４番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市戸塚区汲沢町1207-3": {
+    "longitude": 139.520615,
+    "latitude": 35.389053,
+    "matchedAddress": "神奈川県横浜市戸塚区汲沢町１２０７番地",
+    "source": "GSI Address Search API"
+  },
+  "栃木県佐野市越名町1095-3": {
+    "longitude": 139.60701,
+    "latitude": 36.291409,
+    "matchedAddress": "栃木県佐野市越名町",
+    "source": "GSI Address Search API"
+  },
+  "岐阜県高山市有楽町31-3": {
+    "longitude": 137.257553,
+    "latitude": 36.141335,
+    "matchedAddress": "岐阜県高山市有楽町３１番地",
+    "source": "GSI Address Search API"
+  },
+  "岐阜県高山市神明町2-2": {
+    "longitude": 137.259064,
+    "latitude": 36.137672,
+    "matchedAddress": "岐阜県高山市神明町二丁目２番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市中区真砂町3-33 セルテ 6F": {
+    "longitude": 139.635788,
+    "latitude": 35.444996,
+    "matchedAddress": "神奈川県横浜市中区真砂町三丁目３３番地",
+    "source": "GSI Address Search API"
+  },
+  "栃木県佐野市若宮下町6-15": {
+    "longitude": 139.586639,
+    "latitude": 36.29258,
+    "matchedAddress": "栃木県佐野市若宮下町６番",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県藤沢市鵠沼花沢町2-16": {
+    "longitude": 139.485184,
+    "latitude": 35.337856,
+    "matchedAddress": "神奈川県藤沢市鵠沼花沢町２番１６号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県茅ヶ崎市代官町5-1": {
+    "longitude": 139.434402,
+    "latitude": 35.338833,
+    "matchedAddress": "神奈川県茅ヶ崎市代官町５番１号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県石岡市東光台3丁目10-16": {
+    "longitude": 140.307205,
+    "latitude": 36.181637,
+    "matchedAddress": "茨城県石岡市東光台三丁目１０番１６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都北区浮間4-6-10": {
+    "longitude": 139.69725,
+    "latitude": 35.78878,
+    "matchedAddress": "東京都北区浮間四丁目６番１０号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県市川市八幡2-15-17": {
+    "longitude": 139.927673,
+    "latitude": 35.721806,
+    "matchedAddress": "千葉県市川市八幡二丁目１５番１７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都世田谷区砧3-5-2 勝吉ビル 1F": {
+    "longitude": 139.610901,
+    "latitude": 35.634609,
+    "matchedAddress": "東京都世田谷区砧三丁目５番２号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県木更津市朝日3-6-15": {
+    "longitude": 139.937347,
+    "latitude": 35.386845,
+    "matchedAddress": "千葉県木更津市朝日三丁目６番１５号",
+    "source": "GSI Address Search API"
+  },
+  "岐阜県高山市八軒町2-105-1": {
+    "longitude": 137.256668,
+    "latitude": 36.138302,
+    "matchedAddress": "岐阜県高山市八軒町二丁目１０５番地",
+    "source": "GSI Address Search API"
+  },
+  "茨城県水戸市見川町2267-3": {
+    "longitude": 140.430161,
+    "latitude": 36.353363,
+    "matchedAddress": "茨城県水戸市見川町２２６７番地",
+    "source": "GSI Address Search API"
+  },
+  "大阪府吹田市千里山東1-6-16": {
+    "longitude": 135.505859,
+    "latitude": 34.772896,
+    "matchedAddress": "大阪府吹田市千里山東一丁目６番１６号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市稲毛区弥生町2-21": {
+    "longitude": 140.103439,
+    "latitude": 35.623196,
+    "matchedAddress": "千葉県千葉市稲毛区弥生町２番２１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区本町3-41-12": {
+    "longitude": 139.680908,
+    "latitude": 35.688393,
+    "matchedAddress": "東京都渋谷区本町三丁目４１番１２号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県館山市那古925-30": {
+    "longitude": 139.855209,
+    "latitude": 35.020363,
+    "matchedAddress": "千葉県館山市那古９２５番地",
+    "source": "GSI Address Search API"
+  },
+  "兵庫県加西市北条町西高室1000": {
+    "longitude": 134.83519,
+    "latitude": 34.92062,
+    "matchedAddress": "兵庫県加西市北条町西高室",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市中央区松波2-19-5": {
+    "longitude": 140.10675,
+    "latitude": 35.623024,
+    "matchedAddress": "千葉県千葉市中央区松波二丁目１９番５号",
+    "source": "GSI Address Search API"
+  },
+  "大阪府東大阪市花園東町２丁目１６−３ 出岡文化 荘 ２階": {
+    "longitude": 135.622375,
+    "latitude": 34.660446,
+    "matchedAddress": "大阪府東大阪市花園東町二丁目１６番３号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市磯子区新杉田町3-5": {
+    "longitude": 139.619049,
+    "latitude": 35.387005,
+    "matchedAddress": "神奈川県横浜市磯子区新杉田町３番地",
+    "source": "GSI Address Search API"
+  },
+  "兵庫県神戸市灘区桜口町5-1-1": {
+    "longitude": 135.239182,
+    "latitude": 34.712006,
+    "matchedAddress": "兵庫県神戸市灘区桜口町五丁目１番１号",
+    "source": "GSI Address Search API"
+  },
+  "兵庫県西脇市上野432-7": {
+    "longitude": 134.979019,
+    "latitude": 34.991398,
+    "matchedAddress": "兵庫県西脇市上野４３２番地",
+    "source": "GSI Address Search API"
+  },
+  "兵庫県西脇市西田町113-3": {
+    "longitude": 134.958191,
+    "latitude": 35.009338,
+    "matchedAddress": "兵庫県西脇市西田町１１３番地",
+    "source": "GSI Address Search API"
+  },
+  "兵庫県加東市下滝野1-105-1": {
+    "longitude": 134.948456,
+    "latitude": 34.938438,
+    "matchedAddress": "兵庫県加東市下滝野一丁目１０５番地",
+    "source": "GSI Address Search API"
+  },
+  "兵庫県加東市上滝野814-5": {
+    "longitude": 134.957916,
+    "latitude": 34.940037,
+    "matchedAddress": "兵庫県加東市上滝野８１４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都世田谷区船橋1-38-4": {
+    "longitude": 139.619019,
+    "latitude": 35.648037,
+    "matchedAddress": "東京都世田谷区船橋一丁目３８番４号",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区上荻1-4-6": {
+    "longitude": 139.622437,
+    "latitude": 35.705109,
+    "matchedAddress": "東京都杉並区上荻一丁目４番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都目黒区上目黒2-18-9": {
+    "longitude": 139.697372,
+    "latitude": 35.64138,
+    "matchedAddress": "東京都目黒区上目黒二丁目１８番９号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市花見川区花園1-8-8": {
+    "longitude": 140.072128,
+    "latitude": 35.652126,
+    "matchedAddress": "千葉県千葉市花見川区花園一丁目８番８号",
+    "source": "GSI Address Search API"
+  },
+  "群馬県吾妻郡中之条町大字折田2198-1": {
+    "longitude": 138.813858,
+    "latitude": 36.5984,
+    "matchedAddress": "群馬県中之条町折田",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市若葉区都賀3-25-7": {
+    "longitude": 140.152618,
+    "latitude": 35.635952,
+    "matchedAddress": "千葉県千葉市若葉区都賀三丁目２５番７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都武蔵野市吉祥寺南町2-2-4": {
+    "longitude": 139.580719,
+    "latitude": 35.702175,
+    "matchedAddress": "東京都武蔵野市吉祥寺南町二丁目２番４号",
+    "source": "GSI Address Search API"
+  },
+  "群馬県前橋市大友町3-16-10": {
+    "longitude": 139.043762,
+    "latitude": 36.391251,
+    "matchedAddress": "群馬県前橋市大友町三丁目１６番",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市稲毛区小仲台1-6-21": {
+    "longitude": 140.096268,
+    "latitude": 35.636669,
+    "matchedAddress": "千葉県千葉市稲毛区小仲台一丁目６番２１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区西新宿7-4-6 1F": {
+    "longitude": 139.698318,
+    "latitude": 35.696083,
+    "matchedAddress": "東京都新宿区西新宿七丁目４番６号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県相模原市南区相南4-1-33": {
+    "longitude": 139.425766,
+    "latitude": 35.515472,
+    "matchedAddress": "神奈川県相模原市南区相南四丁目１番３３号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県船橋市宮本6-2-27": {
+    "longitude": 139.993942,
+    "latitude": 35.70005,
+    "matchedAddress": "千葉県船橋市宮本六丁目２番２７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区高円寺北2-40-16": {
+    "longitude": 139.651657,
+    "latitude": 35.708935,
+    "matchedAddress": "東京都杉並区高円寺北二丁目４０番１６号",
+    "source": "GSI Address Search API"
+  },
+  "静岡県藤枝市駅前3-2-17": {
+    "longitude": 138.250198,
+    "latitude": 34.849876,
+    "matchedAddress": "静岡県藤枝市駅前三丁目２番１７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都立川市柴崎町2-3-2": {
+    "longitude": 139.41156,
+    "latitude": 35.696552,
+    "matchedAddress": "東京都立川市柴崎町二丁目３番２号",
+    "source": "GSI Address Search API"
+  },
+  "兵庫県神戸市灘区永手町3-4-19 嶋田パールハイツ 1F": {
+    "longitude": 135.23912,
+    "latitude": 34.71656,
+    "matchedAddress": "兵庫県神戸市灘区永手町三丁目４番１９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都江戸川区船堀6-7-13": {
+    "longitude": 139.870026,
+    "latitude": 35.679623,
+    "matchedAddress": "東京都江戸川区船堀六丁目７番１３号",
+    "source": "GSI Address Search API"
+  },
+  "東京都中野区本町2-46-1 サンブライトツインＢ１": {
+    "longitude": 139.682465,
+    "latitude": 35.695965,
+    "matchedAddress": "東京都中野区本町二丁目４６番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都江戸川区西一之江1-12-7": {
+    "longitude": 139.877243,
+    "latitude": 35.701057,
+    "matchedAddress": "東京都江戸川区西一之江一丁目１２番７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都品川区東大井5-3-13": {
+    "longitude": 139.735382,
+    "latitude": 35.607582,
+    "matchedAddress": "東京都品川区東大井五丁目３番１３号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県鎌ケ谷市馬込沢3-22": {
+    "longitude": 139.991043,
+    "latitude": 35.743156,
+    "matchedAddress": "千葉県鎌ケ谷市馬込沢３番２２号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県相模原市南区相模大野3-18-3 新井ビル 1F": {
+    "longitude": 139.436203,
+    "latitude": 35.533482,
+    "matchedAddress": "神奈川県相模原市南区相模大野三丁目１８番３号",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区麻布十番2-14-4 エタニティー麻布十番 B1F": {
+    "longitude": 139.735611,
+    "latitude": 35.6549,
+    "matchedAddress": "東京都港区麻布十番二丁目１４番",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県川崎市川崎区中島2-17-10 サンハイツヨシハマ": {
+    "longitude": 139.718155,
+    "latitude": 35.529419,
+    "matchedAddress": "神奈川県川崎市川崎区中島二丁目１７番",
+    "source": "GSI Address Search API"
+  },
+  "千葉県習志野市津田沼5-9-6 津田沼ビル 1F": {
+    "longitude": 140.022324,
+    "latitude": 35.680676,
+    "matchedAddress": "千葉県習志野市津田沼五丁目９番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区池袋3-6-8 第１京花荘 1F": {
+    "longitude": 139.702972,
+    "latitude": 35.733852,
+    "matchedAddress": "東京都豊島区池袋三丁目６番８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都武蔵野市吉祥寺南町4-16-12": {
+    "longitude": 139.589508,
+    "latitude": 35.698708,
+    "matchedAddress": "東京都武蔵野市吉祥寺南町四丁目１６番１２号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市鶴見区駒岡1-27-4": {
+    "longitude": 139.650955,
+    "latitude": 35.525066,
+    "matchedAddress": "神奈川県横浜市鶴見区駒岡一丁目２７番４号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県那須塩原市上厚崎374-2": {
+    "longitude": 140.0298,
+    "latitude": 36.96262,
+    "matchedAddress": "栃木県那須塩原市上厚崎３７４番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市泉区中田東2-6-13": {
+    "longitude": 139.512405,
+    "latitude": 35.412376,
+    "matchedAddress": "神奈川県横浜市泉区中田東二丁目６番１３号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市瀬谷区二ツ橋町376": {
+    "longitude": 139.494827,
+    "latitude": 35.469013,
+    "matchedAddress": "神奈川県横浜市瀬谷区二ツ橋町３７６番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区内神田2-9-6 祥司ビル 1F": {
+    "longitude": 139.768173,
+    "latitude": 35.691063,
+    "matchedAddress": "東京都千代田区内神田二丁目９番６号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市神奈川区西神奈川3-1-1": {
+    "longitude": 139.628021,
+    "latitude": 35.4856,
+    "matchedAddress": "神奈川県横浜市神奈川区西神奈川三丁目１番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市鶴見区鶴見中央1-27-15 トモエビル": {
+    "longitude": 139.678406,
+    "latitude": 35.508293,
+    "matchedAddress": "神奈川県横浜市鶴見区鶴見中央一丁目２７番１５号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県市原市白金町1-58-2": {
+    "longitude": 140.104065,
+    "latitude": 35.527828,
+    "matchedAddress": "千葉県市原市白金町一丁目５８番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都台東区寿2-9-16": {
+    "longitude": 139.790344,
+    "latitude": 35.709389,
+    "matchedAddress": "東京都台東区寿二丁目９番１６号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県柏市豊四季712-65": {
+    "longitude": 139.964554,
+    "latitude": 35.850285,
+    "matchedAddress": "千葉県柏市豊四季７１２番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都葛飾区亀有3-32-5": {
+    "longitude": 139.848969,
+    "latitude": 35.765179,
+    "matchedAddress": "東京都葛飾区亀有三丁目３２番５号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県藤沢市鵠沼桜が岡3-5-7": {
+    "longitude": 139.475983,
+    "latitude": 35.330273,
+    "matchedAddress": "神奈川県藤沢市鵠沼桜が岡三丁目５番７号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県木更津市金田東5-4-1": {
+    "longitude": 139.93634,
+    "latitude": 35.427525,
+    "matchedAddress": "千葉県木更津市金田東五丁目４番地",
+    "source": "GSI Address Search API"
+  },
+  "静岡県掛川市杉谷1-7-6": {
+    "longitude": 138.031738,
+    "latitude": 34.768059,
+    "matchedAddress": "静岡県掛川市杉谷一丁目７番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区高田馬場2-13-6": {
+    "longitude": 139.707382,
+    "latitude": 35.712559,
+    "matchedAddress": "東京都新宿区高田馬場二丁目１３番６号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県印西市泉野1-144-6": {
+    "longitude": 140.124847,
+    "latitude": 35.804344,
+    "matchedAddress": "千葉県印西市泉野一丁目１４４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都清瀬市松山1-20-4": {
+    "longitude": 139.516937,
+    "latitude": 35.769314,
+    "matchedAddress": "東京都清瀬市松山一丁目２０番４号",
+    "source": "GSI Address Search API"
+  },
+  "青森県弘前市大字茂森町16": {
+    "longitude": 140.461548,
+    "latitude": 40.602215,
+    "matchedAddress": "青森県弘前市茂森町１６番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都三鷹市井の頭2-7-6": {
+    "longitude": 139.587799,
+    "latitude": 35.691494,
+    "matchedAddress": "東京都三鷹市井の頭二丁目７番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都墨田区江東橋3-8-7 錦糸町駅前プラザビル 1F": {
+    "longitude": 139.814453,
+    "latitude": 35.6954,
+    "matchedAddress": "東京都墨田区江東橋三丁目８番７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都北区東十条1-22-6": {
+    "longitude": 139.730652,
+    "latitude": 35.76276,
+    "matchedAddress": "東京都北区東十条一丁目２２番６号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県常総市豊岡町丙461-1": {
+    "longitude": 139.962616,
+    "latitude": 36.025314,
+    "matchedAddress": "茨城県常総市豊岡町丙４６１番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都羽村市五ノ神4-6-9": {
+    "longitude": 139.315903,
+    "latitude": 35.761135,
+    "matchedAddress": "東京都羽村市五ノ神四丁目６番",
+    "source": "GSI Address Search API"
+  },
+  "茨城県稲敷郡阿見町青宿490-5": {
+    "longitude": 140.21666,
+    "latitude": 36.049274,
+    "matchedAddress": "茨城県阿見町青宿４９０番地",
+    "source": "GSI Address Search API"
+  },
+  "福岡県北九州市小倉南区下石田1-4-1": {
+    "longitude": 130.888885,
+    "latitude": 33.838642,
+    "matchedAddress": "福岡県北九州市小倉南区下石田一丁目４番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区新橋2-20-15 新橋駅前ビル B1F": {
+    "longitude": 139.759567,
+    "latitude": 35.666275,
+    "matchedAddress": "東京都港区新橋二丁目２０番",
+    "source": "GSI Address Search API"
+  },
+  "東京都目黒区駒場4-6-8 佐藤ビル 1F": {
+    "longitude": 139.678497,
+    "latitude": 35.664047,
+    "matchedAddress": "東京都目黒区駒場四丁目６番８号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県相模原市中央区相模原2-3-14": {
+    "longitude": 139.368652,
+    "latitude": 35.58091,
+    "matchedAddress": "神奈川県相模原市中央区相模原二丁目３番１４号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県栃木市園部町3-17-21": {
+    "longitude": 139.7341,
+    "latitude": 36.382435,
+    "matchedAddress": "栃木県栃木市",
+    "source": "GSI Address Search API"
+  },
+  "福岡県福岡市博多区博多駅前3-12-3 玉井親和ビル 1F": {
+    "longitude": 130.414764,
+    "latitude": 33.587387,
+    "matchedAddress": "福岡県福岡市博多区博多駅前三丁目１２番３号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県佐野市葛生東1-13-3": {
+    "longitude": 139.609634,
+    "latitude": 36.402397,
+    "matchedAddress": "栃木県佐野市葛生東一丁目１３番３号",
+    "source": "GSI Address Search API"
+  },
+  "鹿児島県鹿児島市下福元町7712-1": {
+    "longitude": 130.470291,
+    "latitude": 31.49798,
+    "matchedAddress": "鹿児島県鹿児島市下福元町",
+    "source": "GSI Address Search API"
+  },
+  "奈良県香芝市北今市4-248-2": {
+    "longitude": 135.701141,
+    "latitude": 34.550598,
+    "matchedAddress": "奈良県香芝市北今市四丁目２４８番地",
+    "source": "GSI Address Search API"
+  },
+  "奈良県奈良市林小路町23-1 いそかわビル 1F": {
+    "longitude": 135.825653,
+    "latitude": 34.682541,
+    "matchedAddress": "奈良県奈良市林小路町２３番地",
+    "source": "GSI Address Search API"
+  },
+  "奈良県天理市庵治町209-8": {
+    "longitude": 135.79863,
+    "latitude": 34.581566,
+    "matchedAddress": "奈良県天理市庵治町２０９番地",
+    "source": "GSI Address Search API"
+  },
+  "奈良県奈良市南京終町3-1531": {
+    "longitude": 135.820435,
+    "latitude": 34.666119,
+    "matchedAddress": "奈良県奈良市南京終町三丁目１５３１番地",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市天王寺区舟橋町18-2": {
+    "longitude": 135.529999,
+    "latitude": 34.666115,
+    "matchedAddress": "大阪府大阪市天王寺区舟橋町１８番２号",
+    "source": "GSI Address Search API"
+  },
+  "奈良県天理市中町218-1": {
+    "longitude": 135.796616,
+    "latitude": 34.604805,
+    "matchedAddress": "奈良県天理市中町２１８番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都板橋区板橋3-5-1 リビオタワー板橋 1F": {
+    "longitude": 139.711929,
+    "latitude": 35.750134,
+    "matchedAddress": "東京都板橋区板橋三丁目５番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区神田神保町2-14-9": {
+    "longitude": 139.757339,
+    "latitude": 35.69698,
+    "matchedAddress": "東京都千代田区神田神保町二丁目１４番",
+    "source": "GSI Address Search API"
+  },
+  "東京都中野区松が丘2-32-18 哲学堂ヴィラ 1F": {
+    "longitude": 139.673462,
+    "latitude": 35.723316,
+    "matchedAddress": "東京都中野区松が丘二丁目３２番１８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区上落合1-5-3": {
+    "longitude": 139.691284,
+    "latitude": 35.711208,
+    "matchedAddress": "東京都新宿区上落合一丁目５番３号",
+    "source": "GSI Address Search API"
+  },
+  "奈良県吉野郡吉野町菜摘470": {
+    "longitude": 135.901123,
+    "latitude": 34.381531,
+    "matchedAddress": "奈良県吉野町菜摘",
+    "source": "GSI Address Search API"
+  },
+  "東京都文京区白山5-36-14 マガザン白山 1F": {
+    "longitude": 139.75148,
+    "latitude": 35.72015,
+    "matchedAddress": "東京都文京区白山五丁目３６番１４号",
+    "source": "GSI Address Search API"
+  },
+  "青森県青森市緑3丁目8-7": {
+    "longitude": 140.751556,
+    "latitude": 40.805714,
+    "matchedAddress": "青森県青森市緑三丁目８番",
+    "source": "GSI Address Search API"
+  },
+  "青森県青森市安方2-2-16": {
+    "longitude": 140.740799,
+    "latitude": 40.828514,
+    "matchedAddress": "青森県青森市安方二丁目２番１６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都練馬区小竹町2-74-8": {
+    "longitude": 139.67363,
+    "latitude": 35.744541,
+    "matchedAddress": "東京都練馬区小竹町二丁目７４番８号",
+    "source": "GSI Address Search API"
+  },
+  "沖縄県那覇市曙3-20-28": {
+    "longitude": 127.681984,
+    "latitude": 26.241331,
+    "matchedAddress": "沖縄県那覇市曙三丁目２０番２８号",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市下京区恵美須之町寺町通仏光寺下ル542": {
+    "longitude": 135.767258,
+    "latitude": 35.000782,
+    "matchedAddress": "京都府京都市下京区恵美須之町",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市北区紫野東蓮台野町10-1": {
+    "longitude": 135.739883,
+    "latitude": 35.046394,
+    "matchedAddress": "京都府京都市北区紫野東蓮台野町１０番地",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市淀川区十三本町1-7-33": {
+    "longitude": 135.4814,
+    "latitude": 34.71909,
+    "matchedAddress": "大阪府大阪市淀川区十三本町一丁目７番３３号",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市南区東九条南石田町111-1": {
+    "longitude": 135.760178,
+    "latitude": 34.970947,
+    "matchedAddress": "京都府京都市南区東九条南石田町１１１番地",
+    "source": "GSI Address Search API"
+  },
+  "青森県弘前市早稲田4-5-5": {
+    "longitude": 140.516754,
+    "latitude": 40.602509,
+    "matchedAddress": "青森県弘前市早稲田四丁目５番",
+    "source": "GSI Address Search API"
+  },
+  "秋田県秋田市保戸野すわ町15-34": {
+    "longitude": 140.112808,
+    "latitude": 39.725056,
+    "matchedAddress": "秋田県秋田市保戸野すわ町１５番",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市下京区西七条西八反田町77 ガーディアン青山 1F": {
+    "longitude": 135.736237,
+    "latitude": 34.993118,
+    "matchedAddress": "京都府京都市下京区西七条西八反田町７７番地",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市南区東九条西明田町20": {
+    "longitude": 135.758133,
+    "latitude": 34.975796,
+    "matchedAddress": "京都府京都市南区東九条西明田町２０番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区新宿2-4-1 第22宮廷マンション 1F": {
+    "longitude": 139.708267,
+    "latitude": 35.688667,
+    "matchedAddress": "東京都新宿区新宿二丁目４番１号",
+    "source": "GSI Address Search API"
+  },
+  "北海道札幌市中央区南5条西4丁目7-3 ソシアルビル 1F": {
+    "longitude": 141.353119,
+    "latitude": 43.054604,
+    "matchedAddress": "北海道札幌市中央区南五条西四丁目７番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区西早稲田1-9-8": {
+    "longitude": 139.720428,
+    "latitude": 35.710178,
+    "matchedAddress": "東京都新宿区西早稲田一丁目９番８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都大田区大森西7-7-17": {
+    "longitude": 139.722565,
+    "latitude": 35.568485,
+    "matchedAddress": "東京都大田区大森西七丁目７番１７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都中央区新富1-9-5 SOPHIA GINZA 1F": {
+    "longitude": 139.774338,
+    "latitude": 35.672157,
+    "matchedAddress": "東京都中央区新富一丁目９番５号",
+    "source": "GSI Address Search API"
+  },
+  "兵庫県宝塚市仁川北2-10-30": {
+    "longitude": 135.358078,
+    "latitude": 34.775723,
+    "matchedAddress": "兵庫県宝塚市仁川北二丁目１０番３０号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市中区新栄2-27-12": {
+    "longitude": 136.920059,
+    "latitude": 35.166435,
+    "matchedAddress": "愛知県名古屋市中区新栄二丁目２７番１２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都品川区西五反田1-33-10 サインタワー B1F": {
+    "longitude": 139.721344,
+    "latitude": 35.623959,
+    "matchedAddress": "東京都品川区西五反田一丁目３３番１０号",
+    "source": "GSI Address Search API"
+  },
+  "山形県鶴岡市下山添字一里塚152": {
+    "longitude": 139.83638,
+    "latitude": 38.692333,
+    "matchedAddress": "山形県鶴岡市下山添一里塚１５２番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県加須市鴻茎立山111-1": {
+    "longitude": 139.59021,
+    "latitude": 36.089092,
+    "matchedAddress": "埼玉県加須市鴻茎",
+    "source": "GSI Address Search API"
+  },
+  "佐賀県鳥栖市田代大官町845-2": {
+    "longitude": 130.516525,
+    "latitude": 33.391537,
+    "matchedAddress": "佐賀県鳥栖市田代大官町８４５番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区飯田橋1-6-8": {
+    "longitude": 139.749008,
+    "latitude": 35.698872,
+    "matchedAddress": "東京都千代田区飯田橋一丁目６番８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区新橋3-11-1 イーグル烏森ビル 1F": {
+    "longitude": 139.755859,
+    "latitude": 35.666229,
+    "matchedAddress": "東京都港区新橋三丁目１１番",
+    "source": "GSI Address Search API"
+  },
+  "東京都中野区江原町3-5-10": {
+    "longitude": 139.674973,
+    "latitude": 35.731113,
+    "matchedAddress": "東京都中野区江原町三丁目５番１０号",
+    "source": "GSI Address Search API"
+  },
+  "東京都世田谷区南烏山6-5-3 1F": {
+    "longitude": 139.600006,
+    "latitude": 35.667904,
+    "matchedAddress": "東京都世田谷区南烏山六丁目５番３号",
+    "source": "GSI Address Search API"
+  },
+  "佐賀県鳥栖市元町1380-2": {
+    "longitude": 130.506363,
+    "latitude": 33.37574,
+    "matchedAddress": "佐賀県鳥栖市元町１３８０番地",
+    "source": "GSI Address Search API"
+  },
+  "佐賀県鳥栖市古賀町319-3": {
+    "longitude": 130.500305,
+    "latitude": 33.388344,
+    "matchedAddress": "佐賀県鳥栖市古賀町３１９番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都大田区矢口1-29-5 伊藤荘 1F": {
+    "longitude": 139.69162,
+    "latitude": 35.564938,
+    "matchedAddress": "東京都大田区矢口一丁目２９番５号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県君津市南子安4-1-5": {
+    "longitude": 139.912979,
+    "latitude": 35.325733,
+    "matchedAddress": "千葉県君津市南子安四丁目１番５号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県川崎市多摩区三田1丁目1-1": {
+    "longitude": 139.544632,
+    "latitude": 35.61478,
+    "matchedAddress": "神奈川県川崎市多摩区三田一丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "千葉県君津市大和田3-1-12": {
+    "longitude": 139.879837,
+    "latitude": 35.337673,
+    "matchedAddress": "千葉県君津市大和田三丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "東京都文京区本郷2-26-9 1F": {
+    "longitude": 139.760696,
+    "latitude": 35.705536,
+    "matchedAddress": "東京都文京区本郷二丁目２６番９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都江戸川区一之江8-2-20": {
+    "longitude": 139.881912,
+    "latitude": 35.683689,
+    "matchedAddress": "東京都江戸川区一之江八丁目２番２０号",
+    "source": "GSI Address Search API"
+  },
+  "東京都葛飾区亀有3-40-5": {
+    "longitude": 139.850723,
+    "latitude": 35.764862,
+    "matchedAddress": "東京都葛飾区亀有三丁目４０番５号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市昭和区福江1‐17‐8": {
+    "longitude": 136.910507,
+    "latitude": 35.147552,
+    "matchedAddress": "愛知県名古屋市昭和区福江一丁目１７番８号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市中区葵1-22-14 村上ビル 1F": {
+    "longitude": 136.921112,
+    "latitude": 35.169975,
+    "matchedAddress": "愛知県名古屋市中区葵一丁目２２番１４号",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区六本木6-6-7": {
+    "longitude": 139.731445,
+    "latitude": 35.66177,
+    "matchedAddress": "東京都港区六本木六丁目６番",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市中区丸の内2-15-28 ビックバン丸の内 1F": {
+    "longitude": 136.898148,
+    "latitude": 35.17445,
+    "matchedAddress": "愛知県名古屋市中区丸の内二丁目１５番２８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都江戸川区平井5-14-7": {
+    "longitude": 139.841446,
+    "latitude": 35.706596,
+    "matchedAddress": "東京都江戸川区平井五丁目１４番７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区四谷4-25-10 ダイアパレス御苑前 B-2": {
+    "longitude": 139.715393,
+    "latitude": 35.689293,
+    "matchedAddress": "東京都新宿区四谷四丁目２５番地",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市中川区高畑5-25 マンション善 1F": {
+    "longitude": 136.851807,
+    "latitude": 35.14558,
+    "matchedAddress": "愛知県名古屋市中川区高畑五丁目２５番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都府中市美好町3-9-10": {
+    "longitude": 139.467026,
+    "latitude": 35.671303,
+    "matchedAddress": "東京都府中市美好町三丁目９番",
+    "source": "GSI Address Search API"
+  },
+  "静岡県沼津市岡一色471-6": {
+    "longitude": 138.873032,
+    "latitude": 35.133831,
+    "matchedAddress": "静岡県沼津市岡一色４７１番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市鶴見区潮田町2-87-3": {
+    "longitude": 139.68483,
+    "latitude": 35.503494,
+    "matchedAddress": "神奈川県横浜市鶴見区潮田町二丁目８７番地",
+    "source": "GSI Address Search API"
+  },
+  "静岡県浜松市中央区三方原町1034-3": {
+    "longitude": 137.705948,
+    "latitude": 34.778015,
+    "matchedAddress": "静岡県浜松市中央区三方原町１０３４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区赤坂3-13-1 ベルズ赤坂 1F": {
+    "longitude": 139.73735,
+    "latitude": 35.673473,
+    "matchedAddress": "東京都港区赤坂三丁目１３番",
+    "source": "GSI Address Search API"
+  },
+  "東京都府中市寿町1-1-4": {
+    "longitude": 139.478882,
+    "latitude": 35.672867,
+    "matchedAddress": "東京都府中市寿町一丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区赤坂3-21-8 久保ビル": {
+    "longitude": 139.735764,
+    "latitude": 35.676899,
+    "matchedAddress": "東京都港区赤坂三丁目２１番",
+    "source": "GSI Address Search API"
+  },
+  "東京都江東区亀戸6-2-1": {
+    "longitude": 139.826126,
+    "latitude": 35.694084,
+    "matchedAddress": "東京都江東区亀戸六丁目２番１号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県足柄下郡湯河原町土肥2-3-16": {
+    "longitude": 139.108185,
+    "latitude": 35.145668,
+    "matchedAddress": "神奈川県湯河原町土肥二丁目３番",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区宇田川町24-10 横田ビル 1F": {
+    "longitude": 139.69957,
+    "latitude": 35.660572,
+    "matchedAddress": "東京都渋谷区宇田川町２４番１０号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市中央区末広1-15-7": {
+    "longitude": 140.125,
+    "latitude": 35.59705,
+    "matchedAddress": "千葉県千葉市中央区末広一丁目１５番７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都世田谷区松原2-45-2": {
+    "longitude": 139.650131,
+    "latitude": 35.668335,
+    "matchedAddress": "東京都世田谷区松原二丁目４５番２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都台東区下谷1-12-25 1F": {
+    "longitude": 139.782745,
+    "latitude": 35.719398,
+    "matchedAddress": "東京都台東区下谷一丁目１２番２５号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県龍ケ崎市愛戸町60-2": {
+    "longitude": 140.189987,
+    "latitude": 35.912987,
+    "matchedAddress": "茨城県龍ケ崎市愛戸町６０番地",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市中区栄3-11-18": {
+    "longitude": 136.903534,
+    "latitude": 35.165802,
+    "matchedAddress": "愛知県名古屋市中区栄三丁目１１番１８号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県八千代市大和田新田959-1": {
+    "longitude": 140.075562,
+    "latitude": 35.724487,
+    "matchedAddress": "千葉県八千代市大和田新田９５９番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県草加市瀬崎3-40-25": {
+    "longitude": 139.804306,
+    "latitude": 35.810322,
+    "matchedAddress": "埼玉県草加市瀬崎三丁目４０番２５号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市港南区上大岡西1-19-13": {
+    "longitude": 139.594269,
+    "latitude": 35.407742,
+    "matchedAddress": "神奈川県横浜市港南区上大岡西一丁目１９番１３号",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区円山町10-16 SHIBUYA Limitedビル 1F": {
+    "longitude": 139.694305,
+    "latitude": 35.659393,
+    "matchedAddress": "東京都渋谷区円山町１０番１６号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県松戸市小根本51-2 １Ｆ": {
+    "longitude": 139.904739,
+    "latitude": 35.787243,
+    "matchedAddress": "千葉県松戸市小根本５１番地",
+    "source": "GSI Address Search API"
+  },
+  "栃木県栃木市仲方町141-1": {
+    "longitude": 139.69223,
+    "latitude": 36.419495,
+    "matchedAddress": "栃木県栃木市仲方町１４１番地",
+    "source": "GSI Address Search API"
+  },
+  "茨城県牛久市東大和田町230-6": {
+    "longitude": 140.152847,
+    "latitude": 35.998634,
+    "matchedAddress": "茨城県牛久市東大和田町２３０番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区渋谷2-22-6 三信ビル": {
+    "longitude": 139.703918,
+    "latitude": 35.65839,
+    "matchedAddress": "東京都渋谷区渋谷二丁目２２番６号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市南区中島町4-86-5 純花ビル 1F": {
+    "longitude": 139.601578,
+    "latitude": 35.423656,
+    "matchedAddress": "神奈川県横浜市南区中島町四丁目８６番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県川崎市中原区上新城2-1-27 津久井ビル 1F": {
+    "longitude": 139.631653,
+    "latitude": 35.586437,
+    "matchedAddress": "神奈川県川崎市中原区上新城二丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "茨城県古河市大堤61-5": {
+    "longitude": 139.715591,
+    "latitude": 36.185024,
+    "matchedAddress": "茨城県古河市大堤６１番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都大田区西蒲田6-26-3 SSビル 1F": {
+    "longitude": 139.709244,
+    "latitude": 35.565235,
+    "matchedAddress": "東京都大田区西蒲田六丁目２６番３号",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市浪速区日本橋5-17-20": {
+    "longitude": 135.505066,
+    "latitude": 34.658871,
+    "matchedAddress": "大阪府大阪市浪速区日本橋五丁目１７番",
+    "source": "GSI Address Search API"
+  },
+  "千葉県我孫子市緑2-11-33": {
+    "longitude": 140.019012,
+    "latitude": 35.866585,
+    "matchedAddress": "千葉県我孫子市緑二丁目１１番",
+    "source": "GSI Address Search API"
+  },
+  "東京都墨田区東向島3-35-6": {
+    "longitude": 139.815918,
+    "latitude": 35.721004,
+    "matchedAddress": "東京都墨田区東向島三丁目３５番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都文京区向丘1-20-6 ファミール本郷 1F": {
+    "longitude": 139.75798,
+    "latitude": 35.717628,
+    "matchedAddress": "東京都文京区向丘一丁目２０番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区和田3-60-10": {
+    "longitude": 139.660141,
+    "latitude": 35.69759,
+    "matchedAddress": "東京都杉並区和田三丁目６０番１０号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市稲毛区長沼原町700-4": {
+    "longitude": 140.126678,
+    "latitude": 35.661777,
+    "matchedAddress": "千葉県千葉市稲毛区長沼原町７００番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都清瀬市元町2-24": {
+    "longitude": 139.516907,
+    "latitude": 35.777458,
+    "matchedAddress": "東京都清瀬市元町二丁目２４番",
+    "source": "GSI Address Search API"
+  },
+  "東京都江東区千田5-10 青木ビル 1F": {
+    "longitude": 139.815872,
+    "latitude": 35.680199,
+    "matchedAddress": "東京都江東区千田５番１０号",
+    "source": "GSI Address Search API"
+  },
+  "東京都八王子市下柚木321-1": {
+    "longitude": 139.381226,
+    "latitude": 35.629177,
+    "matchedAddress": "東京都八王子市下柚木３２１番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都中野区野方5-24-6": {
+    "longitude": 139.652802,
+    "latitude": 35.718712,
+    "matchedAddress": "東京都中野区野方五丁目２４番６号",
+    "source": "GSI Address Search API"
+  },
+  "大阪府吹田市末広町21-53": {
+    "longitude": 135.533524,
+    "latitude": 34.765297,
+    "matchedAddress": "大阪府吹田市末広町２１番５３号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県松戸市紙敷1-14-4": {
+    "longitude": 139.956985,
+    "latitude": 35.777039,
+    "matchedAddress": "千葉県松戸市紙敷一丁目１４番",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区新宿2-6-5": {
+    "longitude": 139.707016,
+    "latitude": 35.690075,
+    "matchedAddress": "東京都新宿区新宿二丁目６番５号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県所沢市くすのき台1-12-1 内野ビル 1F": {
+    "longitude": 139.473709,
+    "latitude": 35.785324,
+    "matchedAddress": "埼玉県所沢市くすのき台一丁目１２番",
+    "source": "GSI Address Search API"
+  },
+  "静岡県三島市幸原町2-15-37": {
+    "longitude": 138.90863,
+    "latitude": 35.139099,
+    "matchedAddress": "静岡県三島市幸原町二丁目１５番３７号",
+    "source": "GSI Address Search API"
+  },
+  "新潟県新潟市西蒲区巻甲4158-2": {
+    "longitude": 138.892227,
+    "latitude": 37.758076,
+    "matchedAddress": "新潟県新潟市西蒲区巻甲４１５８番地",
+    "source": "GSI Address Search API"
+  },
+  "静岡県伊東市湯川2-17-6": {
+    "longitude": 139.093536,
+    "latitude": 34.975365,
+    "matchedAddress": "静岡県伊東市湯川二丁目１７番６号",
+    "source": "GSI Address Search API"
+  },
+  "東京都日野市石田2-9-1": {
+    "longitude": 139.418381,
+    "latitude": 35.669712,
+    "matchedAddress": "東京都日野市石田二丁目９番",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市中央区村田町893-116": {
+    "longitude": 140.117615,
+    "latitude": 35.551888,
+    "matchedAddress": "千葉県千葉市中央区村田町８９３番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都練馬区東大泉1-29-1 ゆめりあ1 1F": {
+    "longitude": 139.58577,
+    "latitude": 35.750179,
+    "matchedAddress": "東京都練馬区東大泉一丁目２９番",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市北区豊崎3-4-8": {
+    "longitude": 135.499664,
+    "latitude": 34.711323,
+    "matchedAddress": "大阪府大阪市北区豊崎三丁目４番８号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県山武市成東646-2": {
+    "longitude": 140.40155,
+    "latitude": 35.597305,
+    "matchedAddress": "千葉県山武市成東６４６番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都中野区中央2-2-1 ベル中野坂上": {
+    "longitude": 139.682175,
+    "latitude": 35.697205,
+    "matchedAddress": "東京都中野区中央二丁目２番１号",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市北区豊崎2-8-9": {
+    "longitude": 135.500534,
+    "latitude": 34.711052,
+    "matchedAddress": "大阪府大阪市北区豊崎二丁目８番９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都西東京市東町4-14-17": {
+    "longitude": 139.566315,
+    "latitude": 35.746277,
+    "matchedAddress": "東京都西東京市東町四丁目１４番１７号",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市中央区釣鐘町1-1-1": {
+    "longitude": 135.516815,
+    "latitude": 34.687973,
+    "matchedAddress": "大阪府大阪市中央区釣鐘町一丁目１番１号",
+    "source": "GSI Address Search API"
+  },
+  "群馬県高崎市棟高町2088-2": {
+    "longitude": 139.006836,
+    "latitude": 36.385422,
+    "matchedAddress": "群馬県高崎市棟高町",
+    "source": "GSI Address Search API"
+  },
+  "東京都江東区南砂2-1-4": {
+    "longitude": 139.819931,
+    "latitude": 35.669559,
+    "matchedAddress": "東京都江東区南砂二丁目１番４号",
+    "source": "GSI Address Search API"
+  },
+  "群馬県伊勢崎市境上渕名715-6": {
+    "longitude": 139.25708,
+    "latitude": 36.314682,
+    "matchedAddress": "群馬県伊勢崎市境上渕名７１５番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都小金井市東町4-43-5": {
+    "longitude": 139.524445,
+    "latitude": 35.700302,
+    "matchedAddress": "東京都小金井市東町四丁目４３番５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区飯田橋2-5-1 SNビル": {
+    "longitude": 139.750061,
+    "latitude": 35.698456,
+    "matchedAddress": "東京都千代田区飯田橋二丁目５番１号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県佐野市堀米町42-3": {
+    "longitude": 139.589523,
+    "latitude": 36.322746,
+    "matchedAddress": "栃木県佐野市堀米町４２番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都墨田区錦糸3-3-2": {
+    "longitude": 139.813507,
+    "latitude": 35.698071,
+    "matchedAddress": "東京都墨田区錦糸三丁目３番２号",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市左京区下鴨松ノ木町2-19": {
+    "longitude": 135.770248,
+    "latitude": 35.041409,
+    "matchedAddress": "京都府京都市左京区下鴨松ノ木町２番地",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市伏見区深草西浦町6-62": {
+    "longitude": 135.765518,
+    "latitude": 34.957565,
+    "matchedAddress": "京都府京都市伏見区深草西浦町六丁目６２番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区神田佐久間町3-1": {
+    "longitude": 139.77739,
+    "latitude": 35.697388,
+    "matchedAddress": "東京都千代田区神田佐久間町三丁目１番地",
+    "source": "GSI Address Search API"
+  },
+  "青森県青森市緑2-7-19": {
+    "longitude": 140.748001,
+    "latitude": 40.806007,
+    "matchedAddress": "青森県青森市緑二丁目７番",
+    "source": "GSI Address Search API"
+  },
+  "青森県弘前市本町85-1 明治屋グランドビル 1F": {
+    "longitude": 140.469269,
+    "latitude": 40.601147,
+    "matchedAddress": "青森県弘前市本町８５番地",
+    "source": "GSI Address Search API"
+  },
+  "石川県かほく市内日角タ25 イオンモールかほく 2F ダイニングパーク": {
+    "longitude": 136.702209,
+    "latitude": 36.708992,
+    "matchedAddress": "石川県かほく市内日角タ２５番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県船橋市本町2-11-29": {
+    "longitude": 139.98204,
+    "latitude": 35.697941,
+    "matchedAddress": "千葉県船橋市本町二丁目１１番２９号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県佐野市栃本町1492-2": {
+    "longitude": 139.583389,
+    "latitude": 36.371109,
+    "matchedAddress": "栃木県佐野市栃本町１４９２番地",
+    "source": "GSI Address Search API"
+  },
+  "栃木県鹿沼市千渡2299-2": {
+    "longitude": 139.783401,
+    "latitude": 36.56274,
+    "matchedAddress": "栃木県鹿沼市千渡２２９９番地",
+    "source": "GSI Address Search API"
+  },
+  "茨城県ひたちなか市元町2-4": {
+    "longitude": 140.525314,
+    "latitude": 36.396057,
+    "matchedAddress": "茨城県ひたちなか市元町２番４号",
+    "source": "GSI Address Search API"
+  },
+  "東京都小金井市梶野町3-17-12": {
+    "longitude": 139.521683,
+    "latitude": 35.711227,
+    "matchedAddress": "東京都小金井市梶野町三丁目１７番１２号",
+    "source": "GSI Address Search API"
+  },
+  "京都府城陽市奈島下小路11": {
+    "longitude": 135.831314,
+    "latitude": 34.839905,
+    "matchedAddress": "京都府城陽市奈島下小路１１番地",
+    "source": "GSI Address Search API"
+  },
+  "新潟県村上市切田1217-6": {
+    "longitude": 139.447815,
+    "latitude": 38.096497,
+    "matchedAddress": "新潟県村上市切田",
+    "source": "GSI Address Search API"
+  },
+  "千葉県野田市蕃昌287-2": {
+    "longitude": 139.862473,
+    "latitude": 35.977276,
+    "matchedAddress": "千葉県野田市蕃昌２８７番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県幸手市東3-5-10": {
+    "longitude": 139.725052,
+    "latitude": 36.076595,
+    "matchedAddress": "埼玉県幸手市東三丁目５番１０号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市保土ケ谷区川島町1496": {
+    "longitude": 139.560089,
+    "latitude": 35.468082,
+    "matchedAddress": "神奈川県横浜市保土ケ谷区川島町１４９６番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区神田鍛冶町3-5 一八ビル 1F": {
+    "longitude": 139.770081,
+    "latitude": 35.693871,
+    "matchedAddress": "東京都千代田区神田鍛冶町三丁目５番",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市下京区西松屋町563 フジ萬ビル 1F": {
+    "longitude": 135.755585,
+    "latitude": 34.992844,
+    "matchedAddress": "京都府京都市下京区西松屋町５６３番地",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市下京区朱雀正会町1-16": {
+    "longitude": 135.743896,
+    "latitude": 34.989525,
+    "matchedAddress": "京都府京都市下京区朱雀正会町１番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都三鷹市大沢2-3-11": {
+    "longitude": 139.538818,
+    "latitude": 35.678158,
+    "matchedAddress": "東京都三鷹市大沢二丁目３番１１号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県久喜市河原代677": {
+    "longitude": 139.699387,
+    "latitude": 36.108707,
+    "matchedAddress": "埼玉県久喜市河原代６７７番地",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市淀川区十三本町1-2-23": {
+    "longitude": 135.48204,
+    "latitude": 34.720173,
+    "matchedAddress": "大阪府大阪市淀川区十三本町一丁目２番２３号",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市左京区一乗寺向畑町17": {
+    "longitude": 135.792404,
+    "latitude": 35.04723,
+    "matchedAddress": "京都府京都市左京区一乗寺向畑町１７番地",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市左京区一乗寺西杉ノ宮町49": {
+    "longitude": 135.785446,
+    "latitude": 35.045879,
+    "matchedAddress": "京都府京都市左京区一乗寺西杉ノ宮町４９番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都葛飾区金町6-5-1": {
+    "longitude": 139.871109,
+    "latitude": 35.768497,
+    "matchedAddress": "東京都葛飾区金町六丁目５番１号",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市中央区鎗屋町1-1-10 山大ビル1F": {
+    "longitude": 135.515778,
+    "latitude": 34.682816,
+    "matchedAddress": "大阪府大阪市中央区鎗屋町一丁目１番１０号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県守谷市御所ヶ丘1丁目4-2": {
+    "longitude": 139.985031,
+    "latitude": 35.966888,
+    "matchedAddress": "茨城県守谷市御所ケ丘一丁目４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都葛飾区新小岩2-7-2": {
+    "longitude": 139.860184,
+    "latitude": 35.71629,
+    "matchedAddress": "東京都葛飾区新小岩二丁目７番２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都小平市鈴木町1-466-16": {
+    "longitude": 139.497253,
+    "latitude": 35.721142,
+    "matchedAddress": "東京都小平市鈴木町一丁目４６６番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県川崎市川崎区小川町14-2": {
+    "longitude": 139.699402,
+    "latitude": 35.527988,
+    "matchedAddress": "神奈川県川崎市川崎区小川町１４番",
+    "source": "GSI Address Search API"
+  },
+  "茨城県ひたちなか市笹野町2-3-25": {
+    "longitude": 140.543289,
+    "latitude": 36.397366,
+    "matchedAddress": "茨城県ひたちなか市笹野町二丁目３番",
+    "source": "GSI Address Search API"
+  },
+  "茨城県ひたちなか市西大島2-13-38": {
+    "longitude": 140.527115,
+    "latitude": 36.408325,
+    "matchedAddress": "茨城県ひたちなか市西大島二丁目１３番３８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区高井戸東4-14-7": {
+    "longitude": 139.618896,
+    "latitude": 35.689713,
+    "matchedAddress": "東京都杉並区高井戸東四丁目１４番７号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市若葉区上泉町616-4": {
+    "longitude": 140.236725,
+    "latitude": 35.625046,
+    "matchedAddress": "千葉県千葉市若葉区上泉町６１６番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都青梅市野上町4-9-28 グリーンハイム 1F": {
+    "longitude": 139.292389,
+    "latitude": 35.786961,
+    "matchedAddress": "東京都青梅市野上町四丁目９番",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市中央区富士見2-14-6 山田ビル 1F": {
+    "longitude": 140.117889,
+    "latitude": 35.609924,
+    "matchedAddress": "千葉県千葉市中央区富士見二丁目１４番６号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県佐野市大橋町3234-1": {
+    "longitude": 139.564682,
+    "latitude": 36.309471,
+    "matchedAddress": "栃木県佐野市大橋町３２３４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都町田市中町1-21-11 中一ビル 1F": {
+    "longitude": 139.446487,
+    "latitude": 35.549438,
+    "matchedAddress": "東京都町田市中町一丁目２１番１１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都北区中里1-16-2": {
+    "longitude": 139.750793,
+    "latitude": 35.737865,
+    "matchedAddress": "東京都北区中里一丁目１６番２号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市神奈川区六角橋1-14-7": {
+    "longitude": 139.624695,
+    "latitude": 35.488049,
+    "matchedAddress": "神奈川県横浜市神奈川区六角橋一丁目１４番７号",
+    "source": "GSI Address Search API"
+  },
+  "福井県福井市文京4-2-3": {
+    "longitude": 136.211441,
+    "latitude": 36.074154,
+    "matchedAddress": "福井県福井市文京四丁目２番３号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県鴻巣市神明1-9-20": {
+    "longitude": 139.505966,
+    "latitude": 36.06897,
+    "matchedAddress": "埼玉県鴻巣市神明一丁目９番２０号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県小山市天神町2-3-5 丸源ハイツ 101": {
+    "longitude": 139.802765,
+    "latitude": 36.308125,
+    "matchedAddress": "栃木県小山市天神町二丁目３番５号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県筑西市本城町甲273": {
+    "longitude": 139.979401,
+    "latitude": 36.305267,
+    "matchedAddress": "茨城県筑西市",
+    "source": "GSI Address Search API"
+  },
+  "栃木県小山市卒島2098-2": {
+    "longitude": 139.763428,
+    "latitude": 36.35218,
+    "matchedAddress": "栃木県小山市卒島２０９８番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区神楽坂6-26 カーサイオキ3 102": {
+    "longitude": 139.73642,
+    "latitude": 35.703606,
+    "matchedAddress": "東京都新宿区神楽坂六丁目２６番地",
+    "source": "GSI Address Search API"
+  },
+  "栃木県小山市駅南町4-25-6": {
+    "longitude": 139.811691,
+    "latitude": 36.300404,
+    "matchedAddress": "栃木県小山市駅南町四丁目２５番６号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県川崎市多摩区菅稲田堤1-1-2": {
+    "longitude": 139.536774,
+    "latitude": 35.633396,
+    "matchedAddress": "神奈川県川崎市多摩区菅稲田堤一丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区内神田3-9-6 大熊ビル 1Ｆ": {
+    "longitude": 139.769333,
+    "latitude": 35.691074,
+    "matchedAddress": "東京都千代田区内神田三丁目９番６号",
+    "source": "GSI Address Search API"
+  },
+  "福井県福井市大願寺2-8-8 La136 1F": {
+    "longitude": 136.229492,
+    "latitude": 36.083622,
+    "matchedAddress": "福井県福井市大願寺二丁目８番８号",
+    "source": "GSI Address Search API"
+  },
+  "石川県金沢市天神町1-18-4": {
+    "longitude": 136.679291,
+    "latitude": 36.557968,
+    "matchedAddress": "石川県金沢市天神町一丁目１８番４号",
+    "source": "GSI Address Search API"
+  },
+  "東京都大田区下丸子4-4-8": {
+    "longitude": 139.683838,
+    "latitude": 35.5714,
+    "matchedAddress": "東京都大田区下丸子四丁目４番８号",
+    "source": "GSI Address Search API"
+  },
+  "福井県福井市新田塚1-70-28": {
+    "longitude": 136.209122,
+    "latitude": 36.090298,
+    "matchedAddress": "福井県福井市新田塚一丁目７０番２８号",
+    "source": "GSI Address Search API"
+  },
+  "福井県福井市大宮4-1-5": {
+    "longitude": 136.208862,
+    "latitude": 36.080299,
+    "matchedAddress": "福井県福井市大宮四丁目１番５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都北区赤羽1-18-4": {
+    "longitude": 139.720123,
+    "latitude": 35.779755,
+    "matchedAddress": "東京都北区赤羽一丁目１８番４号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県野田市光葉町1-7-1 AKBLD27 1F": {
+    "longitude": 139.852203,
+    "latitude": 35.971516,
+    "matchedAddress": "千葉県野田市光葉町一丁目７番",
+    "source": "GSI Address Search API"
+  },
+  "東京都江戸川区中葛西2-19-15 越川ビル 1F": {
+    "longitude": 139.875107,
+    "latitude": 35.671032,
+    "matchedAddress": "東京都江戸川区中葛西二丁目１９番１５号",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市北区若葉通1-25 若葉ビル 1F": {
+    "longitude": 136.922119,
+    "latitude": 35.196518,
+    "matchedAddress": "愛知県名古屋市北区若葉通一丁目２５番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県三郷市三郷1-8-7 島村ハイツ 1F": {
+    "longitude": 139.886948,
+    "latitude": 35.842762,
+    "matchedAddress": "埼玉県三郷市三郷一丁目８番",
+    "source": "GSI Address Search API"
+  },
+  "青森県弘前市豊田3-1-1": {
+    "longitude": 140.500946,
+    "latitude": 40.596138,
+    "matchedAddress": "青森県弘前市豊田三丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "茨城県つくば市下原408": {
+    "longitude": 140.132355,
+    "latitude": 36.041214,
+    "matchedAddress": "茨城県つくば市下原",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区北大塚2-14-8 林ビル 1F": {
+    "longitude": 139.729477,
+    "latitude": 35.732056,
+    "matchedAddress": "東京都豊島区北大塚二丁目１４番８号",
+    "source": "GSI Address Search API"
+  },
+  "静岡県富士宮市前田町108": {
+    "longitude": 138.630524,
+    "latitude": 35.214432,
+    "matchedAddress": "静岡県富士宮市前田町１０８番地",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市中川区高畑1-170": {
+    "longitude": 136.856262,
+    "latitude": 35.141235,
+    "matchedAddress": "愛知県名古屋市中川区高畑一丁目１７０番地",
+    "source": "GSI Address Search API"
+  },
+  "静岡県静岡市葵区御幸町4-2 ポワソンビル 1F": {
+    "longitude": 138.385635,
+    "latitude": 34.974277,
+    "matchedAddress": "静岡県静岡市葵区御幸町４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区西巣鴨3-19-9": {
+    "longitude": 139.726517,
+    "latitude": 35.742271,
+    "matchedAddress": "東京都豊島区西巣鴨三丁目１９番９号",
+    "source": "GSI Address Search API"
+  },
+  "北海道札幌市中央区南三条西4-20": {
+    "longitude": 141.352219,
+    "latitude": 43.056877,
+    "matchedAddress": "北海道札幌市中央区南三条西四丁目２０番地",
+    "source": "GSI Address Search API"
+  },
+  "北海道札幌市厚別区厚別西5条1-16-1": {
+    "longitude": 141.452499,
+    "latitude": 43.052128,
+    "matchedAddress": "北海道札幌市厚別区厚別西五条一丁目１６番１号",
+    "source": "GSI Address Search API"
+  },
+  "青森県八戸市類家4-11-4": {
+    "longitude": 141.511047,
+    "latitude": 40.507084,
+    "matchedAddress": "青森県八戸市類家四丁目１１番４号",
+    "source": "GSI Address Search API"
+  },
+  "北海道札幌市西区西野四条3丁目1-38": {
+    "longitude": 141.279938,
+    "latitude": 43.072739,
+    "matchedAddress": "北海道札幌市西区西野四条三丁目１番３８号",
+    "source": "GSI Address Search API"
+  },
+  "北海道札幌市中央区南5条西3-1 大松ビル 1F": {
+    "longitude": 141.354477,
+    "latitude": 43.054253,
+    "matchedAddress": "北海道札幌市中央区南五条西三丁目１番地",
+    "source": "GSI Address Search API"
+  },
+  "茨城県土浦市永国778": {
+    "longitude": 140.180603,
+    "latitude": 36.061489,
+    "matchedAddress": "茨城県土浦市永国７７８番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県市原市西国分寺台1-3-16": {
+    "longitude": 140.112976,
+    "latitude": 35.50209,
+    "matchedAddress": "千葉県市原市西国分寺台一丁目３番",
+    "source": "GSI Address Search API"
+  },
+  "東京都葛飾区東新小岩3-1-5 たつみ橋マンション 1F": {
+    "longitude": 139.857635,
+    "latitude": 35.72023,
+    "matchedAddress": "東京都葛飾区東新小岩三丁目１番５号",
+    "source": "GSI Address Search API"
+  },
+  "宮城県黒川郡大衡村大衡大柳31-1": {
+    "longitude": 140.880936,
+    "latitude": 38.452602,
+    "matchedAddress": "宮城県大衡村大衡大柳３１番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市若葉区桜木6-24-1 桜木ビル 1F": {
+    "longitude": 140.154556,
+    "latitude": 35.629135,
+    "matchedAddress": "千葉県千葉市若葉区桜木六丁目２４番",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市中央区道頓堀1-1-15 OSAKA RAMEN BUILDING 1F・2F": {
+    "longitude": 135.504547,
+    "latitude": 34.668831,
+    "matchedAddress": "大阪府大阪市中央区道頓堀一丁目１番１５号",
+    "source": "GSI Address Search API"
+  },
+  "福島県二本松市本町2-86-1": {
+    "longitude": 140.437393,
+    "latitude": 37.591076,
+    "matchedAddress": "福島県二本松市本町二丁目８６番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都小金井市梶野町5-1-1 nonowa東小金井": {
+    "longitude": 139.525101,
+    "latitude": 35.701782,
+    "matchedAddress": "東京都小金井市梶野町五丁目１番１号",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市浪速区日本橋5-14-20": {
+    "longitude": 135.505051,
+    "latitude": 34.656303,
+    "matchedAddress": "大阪府大阪市浪速区日本橋五丁目１４番２０号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市中央区今井2-12-1": {
+    "longitude": 140.128677,
+    "latitude": 35.580639,
+    "matchedAddress": "千葉県千葉市中央区今井二丁目１２番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都墨田区江東橋4-30-15 三成ビル 1Ｆ": {
+    "longitude": 139.817352,
+    "latitude": 35.696426,
+    "matchedAddress": "東京都墨田区江東橋四丁目３０番１５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都江東区住吉1-19-1 ツインタワーすみとし住吉館 1F": {
+    "longitude": 139.812546,
+    "latitude": 35.689758,
+    "matchedAddress": "東京都江東区住吉一丁目１９番１号",
+    "source": "GSI Address Search API"
+  },
+  "奈良県大和郡山市上三橋町152-1": {
+    "longitude": 135.814377,
+    "latitude": 34.645538,
+    "matchedAddress": "奈良県大和郡山市上三橋町１５２番地",
+    "source": "GSI Address Search API"
+  },
+  "奈良県奈良市南紀寺町1-223-1": {
+    "longitude": 135.833206,
+    "latitude": 34.668228,
+    "matchedAddress": "奈良県奈良市南紀寺町一丁目２２３番地",
+    "source": "GSI Address Search API"
+  },
+  "福井県鯖江市本町2-2-22": {
+    "longitude": 136.185287,
+    "latitude": 35.945503,
+    "matchedAddress": "福井県鯖江市本町二丁目２番２２号",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市東淀川区豊新5-11-4": {
+    "longitude": 135.536697,
+    "latitude": 34.746162,
+    "matchedAddress": "大阪府大阪市東淀川区豊新五丁目１１番４号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県宇都宮市下栗町2281-2": {
+    "longitude": 139.91806,
+    "latitude": 36.527748,
+    "matchedAddress": "栃木県宇都宮市下栗町２２８１番地",
+    "source": "GSI Address Search API"
+  },
+  "奈良県奈良市大宮町6-3-29": {
+    "longitude": 135.808212,
+    "latitude": 34.684624,
+    "matchedAddress": "奈良県奈良市大宮町六丁目３番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都大島町元町2-20-2": {
+    "longitude": 139.356949,
+    "latitude": 34.745327,
+    "matchedAddress": "東京都大島町元町二丁目２０番",
+    "source": "GSI Address Search API"
+  },
+  "東京都大島町元町1-2-5": {
+    "longitude": 139.354279,
+    "latitude": 34.750069,
+    "matchedAddress": "東京都大島町元町一丁目２番",
+    "source": "GSI Address Search API"
+  },
+  "東京都大島町元町4-9-9": {
+    "longitude": 139.356384,
+    "latitude": 34.752506,
+    "matchedAddress": "東京都大島町元町四丁目９番",
+    "source": "GSI Address Search API"
+  },
+  "東京都大島町岡田5 2階": {
+    "longitude": 139.392166,
+    "latitude": 34.789165,
+    "matchedAddress": "東京都大島町岡田５番地",
+    "source": "GSI Address Search API"
+  },
+  "福井県福井市学園3-4-15 うめだビル 1F": {
+    "longitude": 136.197311,
+    "latitude": 36.069965,
+    "matchedAddress": "福井県福井市学園三丁目４番１５号",
+    "source": "GSI Address Search API"
+  },
+  "静岡県熱海市下多賀432-13": {
+    "longitude": 139.081039,
+    "latitude": 35.043858,
+    "matchedAddress": "静岡県熱海市下多賀４３２番地",
+    "source": "GSI Address Search API"
+  },
+  "福井県福井市光陽2-5-3": {
+    "longitude": 136.200409,
+    "latitude": 36.067341,
+    "matchedAddress": "福井県福井市光陽二丁目５番３号",
+    "source": "GSI Address Search API"
+  },
+  "東京都武蔵野市西久保1-5-8": {
+    "longitude": 139.559998,
+    "latitude": 35.705982,
+    "matchedAddress": "東京都武蔵野市西久保一丁目５番８号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県宇都宮市石井町2009-1": {
+    "longitude": 139.940292,
+    "latitude": 36.543037,
+    "matchedAddress": "栃木県宇都宮市石井町２００９番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都品川区西五反田2-14-13 リバーサイドニックハイム五反田 1F": {
+    "longitude": 139.71965,
+    "latitude": 35.626354,
+    "matchedAddress": "東京都品川区西五反田二丁目１４番１３号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市金沢区白帆5-2": {
+    "longitude": 139.646271,
+    "latitude": 35.379951,
+    "matchedAddress": "神奈川県横浜市金沢区白帆５番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県秩父郡皆野町皆野852-3": {
+    "longitude": 139.098953,
+    "latitude": 36.066936,
+    "matchedAddress": "埼玉県皆野町皆野８５２番地",
+    "source": "GSI Address Search API"
+  },
+  "栃木県佐野市堀米町20-2": {
+    "longitude": 139.582352,
+    "latitude": 36.32653,
+    "matchedAddress": "栃木県佐野市堀米町２０番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市緑区長津田5-4-33 1F": {
+    "longitude": 139.49646,
+    "latitude": 35.530155,
+    "matchedAddress": "神奈川県横浜市緑区長津田五丁目４番３３号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県藤沢市亀井野2-3-21": {
+    "longitude": 139.47348,
+    "latitude": 35.383297,
+    "matchedAddress": "神奈川県藤沢市亀井野二丁目３番",
+    "source": "GSI Address Search API"
+  },
+  "東京都板橋区上板橋1-25-10 JTプラザ上板橋 1F": {
+    "longitude": 139.675354,
+    "latitude": 35.762817,
+    "matchedAddress": "東京都板橋区上板橋一丁目２５番１０号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県宇都宮市上籠谷町3570-1": {
+    "longitude": 139.965042,
+    "latitude": 36.531517,
+    "matchedAddress": "栃木県宇都宮市上籠谷町３５７０番地",
+    "source": "GSI Address Search API"
+  },
+  "栃木県栃木市城内町2-12-8": {
+    "longitude": 139.748764,
+    "latitude": 36.375359,
+    "matchedAddress": "栃木県栃木市城内町二丁目１２番８号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県高座郡寒川町小谷1-1-43": {
+    "longitude": 139.396408,
+    "latitude": 35.376297,
+    "matchedAddress": "神奈川県寒川町小谷一丁目１番４３号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市南区高砂町3-34 細田ビル 1F": {
+    "longitude": 139.618988,
+    "latitude": 35.433228,
+    "matchedAddress": "神奈川県横浜市南区高砂町三丁目３４番地",
+    "source": "GSI Address Search API"
+  },
+  "栃木県小山市城東1-9-29": {
+    "longitude": 139.814255,
+    "latitude": 36.31023,
+    "matchedAddress": "栃木県小山市城東一丁目９番２９号",
+    "source": "GSI Address Search API"
+  },
+  "群馬県前橋市下大島町410-7": {
+    "longitude": 139.123428,
+    "latitude": 36.361595,
+    "matchedAddress": "群馬県前橋市下大島町４１０番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市西区北幸2-10-21 横浜太陽ビル 1F": {
+    "longitude": 139.61441,
+    "latitude": 35.465443,
+    "matchedAddress": "神奈川県横浜市西区北幸二丁目１０番２１号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県越谷市北後谷840-1": {
+    "longitude": 139.763077,
+    "latitude": 35.886497,
+    "matchedAddress": "埼玉県越谷市北後谷",
+    "source": "GSI Address Search API"
+  },
+  "千葉県成田市ウイング土屋88": {
+    "longitude": 140.319229,
+    "latitude": 35.79517,
+    "matchedAddress": "千葉県成田市ウイング土屋",
+    "source": "GSI Address Search API"
+  },
+  "香川県高松市南新町8-3": {
+    "longitude": 134.049393,
+    "latitude": 34.339405,
+    "matchedAddress": "香川県高松市南新町８番",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区阿佐谷北2-11-1": {
+    "longitude": 139.634399,
+    "latitude": 35.70507,
+    "matchedAddress": "東京都杉並区阿佐谷北二丁目１１番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区南池袋1-21-5,2F": {
+    "longitude": 139.712189,
+    "latitude": 35.728508,
+    "matchedAddress": "東京都豊島区南池袋一丁目２１番５号",
+    "source": "GSI Address Search API"
+  },
+  "香川県三豊市三野町大見3873-1": {
+    "longitude": 133.714264,
+    "latitude": 34.211948,
+    "matchedAddress": "香川県三豊市三野町大見３８７３番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都国分寺市本多2-1-14 西野ビル 1F": {
+    "longitude": 139.481567,
+    "latitude": 35.704906,
+    "matchedAddress": "東京都国分寺市本多二丁目１番１４号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県小山市田間693-39": {
+    "longitude": 139.827866,
+    "latitude": 36.268459,
+    "matchedAddress": "栃木県小山市田間６９３番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区歌舞伎町1-9-6 三経32": {
+    "longitude": 139.703522,
+    "latitude": 35.69508,
+    "matchedAddress": "東京都新宿区歌舞伎町一丁目９番６号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県市原市八幡浦1-13": {
+    "longitude": 140.121506,
+    "latitude": 35.548187,
+    "matchedAddress": "千葉県市原市八幡浦一丁目１３番地",
+    "source": "GSI Address Search API"
+  },
+  "群馬県太田市石原町572-1": {
+    "longitude": 139.407074,
+    "latitude": 36.300259,
+    "matchedAddress": "群馬県太田市石原町５７２番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都品川区南大井6-11-15 永井ビル 1F": {
+    "longitude": 139.732224,
+    "latitude": 35.591026,
+    "matchedAddress": "東京都品川区南大井六丁目１１番１５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区高円寺南1-6-5 高円寺サマリヤマンション 1F": {
+    "longitude": 139.658585,
+    "latitude": 35.698025,
+    "matchedAddress": "東京都杉並区高円寺南一丁目６番５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都八王子市中町11-8 桑都テラス": {
+    "longitude": 139.334763,
+    "latitude": 35.658443,
+    "matchedAddress": "東京都八王子市中町１１番８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区神田三崎町3-7-13 三大ビル B1F": {
+    "longitude": 139.751999,
+    "latitude": 35.701546,
+    "matchedAddress": "東京都千代田区神田三崎町三丁目７番",
+    "source": "GSI Address Search API"
+  },
+  "山形県新庄市沖の町3-20": {
+    "longitude": 140.303802,
+    "latitude": 38.762043,
+    "matchedAddress": "山形県新庄市沖の町３番",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県川崎市幸区遠藤町30-5": {
+    "longitude": 139.691406,
+    "latitude": 35.542046,
+    "matchedAddress": "神奈川県川崎市幸区遠藤町３０番地",
+    "source": "GSI Address Search API"
+  },
+  "栃木県下野市小金井2438": {
+    "longitude": 139.843796,
+    "latitude": 36.391445,
+    "matchedAddress": "栃木県下野市小金井",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区神田神保町2-2-12": {
+    "longitude": 139.757339,
+    "latitude": 35.696217,
+    "matchedAddress": "東京都千代田区神田神保町二丁目２番地",
+    "source": "GSI Address Search API"
+  },
+  "茨城県結城市結城5934-1": {
+    "longitude": 139.883514,
+    "latitude": 36.296803,
+    "matchedAddress": "茨城県結城市結城５９３４番地",
+    "source": "GSI Address Search API"
+  },
+  "鹿児島県鹿児島市山下町9-34": {
+    "longitude": 130.557114,
+    "latitude": 31.595131,
+    "matchedAddress": "鹿児島県鹿児島市山下町９番３４号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県市原市山田橋1-6-8": {
+    "longitude": 140.124664,
+    "latitude": 35.502235,
+    "matchedAddress": "千葉県市原市山田橋一丁目６番",
+    "source": "GSI Address Search API"
+  },
+  "東京都墨田区菊川1-11-15": {
+    "longitude": 139.802673,
+    "latitude": 35.688805,
+    "matchedAddress": "東京都墨田区菊川一丁目１１番１５号",
+    "source": "GSI Address Search API"
+  },
+  "山形県東田川郡三川町横山横山63": {
+    "longitude": 139.849289,
+    "latitude": 38.776783,
+    "matchedAddress": "山形県三川町大字横山横山",
+    "source": "GSI Address Search API"
+  },
+  "山形県鶴岡市小淀川字谷地田50-1": {
+    "longitude": 139.798065,
+    "latitude": 38.731426,
+    "matchedAddress": "山形県鶴岡市小淀川谷地田５０番地",
+    "source": "GSI Address Search API"
+  },
+  "岐阜県関市巾2-144-6": {
+    "longitude": 136.885895,
+    "latitude": 35.484886,
+    "matchedAddress": "岐阜県関市巾二丁目１４４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都文京区千石4-25-6 夏野マンション102": {
+    "longitude": 139.739426,
+    "latitude": 35.730286,
+    "matchedAddress": "東京都文京区千石四丁目２５番６号",
+    "source": "GSI Address Search API"
+  },
+  "山形県鶴岡市道形町32-20": {
+    "longitude": 139.845901,
+    "latitude": 38.741486,
+    "matchedAddress": "山形県鶴岡市道形町３２番２０号",
+    "source": "GSI Address Search API"
+  },
+  "東京都台東区上野6-1-6 御徒町グリーンハイツ": {
+    "longitude": 139.775787,
+    "latitude": 35.708279,
+    "matchedAddress": "東京都台東区上野六丁目１番６号",
+    "source": "GSI Address Search API"
+  },
+  "福岡県久留米市南3-27-29": {
+    "longitude": 130.51976,
+    "latitude": 33.291042,
+    "matchedAddress": "福岡県久留米市南三丁目２７番２９号",
+    "source": "GSI Address Search API"
+  },
+  "福井県福井市学園2-6-1": {
+    "longitude": 136.199326,
+    "latitude": 36.068821,
+    "matchedAddress": "福井県福井市学園二丁目６番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都文京区本郷4-3-2": {
+    "longitude": 139.759232,
+    "latitude": 35.707535,
+    "matchedAddress": "東京都文京区本郷四丁目３番２号",
+    "source": "GSI Address Search API"
+  },
+  "鹿児島県鹿児島市上本町7-3": {
+    "longitude": 130.56073,
+    "latitude": 31.602007,
+    "matchedAddress": "鹿児島県鹿児島市上本町７番３号",
+    "source": "GSI Address Search API"
+  },
+  "鹿児島県鹿児島市上荒田町25-12": {
+    "longitude": 130.542938,
+    "latitude": 31.575621,
+    "matchedAddress": "鹿児島県鹿児島市上荒田町２５番１２号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県栃木市大平町西水代2865-1": {
+    "longitude": 139.704483,
+    "latitude": 36.316933,
+    "matchedAddress": "栃木県栃木市大平町西水代２８６５番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区内神田3-8-6": {
+    "longitude": 139.769577,
+    "latitude": 35.691044,
+    "matchedAddress": "東京都千代田区内神田三丁目８番６号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県東松山市古凍868-3": {
+    "longitude": 139.435669,
+    "latitude": 36.01265,
+    "matchedAddress": "埼玉県東松山市古凍８６８番地",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県志木市本町5-25-6 NK志木ビル 1F": {
+    "longitude": 139.575546,
+    "latitude": 35.823776,
+    "matchedAddress": "埼玉県志木市本町五丁目２５番６号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県川越市六軒町1-2-2": {
+    "longitude": 139.478027,
+    "latitude": 35.914188,
+    "matchedAddress": "埼玉県川越市六軒町一丁目２番",
+    "source": "GSI Address Search API"
+  },
+  "福岡県那珂川市別所1067-8": {
+    "longitude": 130.413467,
+    "latitude": 33.489056,
+    "matchedAddress": "福岡県那珂川市別所１０６７番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市稲毛区小仲台6-17-2": {
+    "longitude": 140.093155,
+    "latitude": 35.638916,
+    "matchedAddress": "千葉県千葉市稲毛区小仲台六丁目１７番２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都町田市木曽西1-1-21": {
+    "longitude": 139.421661,
+    "latitude": 35.562141,
+    "matchedAddress": "東京都町田市木曽西一丁目１番２１号",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県茅ヶ崎市中海岸2-9-26": {
+    "longitude": 139.40062,
+    "latitude": 35.32251,
+    "matchedAddress": "神奈川県茅ヶ崎市中海岸二丁目９番２６号",
+    "source": "GSI Address Search API"
+  },
+  "栃木県宇都宮市西川田本町3-9-8": {
+    "longitude": 139.845825,
+    "latitude": 36.513248,
+    "matchedAddress": "栃木県宇都宮市西川田本町三丁目９番８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都八王子市初沢町1277-8": {
+    "longitude": 139.285461,
+    "latitude": 35.641136,
+    "matchedAddress": "東京都八王子市初沢町１２７７番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市青葉区桜台26-1": {
+    "longitude": 139.514954,
+    "latitude": 35.550835,
+    "matchedAddress": "神奈川県横浜市青葉区桜台２６番",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区丸の内1-9-1 東京駅一番街 B1F": {
+    "longitude": 139.767242,
+    "latitude": 35.681252,
+    "matchedAddress": "東京都千代田区丸の内一丁目９番",
+    "source": "GSI Address Search API"
+  },
+  "栃木県佐野市茂呂山町4-8": {
+    "longitude": 139.594376,
+    "latitude": 36.295689,
+    "matchedAddress": "栃木県佐野市茂呂山町４番",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区西池袋5-1-3 メトロシティ西池袋 1F": {
+    "longitude": 139.706497,
+    "latitude": 35.731514,
+    "matchedAddress": "東京都豊島区西池袋五丁目１番３号",
+    "source": "GSI Address Search API"
+  },
+  "福岡県福岡市中央区渡辺通1-8-25": {
+    "longitude": 130.406052,
+    "latitude": 33.585278,
+    "matchedAddress": "福岡県福岡市中央区渡辺通一丁目８番２５号",
+    "source": "GSI Address Search API"
+  },
+  "福岡県福岡市中央区大名2-6-4": {
+    "longitude": 130.395767,
+    "latitude": 33.589069,
+    "matchedAddress": "福岡県福岡市中央区大名二丁目６番４号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県君津市常代5-4-2": {
+    "longitude": 139.925354,
+    "latitude": 35.307251,
+    "matchedAddress": "千葉県君津市常代五丁目４番２号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県笠間市笠間2247-1 まちの駅 笠間宿 1号棟": {
+    "longitude": 140.260345,
+    "latitude": 36.369038,
+    "matchedAddress": "茨城県笠間市笠間２２４７番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都渋谷区本町2-7-12": {
+    "longitude": 139.683212,
+    "latitude": 35.683918,
+    "matchedAddress": "東京都渋谷区本町二丁目７番１２号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県越谷市大里617-4": {
+    "longitude": 139.782318,
+    "latitude": 35.922649,
+    "matchedAddress": "埼玉県越谷市大里６１７番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県市原市市原256-2": {
+    "longitude": 140.125656,
+    "latitude": 35.523277,
+    "matchedAddress": "千葉県市原市市原２５６番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県館山市上真倉1584": {
+    "longitude": 139.866547,
+    "latitude": 34.971832,
+    "matchedAddress": "千葉県館山市上真倉",
+    "source": "GSI Address Search API"
+  },
+  "愛知県名古屋市千種区今池1-6-11 プロスパービル 1F": {
+    "longitude": 136.935242,
+    "latitude": 35.169018,
+    "matchedAddress": "愛知県名古屋市千種区今池一丁目６番１１号",
+    "source": "GSI Address Search API"
+  },
+  "山梨県甲府市千塚1-9-17 ウェルサイド山の手": {
+    "longitude": 138.545654,
+    "latitude": 35.680717,
+    "matchedAddress": "山梨県甲府市千塚一丁目９番１７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都葛飾区金町5-24-17": {
+    "longitude": 139.868958,
+    "latitude": 35.765881,
+    "matchedAddress": "東京都葛飾区金町五丁目２４番１７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都品川区南品川5-4-5": {
+    "longitude": 139.742004,
+    "latitude": 35.610867,
+    "matchedAddress": "東京都品川区南品川五丁目４番５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都中央区日本橋室町2-3-1 COREDO室町2 B1F": {
+    "longitude": 139.774582,
+    "latitude": 35.686623,
+    "matchedAddress": "東京都中央区日本橋室町二丁目３番１号",
+    "source": "GSI Address Search API"
+  },
+  "福岡県福岡市中央区大手門2-7-10": {
+    "longitude": 130.38533,
+    "latitude": 33.591831,
+    "matchedAddress": "福岡県福岡市中央区大手門二丁目７番１０号",
+    "source": "GSI Address Search API"
+  },
+  "東京都板橋区仲宿47-9": {
+    "longitude": 139.709213,
+    "latitude": 35.754948,
+    "matchedAddress": "東京都板橋区仲宿４７番９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都調布市仙川町1-21-24": {
+    "longitude": 139.5867,
+    "latitude": 35.660851,
+    "matchedAddress": "東京都調布市仙川町一丁目２１番",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県横浜市南区日枝町4-97-2": {
+    "longitude": 139.617416,
+    "latitude": 35.43705,
+    "matchedAddress": "神奈川県横浜市南区日枝町四丁目９７番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区西麻布3-24-23 ARUGA8ビル 1F": {
+    "longitude": 139.723953,
+    "latitude": 35.659302,
+    "matchedAddress": "東京都港区西麻布三丁目２４番",
+    "source": "GSI Address Search API"
+  },
+  "福岡県筑後市久富1241-2": {
+    "longitude": 130.494064,
+    "latitude": 33.220016,
+    "matchedAddress": "福岡県筑後市久富１２４１番地",
+    "source": "GSI Address Search API"
+  },
+  "福岡県福岡市南区大橋4-13-33": {
+    "longitude": 130.4272,
+    "latitude": 33.556305,
+    "matchedAddress": "福岡県福岡市南区大橋四丁目１３番３３号",
+    "source": "GSI Address Search API"
+  },
+  "沖縄県中頭郡西原町上原2-11-1 1F": {
+    "longitude": 127.76358,
+    "latitude": 26.241146,
+    "matchedAddress": "沖縄県西原町上原二丁目１１番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都北区神谷3-29-11": {
+    "longitude": 139.733139,
+    "latitude": 35.772289,
+    "matchedAddress": "東京都北区神谷三丁目２９番１１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区西新宿7-5-6 新宿ダイカンプラザ756 1F": {
+    "longitude": 139.698196,
+    "latitude": 35.696426,
+    "matchedAddress": "東京都新宿区西新宿七丁目５番６号",
+    "source": "GSI Address Search API"
+  },
+  "宮城県仙台市青葉区中山8-22-18": {
+    "longitude": 140.832764,
+    "latitude": 38.298637,
+    "matchedAddress": "宮城県仙台市青葉区中山八丁目２２番１８号",
+    "source": "GSI Address Search API"
+  },
+  "福岡県福岡市東区馬出2-5-7": {
+    "longitude": 130.418472,
+    "latitude": 33.611389,
+    "matchedAddress": "福岡県福岡市東区馬出二丁目５番",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県入間市野田642-6": {
+    "longitude": 139.355148,
+    "latitude": 35.845284,
+    "matchedAddress": "埼玉県入間市野田６４２番地",
+    "source": "GSI Address Search API"
+  },
+  "沖縄県那覇市松山2-6-1": {
+    "longitude": 127.681129,
+    "latitude": 26.2199,
+    "matchedAddress": "沖縄県那覇市松山二丁目６番１号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県熊谷市弥生町2-15-1": {
+    "longitude": 139.383713,
+    "latitude": 36.14217,
+    "matchedAddress": "埼玉県熊谷市弥生",
+    "source": "GSI Address Search API"
+  },
+  "東京都世田谷区三軒茶屋2-16-6 浪貝ビル １０３号": {
+    "longitude": 139.667374,
+    "latitude": 35.642754,
+    "matchedAddress": "東京都世田谷区三軒茶屋二丁目１６番６号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県東松山市松葉町4-5-37": {
+    "longitude": 139.388519,
+    "latitude": 36.038574,
+    "matchedAddress": "埼玉県東松山市松葉町四丁目５番３７号",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市中央区日本橋2-5-8": {
+    "longitude": 135.505844,
+    "latitude": 34.664684,
+    "matchedAddress": "大阪府大阪市中央区日本橋二丁目５番８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都品川区大崎4-2-2 トーカンマンション五反田 １Ｆ": {
+    "longitude": 139.723312,
+    "latitude": 35.622429,
+    "matchedAddress": "東京都品川区大崎四丁目２番２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都大田区蒲田5-2-5": {
+    "longitude": 139.717316,
+    "latitude": 35.563984,
+    "matchedAddress": "東京都大田区蒲田五丁目２番５号",
+    "source": "GSI Address Search API"
+  },
+  "新潟県新潟市西蒲区竹野町2454-1": {
+    "longitude": 138.87175,
+    "latitude": 37.770538,
+    "matchedAddress": "新潟県新潟市西蒲区竹野町２４５４番地",
+    "source": "GSI Address Search API"
+  },
+  "新潟県新潟市西区寺尾東2-15-22": {
+    "longitude": 138.976242,
+    "latitude": 37.873608,
+    "matchedAddress": "新潟県新潟市西区寺尾東二丁目１５番２２号",
+    "source": "GSI Address Search API"
+  },
+  "新潟県新潟市西区小新南1-9-8": {
+    "longitude": 138.99205,
+    "latitude": 37.872025,
+    "matchedAddress": "新潟県新潟市西区小新南一丁目９番８号",
+    "source": "GSI Address Search API"
+  },
+  "新潟県阿賀野市百津町9-30": {
+    "longitude": 139.226791,
+    "latitude": 37.827991,
+    "matchedAddress": "新潟県阿賀野市百津町９番３０号",
+    "source": "GSI Address Search API"
+  },
+  "新潟県新潟市東区石山5-1-25": {
+    "longitude": 139.095139,
+    "latitude": 37.898457,
+    "matchedAddress": "新潟県新潟市東区石山五丁目１番２５号",
+    "source": "GSI Address Search API"
+  },
+  "東京都台東区駒形1-9-9 川尻マンション 1F": {
+    "longitude": 139.794754,
+    "latitude": 35.708317,
+    "matchedAddress": "東京都台東区駒形一丁目９番９号",
+    "source": "GSI Address Search API"
+  },
+  "東京都千代田区外神田4-2-7 1F": {
+    "longitude": 139.772034,
+    "latitude": 35.700077,
+    "matchedAddress": "東京都千代田区外神田四丁目２番７号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県比企郡鳩山町赤沼2700-7": {
+    "longitude": 139.343887,
+    "latitude": 35.977791,
+    "matchedAddress": "埼玉県鳩山町赤沼",
+    "source": "GSI Address Search API"
+  },
+  "大阪府吹田市岸辺南1-24-8": {
+    "longitude": 135.537354,
+    "latitude": 34.77626,
+    "matchedAddress": "大阪府吹田市岸部新町",
+    "source": "GSI Address Search API"
+  },
+  "千葉県千葉市若葉区都賀の台4-5-15": {
+    "longitude": 140.146317,
+    "latitude": 35.640926,
+    "matchedAddress": "千葉県千葉市若葉区都賀の台四丁目５番",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県大和市中央林間3-4-18": {
+    "longitude": 139.443741,
+    "latitude": 35.507809,
+    "matchedAddress": "神奈川県大和市中央林間三丁目４番１８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区上荻1-10-7": {
+    "longitude": 139.617844,
+    "latitude": 35.704803,
+    "matchedAddress": "東京都杉並区上荻一丁目１０番７号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県越谷市下間久里390-5": {
+    "longitude": 139.790985,
+    "latitude": 35.925888,
+    "matchedAddress": "埼玉県越谷市下間久里３９０番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都台東区上野3-27-12 御徒町吉池本店ビル 8F": {
+    "longitude": 139.77446,
+    "latitude": 35.707405,
+    "matchedAddress": "東京都台東区上野三丁目２７番１２号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区下落合1-3-13 工藤ビル 1F": {
+    "longitude": 139.703079,
+    "latitude": 35.716183,
+    "matchedAddress": "東京都新宿区下落合一丁目３番１３号",
+    "source": "GSI Address Search API"
+  },
+  "東京都目黒区目黒1-4-8 ニュー目黒ビル 1F": {
+    "longitude": 139.71402,
+    "latitude": 35.634239,
+    "matchedAddress": "東京都目黒区目黒一丁目４番８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区東池袋2-57-2 コスモ東池袋 101": {
+    "longitude": 139.71788,
+    "latitude": 35.733006,
+    "matchedAddress": "東京都豊島区東池袋二丁目５７番２号",
+    "source": "GSI Address Search API"
+  },
+  "福岡県太宰府市朱雀6-5-17": {
+    "longitude": 130.514343,
+    "latitude": 33.509804,
+    "matchedAddress": "福岡県太宰府市朱雀六丁目５番１７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都中央区京橋3-4-3 千成ビル １Ｆ": {
+    "longitude": 139.768234,
+    "latitude": 35.675434,
+    "matchedAddress": "東京都中央区京橋三丁目４番３号",
+    "source": "GSI Address Search API"
+  },
+  "東京都北区赤羽1-38-10 内山ビル 1F": {
+    "longitude": 139.72084,
+    "latitude": 35.780933,
+    "matchedAddress": "東京都北区赤羽一丁目３８番１０号",
+    "source": "GSI Address Search API"
+  },
+  "富山県高岡市野村722-1": {
+    "longitude": 137.037521,
+    "latitude": 36.747463,
+    "matchedAddress": "富山県高岡市野村７２２番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区新宿1-13-7": {
+    "longitude": 139.711014,
+    "latitude": 35.689156,
+    "matchedAddress": "東京都新宿区新宿一丁目１３番７号",
+    "source": "GSI Address Search API"
+  },
+  "静岡県熱海市渚町8-1": {
+    "longitude": 139.074554,
+    "latitude": 35.096027,
+    "matchedAddress": "静岡県熱海市渚町８番１号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県土浦市有明町1-30 プレイアトレ土浦 3F": {
+    "longitude": 140.205002,
+    "latitude": 36.078217,
+    "matchedAddress": "茨城県土浦市有明町１番３０号",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市中央区高津1-2-11": {
+    "longitude": 135.514267,
+    "latitude": 34.666977,
+    "matchedAddress": "大阪府大阪市中央区高津一丁目２番１１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都墨田区押上1-16-7": {
+    "longitude": 139.81546,
+    "latitude": 35.711617,
+    "matchedAddress": "東京都墨田区押上一丁目１６番７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区南大塚2-36-1": {
+    "longitude": 139.730331,
+    "latitude": 35.728771,
+    "matchedAddress": "東京都豊島区南大塚二丁目３６番１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区六本木3-13-10": {
+    "longitude": 139.733887,
+    "latitude": 35.662846,
+    "matchedAddress": "東京都港区六本木三丁目１３番",
+    "source": "GSI Address Search API"
+  },
+  "東京都豊島区池袋2-48-7 アパホテル 池袋駅北口 1F": {
+    "longitude": 139.711319,
+    "latitude": 35.733841,
+    "matchedAddress": "東京都豊島区池袋二丁目４８番７号",
+    "source": "GSI Address Search API"
+  },
+  "東京都葛飾区新小岩2-39-4 矢作マンション 1F": {
+    "longitude": 139.862457,
+    "latitude": 35.714211,
+    "matchedAddress": "東京都葛飾区新小岩二丁目３９番４号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県佐倉市表町3-21-5": {
+    "longitude": 140.229904,
+    "latitude": 35.711628,
+    "matchedAddress": "千葉県佐倉市表町三丁目２１番５号",
+    "source": "GSI Address Search API"
+  },
+  "千葉県八千代市大和田新田1035": {
+    "longitude": 140.070648,
+    "latitude": 35.722141,
+    "matchedAddress": "千葉県八千代市大和田新田１０３５番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区南麻布2-5-16": {
+    "longitude": 139.737015,
+    "latitude": 35.649544,
+    "matchedAddress": "東京都港区南麻布二丁目５番",
+    "source": "GSI Address Search API"
+  },
+  "東京都文京区湯島3-46-2": {
+    "longitude": 139.770508,
+    "latitude": 35.708313,
+    "matchedAddress": "東京都文京区湯島三丁目４６番２号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県水戸市東野町361-1": {
+    "longitude": 140.448349,
+    "latitude": 36.325596,
+    "matchedAddress": "茨城県水戸市東野町３６１番地",
+    "source": "GSI Address Search API"
+  },
+  "北海道札幌市豊平区中の島2条4-7-28": {
+    "longitude": 141.361862,
+    "latitude": 43.032612,
+    "matchedAddress": "北海道札幌市豊平区中の島二条四丁目７番２８号",
+    "source": "GSI Address Search API"
+  },
+  "東京都杉並区梅里1-7-14 シャトー新高円寺 B1F barRISE": {
+    "longitude": 139.648972,
+    "latitude": 35.69775,
+    "matchedAddress": "東京都杉並区梅里一丁目７番１４号",
+    "source": "GSI Address Search API"
+  },
+  "北海道札幌市中央区南18条西15丁目2-13": {
+    "longitude": 141.337082,
+    "latitude": 43.034466,
+    "matchedAddress": "北海道札幌市中央区南十八条西十五丁目２番１３号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県東松山市西本宿344-4": {
+    "longitude": 139.385361,
+    "latitude": 36.001991,
+    "matchedAddress": "埼玉県東松山市西本宿３４４番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都品川区小山4-4-17 1F": {
+    "longitude": 139.703369,
+    "latitude": 35.618595,
+    "matchedAddress": "東京都品川区小山四丁目４番１７号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県取手市戸頭1274-3": {
+    "longitude": 140.009033,
+    "latitude": 35.915356,
+    "matchedAddress": "茨城県取手市戸頭",
+    "source": "GSI Address Search API"
+  },
+  "東京都葛飾区東金町1-20-14 吉六ビル 1F": {
+    "longitude": 139.868958,
+    "latitude": 35.769943,
+    "matchedAddress": "東京都葛飾区東金町一丁目２０番１４号",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県東松山市元宿2-21-7 1F": {
+    "longitude": 139.395035,
+    "latitude": 36.002842,
+    "matchedAddress": "埼玉県東松山市元宿二丁目２１番",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県秩父郡横瀬町横瀬4278-1": {
+    "longitude": 139.094635,
+    "latitude": 35.991089,
+    "matchedAddress": "埼玉県横瀬町横瀬４２７８番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都葛飾区東金町1-11-4": {
+    "longitude": 139.868149,
+    "latitude": 35.770203,
+    "matchedAddress": "東京都葛飾区東金町一丁目１１番４号",
+    "source": "GSI Address Search API"
+  },
+  "京都府京都市左京区高野玉岡町33-9": {
+    "longitude": 135.784607,
+    "latitude": 35.045246,
+    "matchedAddress": "京都府京都市左京区高野玉岡町３３番地",
+    "source": "GSI Address Search API"
+  },
+  "神奈川県秦野市下大槻372-1": {
+    "longitude": 139.266464,
+    "latitude": 35.357494,
+    "matchedAddress": "神奈川県秦野市下大槻３７２番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都港区浜松町1-15-9 コンシェリア浜松町 1F": {
+    "longitude": 139.757385,
+    "latitude": 35.65807,
+    "matchedAddress": "東京都港区浜松町一丁目１５番",
+    "source": "GSI Address Search API"
+  },
+  "和歌山県和歌山市北新5-63": {
+    "longitude": 135.178574,
+    "latitude": 34.23571,
+    "matchedAddress": "和歌山県和歌山市北新五丁目６３番地",
+    "source": "GSI Address Search API"
+  },
+  "和歌山県和歌山市田中町4-84": {
+    "longitude": 135.189423,
+    "latitude": 34.228561,
+    "matchedAddress": "和歌山県和歌山市田中町四丁目８４番地",
+    "source": "GSI Address Search API"
+  },
+  "和歌山県和歌山市美園町5-61 和歌山ミオ B1F": {
+    "longitude": 135.19162,
+    "latitude": 34.231262,
+    "matchedAddress": "和歌山県和歌山市美園町五丁目６１番地",
+    "source": "GSI Address Search API"
+  },
+  "東京都中央区八重洲2-1 八重洲地下街 東京ラーメン横丁": {
+    "longitude": 139.769608,
+    "latitude": 35.679859,
+    "matchedAddress": "東京都中央区八重洲二丁目１番",
+    "source": "GSI Address Search API"
+  },
+  "東京都武蔵野市吉祥寺南町1-5-11 丸善ビル 1F": {
+    "longitude": 139.578598,
+    "latitude": 35.702599,
+    "matchedAddress": "東京都武蔵野市吉祥寺南町一丁目５番１１号",
+    "source": "GSI Address Search API"
+  },
+  "東京都新宿区北新宿3-9-10": {
+    "longitude": 139.691605,
+    "latitude": 35.701935,
+    "matchedAddress": "東京都新宿区北新宿三丁目９番１０号",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市淀川区十三本町2-1-6": {
+    "longitude": 135.480865,
+    "latitude": 34.720169,
+    "matchedAddress": "大阪府大阪市淀川区十三本町二丁目１番６号",
+    "source": "GSI Address Search API"
+  },
+  "茨城県つくば市天久保2-9-2 A101": {
+    "longitude": 140.108917,
+    "latitude": 36.098129,
+    "matchedAddress": "茨城県つくば市天久保二丁目９番",
+    "source": "GSI Address Search API"
+  },
+  "埼玉県北足立郡伊奈町栄1-93": {
+    "longitude": 139.636337,
+    "latitude": 35.972912,
+    "matchedAddress": "埼玉県伊奈町栄一丁目９３番地",
+    "source": "GSI Address Search API"
+  },
+  "千葉県船橋市前原西2-15-12 第2三商ビル 2F": {
+    "longitude": 140.020462,
+    "latitude": 35.692535,
+    "matchedAddress": "千葉県船橋市前原西二丁目１５番",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市西区新町4-16-13 キャピタル西長堀 1F": {
+    "longitude": 135.483704,
+    "latitude": 34.676201,
+    "matchedAddress": "大阪府大阪市西区新町四丁目１６番１３号",
+    "source": "GSI Address Search API"
+  },
+  "青森県青森市横内神田39-4": {
+    "longitude": 140.761108,
+    "latitude": 40.782856,
+    "matchedAddress": "青森県青森市大字横内神田",
+    "source": "GSI Address Search API"
+  },
+  "大阪府守口市紅屋町6-16": {
+    "longitude": 135.556717,
+    "latitude": 34.727894,
+    "matchedAddress": "大阪府守口市紅屋町６番１６号",
+    "source": "GSI Address Search API"
+  },
+  "大阪府大阪市住吉区長居4-2-28 1F": {
+    "longitude": 135.509567,
+    "latitude": 34.609226,
+    "matchedAddress": "大阪府大阪市住吉区長居四丁目２番２８号",
+    "source": "GSI Address Search API"
   }
 }

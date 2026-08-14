@@ -8,7 +8,7 @@ export type Filters = {
   area: "all" | "japan" | "overseas";
   business: "all" | "open" | "closed";
   awardsOnly: boolean;
-  sort: "recommended" | "visits" | "views" | "station";
+  sort: "visits" | "views" | "station";
 };
 
 type FilterBarProps = {

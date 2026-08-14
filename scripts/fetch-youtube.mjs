@@ -4,7 +4,7 @@ import { dirname, resolve } from "node:path";
 const API_ROOT = "https://www.googleapis.com/youtube/v3";
 const DEFAULT_CHANNEL_ID = "UCXcjvt8cOfwtcqaMeE7-hqA";
 const requestedCount = Number.parseInt(process.env.YOUTUBE_MAX_RESULTS ?? "300", 10);
-const MAX_RESULTS = Number.isFinite(requestedCount) ? Math.max(1, Math.min(requestedCount, 500)) : 300;
+const MAX_RESULTS = Number.isFinite(requestedCount) ? Math.max(1, Math.min(requestedCount, 1500)) : 300;
 const API_KEY = process.env.YOUTUBE_API_KEY;
 const CHANNEL_ID = process.env.YOUTUBE_CHANNEL_ID ?? DEFAULT_CHANNEL_ID;
 const OUTPUT = resolve(process.env.YOUTUBE_OUTPUT ?? "src/data/youtube-videos.generated.json");
